@@ -11,8 +11,6 @@ include(ExternalProject)
 # In order to use CMake for cross-compiling
 set(CMAKE_CXX_COMPILER_FORCED "true") 
 
-# Include toolchain file
-include("gcc-arm-none-eabi.cmake")
 
 # Set the project name
 set(CMAKE_PROJECT_NAME MNI_HAT_V0)
