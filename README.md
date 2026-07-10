@@ -17,7 +17,7 @@
 SMT32: 	H747IGTX
 
 can 120ohm
-usb 90ohm
+usb 90ohm  
 ethernet ma 50ohm
 
 ![alt text](schemat_ideowy.drawio.svg)
