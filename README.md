@@ -31,4 +31,4 @@ ethernet ma 50ohm
 - [display round](https://eu.mouser.com/ProductDetail/Newhaven-Display/NHD-2.1-480480AF-ASXP?qs=%252BXxaIXUDbq0eZ2IOf2mxVQ%3D%3D)
 - [ST antena design for STM32WB 2.4GHz ](https://www.st.com/resource/en/application_note/an5129-low-cost-pcb-antenna-for-24ghz-radio-meander-design-for-stm32wb-series-stmicroelectronics.pdf)
 - [BT chip](https://www.mouser.pl/ProductDetail/STMicroelectronics/BLUENRG-234N?qs=yqaQSyyJnNj1fpgr7V7RSw%3D%3D&mgh=1&vip=1)
-- 
+- [BMS] (https://www.instructables.com/Open-source-345S-Lithium-BMS/)
