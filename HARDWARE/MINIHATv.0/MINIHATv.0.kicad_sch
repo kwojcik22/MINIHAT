@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 96.52 92.71)
+		(size 30.48 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ae2e1667-2e57-4e65-a565-7a546dcbd7bf")
+		(property "Sheetname" "Ethernet"
+			(at 96.52 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 96.52 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 50.8)
 		(size 31.75 20.32)
 		(exclude_from_sim no)
