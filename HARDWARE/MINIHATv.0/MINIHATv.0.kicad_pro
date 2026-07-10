@@ -648,7 +648,7 @@
         "uuid": "19041ef4-1d16-4363-8780-721ad9f20b33"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,Y1,#PWR1-7,C1-2,J1,R1-11",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "cd5db47d-2b35-4622-a88b-05ef4e37f3d0",
       "MCU"
+    ],
+    [
+      "ae2e1667-2e57-4e65-a565-7a546dcbd7bf",
+      "Ethernet"
     ]
   ],
   "text_variables": {},
