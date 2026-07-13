@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 157.48 50.8)
-		(size 17.78 21.59)
+		(at 138.43 50.8)
+		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "63870cd4-5fe2-4ed9-8315-f888138f41c1")
 		(property "Sheetname" "CAN"
-			(at 157.48 50.0884 0)
+			(at 138.43 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 157.48 72.9746 0)
+			(at 138.43 71.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
