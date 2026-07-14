@@ -10,6 +10,9 @@
 |  6 | Wyjście audio          | Wyjście na głośniki                    | **V** | **K** |   FW          |
 |  7 | DEBUG                  |                                        | **K** | **K** |   USART1      |
 |  8 | Zasilanie płytki       | _proponowany_ akumulator ładowany z usb| -     | -     |               |
+|  9 | QSPI                   | W25* qspi flash pamiec do grafiki      | **V** | **V** |   QSPI        |
+| 10 | SD card                | konektor do podlaczenia karty sd       | **V** | **V** |   SDMMC       |
+
 
 
 
