@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 167.64 92.71)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "917746ca-ce94-46fb-877a-42b520023239")
+		(property "Sheetname" "SD card"
+			(at 167.64 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcarad.kicad_sch"
+			(at 167.64 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 96.52 92.71)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
@@ -47,6 +93,52 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 92.71)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c649702e-8c0b-493f-873f-4b69b8c09ebe")
+		(property "Sheetname" "QSPI"
+			(at 129.54 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "QSPI.kicad_sch"
+			(at 129.54 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "3")
 				)
 			)
 		)
