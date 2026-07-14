@@ -1,0 +1,11 @@
+*backups/
+*.kicad_sym
+*.kicad_prl
+sym-lib-table
+fp-info-cache
+\#auto_saved_files#
+*.lck
+_autosave*
+gerber/
+jlcpcb/
+.history/
