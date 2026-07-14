@@ -5,7 +5,7 @@
 |  1 | CAN                    | Odbiór / (nadawanie) ramek CAN         | **K** | **V** |   FW          |
 |  2 | Ethernet (LAN8720)     | Podłączenie do komputera               | **V** | **V** |   FW          |
 |  3 | USB                    | Podłączenie do komputera               | **V** | **K** |   FW          |
-|  4 | MIPI                   | Wyświetlanie informacji podstawowych   | **K** | **K** |   DSI HOST    |
+|  4 | LTDC                   | Wyświetlanie informacji podstawowych   | **K** | **K** |   DSI HOST    |
 |  5 | Bluetooth (bez anteny) | Podłączenie do telefonu, odbiór muzyki | **K** | **K** |   USART2      |
 |  6 | Wyjście audio          | Wyjście na głośniki                    | **V** | **K** |   SAI         |
 |  7 | DEBUG                  |                                        | **K** | **K** |   USART1      |
@@ -29,9 +29,9 @@ ethernet ma 50ohm
 - [SAI](https://www.st.com/resource/en/product_training/STM32F7_Peripheral_SAI.pdf)
 
 ## COMPONENTS SEARCH
-- [display round](https://eu.mouser.com/ProductDetail/Newhaven-Display/NHD-2.1-480480AF-ASXP?qs=%252BXxaIXUDbq0eZ2IOf2mxVQ%3D%3D)
 - [ST antena design for STM32WB 2.4GHz ](https://www.st.com/resource/en/application_note/an5129-low-cost-pcb-antenna-for-24ghz-radio-meander-design-for-stm32wb-series-stmicroelectronics.pdf)
 - [BT chip](https://www.mouser.pl/ProductDetail/STMicroelectronics/BLUENRG-234N?qs=yqaQSyyJnNj1fpgr7V7RSw%3D%3D&mgh=1&vip=1)
 - [BMS](https://www.instructables.com/Open-source-345S-Lithium-BMS/)
 - [audio SAI ](https://www.mouser.pl/pl/ProductDetail/Texas-Instruments/TAD5112IRGER?qs=sGAEpiMZZMutXGli8Ay4kL%252BYu9wReiUDFg5NaHxN6Qk%3D)
 - [tcan332 D dcn](https://www.ti.com/lit/ds/symlink/tcan330.pdf?ts=1783928535596&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D4%2526searchTerm%253Dtcan330dr)
+- [TFP410 LTDC to HDMI driver](https://www.tme.eu/pl/details/tfp401apzp/drivery-uklady-scalone/texas-instruments/)
