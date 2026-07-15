@@ -1999,53 +1999,27 @@
 		)
 		(uuid "b3054254-ea3b-4905-9faa-5ce5f5b5dea4")
 	)
-	(global_label "FDCAN_Tx"
+	(hierarchical_label "FDCAN_Tx"
 		(shape input)
 		(at 67.31 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7dbe5d66-e5e4-4a7a-8a9a-979722aee710")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.3138 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "4da7f264-1ee7-45bf-8df4-6bda652731b0")
 	)
-	(global_label "FDCAN_Rx"
+	(hierarchical_label "FDCAN_Rx"
 		(shape input)
 		(at 67.31 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fc2ad0b6-5f4e-4f2a-b67a-11c2e6b2d190")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.0114 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "56f392ba-cb9d-4133-be3e-51c2c1f36622")
 	)
 	(symbol
 		(lib_id "Power_Protection:SP0502BAJT")

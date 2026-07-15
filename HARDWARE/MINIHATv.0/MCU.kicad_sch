@@ -4514,25 +4514,27 @@
 		)
 		(uuid "eb9ec01f-1cd5-468d-97fa-7ef62bad84fb")
 	)
-	(label "FDCAN_Rx"
-		(at 276.86 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb1e0af9-84b3-426b-880f-0a019eb03343")
-	)
-	(label "FDCAN_Tx"
+	(hierarchical_label "FDCAN_Tx"
+		(shape input)
 		(at 276.86 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "efce816d-3b8f-4fce-ac1a-a25546d231b7")
+		(uuid "4b09b938-6181-498e-be8d-4747c7abb60e")
+	)
+	(hierarchical_label "FDCAN_Rx"
+		(shape input)
+		(at 276.86 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b2369b2-a17c-4fb5-9867-7a4cf055df42")
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H747IGTx")

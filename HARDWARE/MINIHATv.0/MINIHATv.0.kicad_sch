@@ -5,6 +5,26 @@
 	(uuid "19041ef4-1d16-4363-8780-721ad9f20b33")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 138.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441a6abe-b697-425d-b4b2-d1d4df1b0247")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa372fb-97e0-4f9d-b704-905c2d531db8")
+	)
 	(sheet
 		(at 138.43 50.8)
 		(size 29.21 20.32)
@@ -43,6 +63,26 @@
 				(justify left top)
 			)
 		)
+		(pin "FDCAN_Rx" input
+			(at 138.43 63.5 180)
+			(uuid "47d734b6-8117-4f16-894a-7d20fef0dd9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN_Tx" input
+			(at 138.43 59.69 180)
+			(uuid "5eedd585-26be-4aae-998a-64b004f0608c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
@@ -52,8 +92,54 @@
 		)
 	)
 	(sheet
+		(at 139.7 17.78)
+		(size 27.94 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92951603-bc2e-4dd1-8377-ba7c43df3b1e")
+		(property "Sheetname" "HDMI"
+			(at 139.7 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 139.7 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 96.52 92.71)
-		(size 30.48 20.32)
+		(size 64.77 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -79,7 +165,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 96.52 113.6146 0)
+			(at 96.52 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +173,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC}" input
+			(at 96.52 96.52 180)
+			(uuid "2b1d889b-3dfe-4d66-b428-e1925d79bbe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -133,6 +229,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FDCAN_Rx" input
+			(at 127 63.5 0)
+			(uuid "a1efe401-ef5c-43ce-960e-1e1b6bbcc630")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FDCAN_Tx" input
+			(at 127 59.69 0)
+			(uuid "b77d69d5-4692-445a-9d2c-3ea4f66ff641")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

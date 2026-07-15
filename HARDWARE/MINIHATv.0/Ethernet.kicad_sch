@@ -3174,7 +3174,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 72.39) (xy 76.2 96.52)
+			(xy 76.2 73.66) (xy 76.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3184,7 @@
 	)
 	(bus
 		(pts
-			(xy 59.69 72.39) (xy 76.2 72.39)
+			(xy 58.42 73.66) (xy 76.2 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3361,6 +3361,16 @@
 			(type default)
 		)
 		(uuid "aadc3d19-8b98-40b3-afbd-c4b230ffc1d9")
+	)
+	(bus
+		(pts
+			(xy 58.42 73.66) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed1cc44-8150-4ff7-8631-d15e01bb2460")
 	)
 	(wire
 		(pts
@@ -3582,16 +3592,6 @@
 		)
 		(uuid "6ecd1341-2794-43bf-a835-7050742e89e5")
 	)
-	(label "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC}"
-		(at 59.69 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "963a48d6-679c-4e25-bd01-8524fb2bd529")
-	)
 	(label "RMII.CRS_DV"
 		(at 78.74 93.98 0)
 		(effects
@@ -3631,6 +3631,17 @@
 			(justify left bottom)
 		)
 		(uuid "f5c7160d-cc4a-4034-b5dd-73ba029bfec8")
+	)
+	(hierarchical_label "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC}"
+		(shape input)
+		(at 58.42 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "202bc35b-ec26-476b-80a0-a7257ddb7361")
 	)
 	(symbol
 		(lib_id "Device:R")
