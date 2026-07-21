@@ -15,6 +15,36 @@
 		)
 		(uuid "441a6abe-b697-425d-b4b2-d1d4df1b0247")
 	)
+	(bus
+		(pts
+			(xy 85.09 60.96) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9ac8cd-3b57-44b0-9ad5-a1bedc110c6c")
+	)
+	(bus
+		(pts
+			(xy 85.09 29.21) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f6f53f-6857-48af-a609-2420886dc6d3")
+	)
+	(bus
+		(pts
+			(xy 139.7 29.21) (xy 85.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e71aa7-3914-478c-9614-24a18eb43943")
+	)
 	(wire
 		(pts
 			(xy 127 63.5) (xy 138.43 63.5)
@@ -118,7 +148,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "HDMI.kicad_sch"
 			(at 139.7 38.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -127,6 +157,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{MCU_LTDC_BUS}" input
+			(at 139.7 29.21 180)
+			(uuid "1936b756-b4f5-441a-ae4f-200dea335e45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -249,6 +289,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{MCU_LTDC_BUS}" output
+			(at 95.25 60.96 180)
+			(uuid "5780242d-761f-492a-ae25-a80d0076a2ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
