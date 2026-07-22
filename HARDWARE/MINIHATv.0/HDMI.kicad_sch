@@ -3099,12 +3099,6 @@
 		(uuid "01a7d0f8-12c7-4811-8b5b-be68bd72e712")
 	)
 	(junction
-		(at 265.43 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0371ee53-609e-48cc-900a-207928f171bf")
-	)
-	(junction
 		(at 53.34 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3127,6 +3121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24ad652e-dbea-402b-8cc5-c91e1d17aba6")
+	)
+	(junction
+		(at 259.08 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2929ddaa-7a94-49bf-8b60-ec4155ebcbb8")
 	)
 	(junction
 		(at 60.96 33.02)
@@ -3153,10 +3153,28 @@
 		(uuid "39b9fe3c-0376-4005-a366-1608cce61c74")
 	)
 	(junction
+		(at 264.16 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39de5894-c637-4f4d-8e63-f183194d1594")
+	)
+	(junction
+		(at 256.54 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b074e84-2dcd-4352-8bb1-671f72f4a006")
+	)
+	(junction
 		(at 62.23 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53387cf9-c66b-4182-be9a-093430948c9b")
+	)
+	(junction
+		(at 260.35 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6131b0e7-1d16-4280-a54e-134bafd77a1a")
 	)
 	(junction
 		(at 111.76 160.02)
@@ -3223,6 +3241,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab1a8f2c-0272-4dc3-becb-e5b7b35614e3")
+	)
+	(junction
+		(at 261.62 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb663d3-2aa2-4dcc-932d-cd84954e5e06")
 	)
 	(junction
 		(at 135.89 78.74)
@@ -3690,6 +3714,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 121.92) (xy 260.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13394ad0-d25d-4d3a-b0b8-c2bce0a2db3f")
+	)
+	(wire
+		(pts
 			(xy 119.38 157.48) (xy 135.89 157.48)
 		)
 		(stroke
@@ -3697,6 +3731,16 @@
 			(type default)
 		)
 		(uuid "14945c80-244c-41b1-90e6-5bc8a969c449")
+	)
+	(wire
+		(pts
+			(xy 254 121.92) (xy 256.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b66ddf-6b02-42b7-931e-57de9516b5da")
 	)
 	(wire
 		(pts
@@ -4630,26 +4674,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 121.92) (xy 265.43 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd85ec3b-c70f-478d-acad-d708657bf07c")
-	)
-	(wire
-		(pts
-			(xy 265.43 121.92) (xy 266.7 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f3cca3-017b-4800-8239-0f5c90d01b8a")
-	)
-	(wire
-		(pts
 			(xy 111.76 134.62) (xy 111.76 139.7)
 		)
 		(stroke
@@ -4740,6 +4764,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 111.76) (xy 248.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd42e019-c670-40c1-9855-de851cbebb8f")
+	)
+	(wire
+		(pts
 			(xy 171.45 76.2) (xy 187.96 76.2)
 		)
 		(stroke
@@ -4807,6 +4841,26 @@
 			(type default)
 		)
 		(uuid "ec8c771c-7fe6-4460-b00f-1d91f1a23ecd")
+	)
+	(wire
+		(pts
+			(xy 260.35 121.92) (xy 266.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed22983d-0084-47c9-8d52-24819a79d4a9")
+	)
+	(wire
+		(pts
+			(xy 260.35 124.46) (xy 260.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed593e9d-ecdd-4982-97f6-f8920cdf5b00")
 	)
 	(wire
 		(pts
@@ -4957,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "fc8ab714-bb0b-42cc-b10c-aba4b06097cd")
+	)
+	(wire
+		(pts
+			(xy 256.54 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe075dac-f321-4ee4-a664-3ba304d84545")
 	)
 	(wire
 		(pts
@@ -5169,12 +5233,12 @@
 		(uuid "76f81d65-5acd-4cd7-b8fb-96681e746a12")
 	)
 	(label "LTDC_HTPLG"
-		(at 248.92 111.76 180)
+		(at 234.95 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8848f2e8-96f0-4463-997f-268225a3e646")
 	)
@@ -5401,6 +5465,17 @@
 		)
 		(uuid "28416a2e-84ef-42d4-9ba5-4855cdd85617")
 	)
+	(hierarchical_label "HDMI_SDA"
+		(shape output)
+		(at 248.92 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f2867cc-4ab9-4ada-830e-49d60ece0ebb")
+	)
 	(hierarchical_label "{MCU_LTDC_BUS}"
 		(shape input)
 		(at 116.84 50.8 180)
@@ -5411,6 +5486,17 @@
 			(justify right)
 		)
 		(uuid "8eabf2ed-3f56-45b7-91e3-27d934b47779")
+	)
+	(hierarchical_label "HDMI_SCL"
+		(shape output)
+		(at 248.92 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9a40488-2374-40fe-bdcd-f0619fa5e10b")
 	)
 	(hierarchical_label "LTDC_I2C_SDA"
 		(shape input)
@@ -5704,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "120"
 			(at 105.41 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9463,7 +9549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 121.92 0)
+		(at 260.35 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9474,7 +9560,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb91a3e4-4be6-463e-9251-8a52654dc226")
 		(property "Reference" "#PWR033"
-			(at 265.43 128.27 0)
+			(at 260.35 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +9571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 127 0)
+			(at 260.35 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9495,7 +9581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 121.92 0)
+			(at 260.35 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 121.92 0)
+			(at 260.35 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 121.92 0)
+			(at 260.35 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
