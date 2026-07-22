@@ -131,7 +131,7 @@
       "pins": true,
       "ruleAreas": true,
       "symbols": true,
-      "text": false,
+      "text": true,
       "wires": true
     }
   }
