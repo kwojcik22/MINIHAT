@@ -7156,6 +7156,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 189.23) (xy 252.73 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30cb8ca2-a025-4a0e-8224-3e71171f43c0")
+	)
+	(wire
+		(pts
 			(xy 207.01 240.03) (xy 209.55 240.03)
 		)
 		(stroke
@@ -7924,6 +7934,16 @@
 		)
 		(uuid "f7faa216-b1a8-421b-8bc9-f0bc61cbd59d")
 	)
+	(wire
+		(pts
+			(xy 260.35 191.77) (xy 252.73 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7b9449-fa6d-4798-9c5d-ee38a7904eb2")
+	)
 	(bus
 		(pts
 			(xy 266.7 130.81) (xy 269.24 130.81)
@@ -8195,6 +8215,17 @@
 		)
 		(uuid "033066f4-c4d2-4813-a24a-c5d02c72da23")
 	)
+	(hierarchical_label "BT_RX"
+		(shape input)
+		(at 260.35 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f4bcc17-b63d-489c-b0a0-171e9539eba2")
+	)
 	(hierarchical_label "{MCU_LTDC_BUS}"
 		(shape output)
 		(at 138.43 110.49 180)
@@ -8249,6 +8280,17 @@
 			(justify left)
 		)
 		(uuid "6d609894-f0a3-4f17-827d-6a212447f5ac")
+	)
+	(hierarchical_label "BT_TX"
+		(shape input)
+		(at 260.35 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d7c4c0a-c6dc-4570-a6f7-3de44caf40d1")
 	)
 	(hierarchical_label "{MCU_LTDC_BUS}"
 		(shape output)

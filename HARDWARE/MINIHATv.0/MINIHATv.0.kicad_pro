@@ -704,6 +704,10 @@
     [
       "92951603-bc2e-4dd1-8377-ba7c43df3b1e",
       "HDMI"
+    ],
+    [
+      "250c1d3f-ded1-4402-b59d-ee4bc0957cb2",
+      "Bluetooth"
     ]
   ],
   "text_variables": {},
