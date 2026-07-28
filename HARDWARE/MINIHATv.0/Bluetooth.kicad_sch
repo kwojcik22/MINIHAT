@@ -5,6 +5,133 @@
 	(uuid "2e8d47bf-a401-4d6d-857d-dd33b47c3bab")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1734,6 +1861,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tmp:BALF-NRG-02D3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BALF-NRG-02D3"
+				(at 21.59 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BALFNRG02D3"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/balf-nrg-02d3.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "50 ohm nominal input / conjugate match to BlueNRG transceiver, with integrated harmonic filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.69"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "511-BALF-NRG-02D3"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BALF-NRG-02D3?qs=HXFqYaX1Q2xLsBhtpLzvmQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BALF-NRG-02D3"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "BALF-NRG-02D3_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "RF0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "RF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 109.22 63.5)
@@ -1742,28 +2079,28 @@
 		(uuid "28280343-3057-4c1a-a2cc-f17d7f048acf")
 	)
 	(junction
-		(at 203.2 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ef5f917-2eeb-44cb-8e8a-0548da29e3ae")
-	)
-	(junction
 		(at 151.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4739e64d-784b-48f5-bfb7-b1fbee3fd25f")
 	)
 	(junction
-		(at 203.2 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "580d2cca-c353-4644-9ee6-9df0f53ceb9f")
-	)
-	(junction
 		(at 170.18 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66c809ff-95a9-42ae-8bbf-830a7b396254")
+	)
+	(junction
+		(at 231.14 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b673e38-e76d-4056-a21c-29678f3b61f4")
+	)
+	(junction
+		(at 209.55 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "715383dd-9348-4f95-9f89-3bfa14e2ef12")
 	)
 	(junction
 		(at 127 90.17)
@@ -1782,6 +2119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "864b7ea8-b359-4aa4-bb62-8b772a46e494")
+	)
+	(junction
+		(at 203.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5a60c4-4b76-4ff3-af30-f0ef6d72b164")
 	)
 	(junction
 		(at 127 87.63)
@@ -1806,6 +2149,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc61ff9f-58b0-4f2a-849d-0bee5dc006e7")
+	)
+	(junction
+		(at 203.2 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9dc07e-3d8f-43ab-b168-a2f812429ad7")
 	)
 	(junction
 		(at 115.57 25.4)
@@ -1886,6 +2235,16 @@
 			(type default)
 		)
 		(uuid "01eb3fac-a0b5-4618-8660-9151e391fcaa")
+	)
+	(wire
+		(pts
+			(xy 207.01 102.87) (xy 203.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b8306c-5628-4ece-9b17-cf51f6ea496f")
 	)
 	(wire
 		(pts
@@ -2029,6 +2388,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d205758-ddc3-4d90-93d7-56e992dfadf1")
+	)
+	(wire
+		(pts
 			(xy 165.1 90.17) (xy 170.18 90.17)
 		)
 		(stroke
@@ -2056,6 +2425,26 @@
 			(type default)
 		)
 		(uuid "56ae8c4a-3cd9-4f54-a9e9-23acc7aba1b5")
+	)
+	(wire
+		(pts
+			(xy 231.14 68.58) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5761c152-0f62-413b-a91c-83af99c4d889")
+	)
+	(wire
+		(pts
+			(xy 226.06 74.93) (xy 231.14 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5783aeda-4aa1-4f72-889b-c22f5b2c7e0d")
 	)
 	(wire
 		(pts
@@ -2099,6 +2488,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 77.47) (xy 168.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd1c21d-1d57-4154-9140-2b835fb84313")
+	)
+	(wire
+		(pts
 			(xy 203.2 95.25) (xy 200.66 95.25)
 		)
 		(stroke
@@ -2116,6 +2515,16 @@
 			(type default)
 		)
 		(uuid "6492c1d2-9eae-4a53-b2a2-9ff3e126eda8")
+	)
+	(wire
+		(pts
+			(xy 204.47 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653d4073-dc7c-429e-a196-5a0be5396d51")
 	)
 	(wire
 		(pts
@@ -2199,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 74.93) (xy 218.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc599d4-b9f8-4239-a08e-2962a0a13d94")
+	)
+	(wire
+		(pts
 			(xy 115.57 25.4) (xy 120.65 25.4)
 		)
 		(stroke
@@ -2226,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "832cc82f-1cf8-4c93-9f16-9657392d02c9")
+	)
+	(wire
+		(pts
+			(xy 198.12 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d35c81f-6915-4bd0-a035-8bb6eaa767a9")
 	)
 	(wire
 		(pts
@@ -2286,6 +2715,16 @@
 			(type default)
 		)
 		(uuid "ad532950-ac5b-4ee3-ba49-2797b657a2ce")
+	)
+	(wire
+		(pts
+			(xy 162.56 74.93) (xy 168.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb67ac2-c6be-4c50-997e-5703e288f67d")
 	)
 	(wire
 		(pts
@@ -2409,16 +2848,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 92.71) (xy 212.09 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d020118c-1955-43b3-aa4a-aa04fc53f1ea")
-	)
-	(wire
-		(pts
 			(xy 203.2 92.71) (xy 203.2 95.25)
 		)
 		(stroke
@@ -2466,6 +2895,16 @@
 			(type default)
 		)
 		(uuid "ef341259-4c21-45de-87dc-57e4435ae54f")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef69d576-6c9b-4d47-b655-f8907e3bbe4a")
 	)
 	(wire
 		(pts
@@ -2699,7 +3138,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 207.01 92.71 90)
+		(at 208.28 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2710,7 +3149,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a58404b-3949-4ca1-9684-824e500faf83")
 		(property "Reference" "L2"
-			(at 207.01 87.63 90)
+			(at 208.28 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2720,7 +3159,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 207.01 90.17 90)
+			(at 208.28 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2730,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 92.71 0)
+			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +3180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 92.71 0)
+			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +3191,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 207.01 92.71 0)
+			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,6 +3211,84 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5fd526-2174-48c4-b4b8-cea50a6b38f4")
+		(property "Reference" "#PWR063"
+			(at 231.14 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f4d3c99-096f-42e8-8dbb-41d1f95d9ab3")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3020,6 +3537,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 231.14 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "367a8a85-eb7e-4bc4-94f5-a7e50645b757")
+		(property "Reference" "C38"
+			(at 233.68 76.2062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2p"
+			(at 233.68 78.7462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 231.14 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "GJM1555C1H1R2CB01"
+			(at 231.14 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "987b9029-6d3f-4576-b80d-6a33af5e8629")
+		)
+		(pin "2"
+			(uuid "4f5fd154-3daa-486a-a718-a195c6eddc14")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 33.02 0)
 		(unit 1)
@@ -3092,6 +3691,153 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tmp:BALF-NRG-02D3")
+		(at 194.31 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d0c1f77-5a49-4c08-a63d-c7c56a416a65")
+		(property "Reference" "IC1"
+			(at 181.356 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BALF-NRG-02D3"
+			(at 181.356 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BALFNRG02D3"
+			(at 172.72 -17.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/balf-nrg-02d3.pdf"
+			(at 172.72 -117.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "50 ohm nominal input / conjugate match to BlueNRG transceiver, with integrated harmonic filter"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.69"
+			(at 172.72 -317.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "511-BALF-NRG-02D3"
+			(at 172.72 -417.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BALF-NRG-02D3?qs=HXFqYaX1Q2xLsBhtpLzvmQ%3D%3D"
+			(at 172.72 -517.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 172.72 -617.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BALF-NRG-02D3"
+			(at 172.72 -717.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B1"
+			(uuid "439866b2-3b3f-400f-adbf-2385dbc9a1d5")
+		)
+		(pin "A2"
+			(uuid "71be6da1-4dba-4714-91d3-4ae67828ec2c")
+		)
+		(pin "B2"
+			(uuid "bd4c89c0-a835-4e6a-baeb-cf27f75284b2")
+		)
+		(pin "A1"
+			(uuid "df72ff18-4054-49ac-8af6-f902c121c491")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3322,7 +4068,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82f94b1f-0268-4467-b52b-44943926fcdb")
+			(uuid "82f94b1f-0268-4467-b52b-44943926fcdc")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3335,7 +4081,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 102.87 90)
+		(at 207.01 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3346,7 +4092,7 @@
 		(fields_autoplaced yes)
 		(uuid "512d3d9f-5369-4e3e-b6a4-6bf15b0a2227")
 		(property "Reference" "#PWR053"
-			(at 209.55 102.87 0)
+			(at 213.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3357,7 +4103,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 102.8699 90)
+			(at 210.82 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3368,7 +4114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 102.87 0)
+			(at 207.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +4125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 102.87 0)
+			(at 207.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +4136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 102.87 0)
+			(at 207.01 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +4549,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82f94b1f-0268-4467-b52b-44943926fcdb")
+			(uuid "82f94b1f-0268-4467-b52b-44943926fcdd")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4217,10 +4963,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "acd83c4b-58a7-4247-964f-9c8f265deaa8")
+			(uuid "acd83c4b-58a7-4247-964f-9c8f265deaa9")
 		)
 		(pin "1"
-			(uuid "cf9c7a57-f028-4ebc-b399-bd02413c7bf2")
+			(uuid "cf9c7a57-f028-4ebc-b399-bd02413c7bf3")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4545,6 +5291,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 198.12 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "857714f4-f47f-43f3-9920-def37105bd40")
+		(property "Reference" "#PWR062"
+			(at 198.12 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39ac0fee-f002-4293-92b3-354f63903e88")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 115.57 24.13 0)
 		(unit 1)
@@ -4623,6 +5447,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9400fc4b-1358-495c-82d5-ba46a39d55f1")
+		(property "Reference" "#PWR064"
+			(at 209.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be5e4e25-3948-4398-8416-a23e9c4fe14c")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 162.56 29.21 0)
 		(unit 1)
@@ -4690,15 +5592,95 @@
 			)
 		)
 		(pin "2"
-			(uuid "18f26715-fbdd-4e54-8bf2-2309e5b5de71")
+			(uuid "18f26715-fbdd-4e54-8bf2-2309e5b5de72")
 		)
 		(pin "1"
-			(uuid "4cc45e54-1966-472c-9ebb-4056fdcdb69f")
+			(uuid "4cc45e54-1966-472c-9ebb-4056fdcdb6a0")
 		)
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 222.25 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98202e7e-496b-4f35-a00c-b7c5c71b833a")
+		(property "Reference" "L3"
+			(at 222.25 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3nH"
+			(at 222.25 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "LQW15AN3N3D10"
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 222.25 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c4ea2e9a-9687-4854-a798-e7d75e03d9bf")
+		)
+		(pin "1"
+			(uuid "b2581d5b-9f95-4d21-a7e5-840a0397778b")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4770,10 +5752,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3366fc34-a91b-4cc0-87a8-5f837ff6777e")
+			(uuid "3366fc34-a91b-4cc0-87a8-5f837ff6777f")
 		)
 		(pin "2"
-			(uuid "f50361f6-b877-4ace-98b9-2ab75ddac166")
+			(uuid "f50361f6-b877-4ace-98b9-2ab75ddac167")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4852,10 +5834,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "acd83c4b-58a7-4247-964f-9c8f265deaa8")
+			(uuid "acd83c4b-58a7-4247-964f-9c8f265deaaa")
 		)
 		(pin "1"
-			(uuid "cf9c7a57-f028-4ebc-b399-bd02413c7bf2")
+			(uuid "cf9c7a57-f028-4ebc-b399-bd02413c7bf4")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5249,7 +6231,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e05ff4c6-81c0-4eeb-9776-00ec21d43cfd")
+			(uuid "e05ff4c6-81c0-4eeb-9776-00ec21d43cfe")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5325,10 +6307,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3366fc34-a91b-4cc0-87a8-5f837ff6777e")
+			(uuid "3366fc34-a91b-4cc0-87a8-5f837ff67780")
 		)
 		(pin "2"
-			(uuid "f50361f6-b877-4ace-98b9-2ab75ddac166")
+			(uuid "f50361f6-b877-4ace-98b9-2ab75ddac168")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5407,15 +6389,97 @@
 			)
 		)
 		(pin "2"
-			(uuid "82749120-b48f-4bb3-9b52-38b69bbb5565")
+			(uuid "82749120-b48f-4bb3-9b52-38b69bbb5566")
 		)
 		(pin "1"
-			(uuid "3abd5f51-d5e2-400d-a1fa-06154631aba9")
+			(uuid "3abd5f51-d5e2-400d-a1fa-06154631abaa")
 		)
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
 					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 209.55 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff45adc-e463-4976-8e7f-72bcdbf29966")
+		(property "Reference" "C37"
+			(at 212.09 76.2062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2p"
+			(at 212.09 78.7462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "GJM1555C1H1R2CB01"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c50a93fd-b312-4ce0-98a6-f604053bc88a")
+		)
+		(pin "2"
+			(uuid "d9183557-150b-4e42-b9ff-059616a1469e")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -5489,10 +6553,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "619f3ff3-b170-415a-939e-0e2dd1678ced")
+			(uuid "619f3ff3-b170-415a-939e-0e2dd1678cee")
 		)
 		(pin "1"
-			(uuid "3dfda90f-f8e4-4486-9549-f48bb62d0715")
+			(uuid "3dfda90f-f8e4-4486-9549-f48bb62d0716")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5571,7 +6635,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ef551f8d-b1e1-4c78-bf7b-f31fcda5ceba")
+			(uuid "ef551f8d-b1e1-4c78-bf7b-f31fcda5cebb")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5650,10 +6714,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "18f26715-fbdd-4e54-8bf2-2309e5b5de71")
+			(uuid "18f26715-fbdd-4e54-8bf2-2309e5b5de73")
 		)
 		(pin "1"
-			(uuid "4cc45e54-1966-472c-9ebb-4056fdcdb69f")
+			(uuid "4cc45e54-1966-472c-9ebb-4056fdcdb6a1")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5729,10 +6793,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3366fc34-a91b-4cc0-87a8-5f837ff6777e")
+			(uuid "3366fc34-a91b-4cc0-87a8-5f837ff67781")
 		)
 		(pin "2"
-			(uuid "f50361f6-b877-4ace-98b9-2ab75ddac166")
+			(uuid "f50361f6-b877-4ace-98b9-2ab75ddac169")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5810,7 +6874,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bfbb4f5-13d7-4b78-9bed-086c36d470b6")
+			(uuid "8bfbb4f5-13d7-4b78-9bed-086c36d470b7")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -5898,6 +6962,85 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 231.14 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffdcb01c-b52c-4496-8360-84b2419bc9b7")
+		(property "Reference" "AE1"
+			(at 233.68 62.8649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 233.68 65.4049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 231.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57fffeb2-fa26-4348-b041-85d964b5b604")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/250c1d3f-ded1-4402-b59d-ee4bc0957cb2"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
