@@ -1639,7 +1639,7 @@
 			)
 		)
 	)
-	(hierarchical_label "SDIO{DAT0 DAT1 DAT2 DAT3 CMD CLK}"
+	(hierarchical_label "SDIO"
 		(shape input)
 		(at 53.34 60.96 180)
 		(effects
@@ -2224,10 +2224,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c772484e-8143-489a-bfab-174bd5f3d30a")
+			(uuid "c772484e-8143-489a-bfab-174bd5f3d30b")
 		)
 		(pin "1"
-			(uuid "b9f8664b-b45d-4959-8a26-1f31d98993a4")
+			(uuid "b9f8664b-b45d-4959-8a26-1f31d98993a5")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -2306,10 +2306,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c1aed8c6-4fcf-4fa5-a5b1-86f7b46a3a21")
+			(uuid "c1aed8c6-4fcf-4fa5-a5b1-86f7b46a3a22")
 		)
 		(pin "1"
-			(uuid "5ababe80-858a-44bc-af95-9cc766355580")
+			(uuid "5ababe80-858a-44bc-af95-9cc766355581")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -2468,7 +2468,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f07c939-a421-48dd-adb1-5c6d91b7d03b")
+			(uuid "3f07c939-a421-48dd-adb1-5c6d91b7d03c")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -2869,10 +2869,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "49c314ee-9e29-41cd-a73d-6f4aebd9ecf7")
+			(uuid "49c314ee-9e29-41cd-a73d-6f4aebd9ecf8")
 		)
 		(pin "1"
-			(uuid "c7bcde56-fdee-4d49-9d2a-4d856efce9d8")
+			(uuid "c7bcde56-fdee-4d49-9d2a-4d856efce9d9")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3109,10 +3109,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b27c46a4-a9f5-4f30-910c-ed1e2671f22e")
+			(uuid "b27c46a4-a9f5-4f30-910c-ed1e2671f22f")
 		)
 		(pin "1"
-			(uuid "3ebd396b-4f5f-4ec1-8b05-8bcae2103200")
+			(uuid "3ebd396b-4f5f-4ec1-8b05-8bcae2103201")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3270,7 +3270,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c89b1201-3582-4cbd-b6af-6d6b5a5efaec")
+			(uuid "c89b1201-3582-4cbd-b6af-6d6b5a5efaed")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3349,10 +3349,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d6ab1a94-b528-4e6c-abcc-47a91a86fb5a")
+			(uuid "d6ab1a94-b528-4e6c-abcc-47a91a86fb5b")
 		)
 		(pin "1"
-			(uuid "978cb77d-4bf1-4b9a-9348-a9343089c0dc")
+			(uuid "978cb77d-4bf1-4b9a-9348-a9343089c0dd")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3674,10 +3674,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3451c985-4348-40b2-9d5c-38ec97cfb292")
+			(uuid "3451c985-4348-40b2-9d5c-38ec97cfb293")
 		)
 		(pin "1"
-			(uuid "4c077465-9d43-4675-87e4-ced1d28115c0")
+			(uuid "4c077465-9d43-4675-87e4-ced1d28115c1")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3755,7 +3755,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1794946-6335-45f2-994c-e5a744ffb4d5")
+			(uuid "f1794946-6335-45f2-994c-e5a744ffb4d6")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3832,37 +3832,37 @@
 			)
 		)
 		(pin "8"
-			(uuid "271cbec6-f775-48db-9458-d9301a079a78")
+			(uuid "271cbec6-f775-48db-9458-d9301a079a79")
 		)
 		(pin "3"
-			(uuid "011ce5bc-af8f-4490-b767-a2ccd884d385")
+			(uuid "011ce5bc-af8f-4490-b767-a2ccd884d386")
 		)
 		(pin "6"
-			(uuid "f067fbba-06cb-4fb1-a43b-a21b4ef7b2bf")
+			(uuid "f067fbba-06cb-4fb1-a43b-a21b4ef7b2c0")
 		)
 		(pin "SH"
-			(uuid "6d0c8302-cafd-4d04-a038-a82a2929c73b")
+			(uuid "6d0c8302-cafd-4d04-a038-a82a2929c73c")
 		)
 		(pin "9"
-			(uuid "e5f73942-6b2d-4845-ad27-c602e91410b3")
+			(uuid "e5f73942-6b2d-4845-ad27-c602e91410b4")
 		)
 		(pin "1"
-			(uuid "89ea4420-b6e1-48ec-9fc1-c760aaf6e45e")
+			(uuid "89ea4420-b6e1-48ec-9fc1-c760aaf6e45f")
 		)
 		(pin "2"
-			(uuid "84ff3919-eae3-42f7-a9f8-863070fc6fe7")
+			(uuid "84ff3919-eae3-42f7-a9f8-863070fc6fe8")
 		)
 		(pin "4"
-			(uuid "5e9a82a0-6100-47be-9e86-381505ad2559")
+			(uuid "5e9a82a0-6100-47be-9e86-381505ad255a")
 		)
 		(pin "7"
-			(uuid "b33ca16d-88a3-4612-a40a-ef5f223b2c2b")
+			(uuid "b33ca16d-88a3-4612-a40a-ef5f223b2c2c")
 		)
 		(pin "10"
-			(uuid "ff3164b1-20a5-41a1-8b80-549c53d0d056")
+			(uuid "ff3164b1-20a5-41a1-8b80-549c53d0d057")
 		)
 		(pin "5"
-			(uuid "0de10d5f-f4e4-486a-999e-613a32478a88")
+			(uuid "0de10d5f-f4e4-486a-999e-613a32478a89")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -3940,7 +3940,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "493d5195-6261-4ae4-88ab-9037e1c44fcf")
+			(uuid "493d5195-6261-4ae4-88ab-9037e1c44fd0")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4018,10 +4018,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ea3f8979-dd2f-4e0d-ae0e-fd726f15adea")
+			(uuid "ea3f8979-dd2f-4e0d-ae0e-fd726f15adeb")
 		)
 		(pin "1"
-			(uuid "84d0f1ba-c085-4e97-bb82-536fa9555352")
+			(uuid "84d0f1ba-c085-4e97-bb82-536fa9555353")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4100,10 +4100,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7bb3878-b201-4f1c-94e8-f5cb2c3c9939")
+			(uuid "d7bb3878-b201-4f1c-94e8-f5cb2c3c993a")
 		)
 		(pin "1"
-			(uuid "0e36573f-82ef-4140-b068-4d99f7c421cf")
+			(uuid "0e36573f-82ef-4140-b068-4d99f7c421d0")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4181,10 +4181,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6c76799-299d-4e4b-8396-674f328a0043")
+			(uuid "c6c76799-299d-4e4b-8396-674f328a0044")
 		)
 		(pin "1"
-			(uuid "6aac1c9b-8568-4a27-9fb2-5d314568df86")
+			(uuid "6aac1c9b-8568-4a27-9fb2-5d314568df87")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4344,10 +4344,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e4833df-3b16-478a-adec-b946343fe439")
+			(uuid "3e4833df-3b16-478a-adec-b946343fe43a")
 		)
 		(pin "1"
-			(uuid "0f0dcb17-1d5f-441b-ad01-47b6af0560be")
+			(uuid "0f0dcb17-1d5f-441b-ad01-47b6af0560bf")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4426,10 +4426,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "994548a8-4173-4a50-90bd-b353c0566da8")
+			(uuid "994548a8-4173-4a50-90bd-b353c0566da9")
 		)
 		(pin "1"
-			(uuid "47785d5f-c3ee-45a5-9078-067450e9f73d")
+			(uuid "47785d5f-c3ee-45a5-9078-067450e9f73e")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4507,10 +4507,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bc2854a1-17f6-460a-a66e-ff939a618fed")
+			(uuid "bc2854a1-17f6-460a-a66e-ff939a618fee")
 		)
 		(pin "1"
-			(uuid "57ff7214-3833-499f-80fb-838fabc38c4a")
+			(uuid "57ff7214-3833-499f-80fb-838fabc38c4b")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -4588,10 +4588,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4b724ba6-5a66-415d-a200-274c1ac7bee2")
+			(uuid "4b724ba6-5a66-415d-a200-274c1ac7bee3")
 		)
 		(pin "1"
-			(uuid "b1869caf-7cef-4910-94d3-352474fb9f87")
+			(uuid "b1869caf-7cef-4910-94d3-352474fb9f88")
 		)
 		(instances
 			(project "MINIHATv.0"

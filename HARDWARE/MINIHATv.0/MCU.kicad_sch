@@ -6994,6 +6994,16 @@
 		)
 		(uuid "fa02dcdc-8dcf-43da-b990-f173f7ba0436")
 	)
+	(bus
+		(pts
+			(xy 74.93 50.8) (xy 74.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cc097f-e6c4-4579-af64-63385b41d550")
+	)
 	(wire
 		(pts
 			(xy 379.73 57.15) (xy 365.76 57.15)
@@ -7173,6 +7183,16 @@
 			(type default)
 		)
 		(uuid "32785e0e-3fe9-44ca-b08d-da8fa0e6f8c9")
+	)
+	(bus
+		(pts
+			(xy 50.8 64.77) (xy 60.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33da8d42-69ee-4cc6-ae55-ec6b71a50971")
 	)
 	(bus
 		(pts
@@ -7566,6 +7586,16 @@
 	)
 	(bus
 		(pts
+			(xy 50.8 58.42) (xy 67.31 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "988469b0-773e-4211-b572-a539eec6c64b")
+	)
+	(bus
+		(pts
 			(xy 142.24 204.47) (xy 142.24 214.63)
 		)
 		(stroke
@@ -7573,6 +7603,16 @@
 			(type default)
 		)
 		(uuid "98df6993-353d-4c6d-a717-e9d4585a1339")
+	)
+	(bus
+		(pts
+			(xy 60.96 64.77) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9944bc0e-7320-4527-8047-e582371dd2c2")
 	)
 	(wire
 		(pts
@@ -7844,6 +7884,16 @@
 		)
 		(uuid "cb307ce4-09c2-450f-81df-2a2a7d4c6327")
 	)
+	(bus
+		(pts
+			(xy 67.31 58.42) (xy 67.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21b5349-e800-46e6-ad2b-1ddf1d0ee2cd")
+	)
 	(wire
 		(pts
 			(xy 365.76 62.23) (xy 379.73 62.23)
@@ -7923,6 +7973,16 @@
 			(type default)
 		)
 		(uuid "f1e59a2e-228a-4bf9-bd65-69ddb366b4d9")
+	)
+	(bus
+		(pts
+			(xy 50.8 50.8) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ed9ae1-bd68-4b38-9752-11ae97831be6")
 	)
 	(wire
 		(pts
@@ -8237,6 +8297,17 @@
 		)
 		(uuid "1fdde0dc-56da-438c-be2c-e39dbdc391cf")
 	)
+	(hierarchical_label "QSPI"
+		(shape input)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33e75684-a8ed-42b9-bf2e-f09c3c7e33bd")
+	)
 	(hierarchical_label "{MCU_LTDC_BUS}"
 		(shape output)
 		(at 271.78 146.05 0)
@@ -8247,6 +8318,17 @@
 			(justify left)
 		)
 		(uuid "3c37f36d-e851-483a-974a-96f0871b556e")
+	)
+	(hierarchical_label "RMII"
+		(shape input)
+		(at 50.8 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f8a70d2-03cd-4885-a6af-808866ee6f15")
 	)
 	(hierarchical_label "FDCAN_Tx"
 		(shape input)
@@ -8291,6 +8373,17 @@
 			(justify left)
 		)
 		(uuid "6d7c4c0a-c6dc-4570-a6f7-3de44caf40d1")
+	)
+	(hierarchical_label "SDIO"
+		(shape input)
+		(at 50.8 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74940449-e0ee-41f7-85be-a748ecdc4154")
 	)
 	(hierarchical_label "{MCU_LTDC_BUS}"
 		(shape output)

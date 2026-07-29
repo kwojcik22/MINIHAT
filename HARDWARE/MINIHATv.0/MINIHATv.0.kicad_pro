@@ -639,6 +639,32 @@
         "LTDC_R6",
         "LTDC_R7",
         "LTDC_VSYNC"
+      ],
+      "QSPI": [
+        "CS",
+        "CLK",
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "RMII": [
+        "TXD1",
+        "TXDEN",
+        "RXD0",
+        "RXD1",
+        "RXER",
+        "CRS_DV",
+        "MDIO",
+        "MDC"
+      ],
+      "SDIO": [
+        "DAT0",
+        "DAT1",
+        "DAT2",
+        "DAT3",
+        "CMD",
+        "CLK"
       ]
     },
     "connection_grid_size": 50.0,

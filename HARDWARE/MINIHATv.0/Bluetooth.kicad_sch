@@ -2471,6 +2471,12 @@
 		(uuid "3925cea1-9e26-48a5-a1b2-a8baa5b0c632")
 	)
 	(junction
+		(at 121.92 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434f1a03-7062-4a10-8f80-7188707a5665")
+	)
+	(junction
 		(at 81.28 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2499,12 +2505,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "715383dd-9348-4f95-9f89-3bfa14e2ef12")
-	)
-	(junction
-		(at 121.92 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76547bc5-e47a-4973-8ac2-7fad2d862f96")
 	)
 	(junction
 		(at 165.1 113.03)
@@ -2802,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 85.09) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29da04ff-10da-4d1b-9bfc-db82e4e5a6a7")
+	)
+	(wire
+		(pts
 			(xy 81.28 133.35) (xy 82.55 133.35)
 		)
 		(stroke
@@ -2832,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 82.55) (xy 121.92 87.63)
+			(xy 121.92 82.55) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3019,6 +3029,16 @@
 			(type default)
 		)
 		(uuid "65e55733-d0fa-426f-a954-1665bc176941")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6636ce79-68ea-4c6c-ab4e-f2a4d6142cca")
 	)
 	(wire
 		(pts
@@ -3259,16 +3279,6 @@
 			(type default)
 		)
 		(uuid "adb67ac2-c6be-4c50-997e-5703e288f67d")
-	)
-	(wire
-		(pts
-			(xy 121.92 100.33) (xy 121.92 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adedf5d1-0a56-4724-a9c6-d3237f14aa1d")
 	)
 	(wire
 		(pts
@@ -3549,16 +3559,6 @@
 			(type default)
 		)
 		(uuid "f51bc55a-c106-4e31-9844-c576b4f7768d")
-	)
-	(wire
-		(pts
-			(xy 119.38 87.63) (xy 121.92 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb600c62-3c82-4afa-a824-ff415040fbeb")
 	)
 	(label "BOOT"
 		(at 58.42 33.02 180)
@@ -6095,7 +6095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 87.63 270)
+		(at 121.92 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6106,7 +6106,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ca1600b-d8af-44f3-ae24-0c820c3233f0")
 		(property "Reference" "#PWR043"
-			(at 113.03 87.63 0)
+			(at 115.57 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 87.6299 90)
+			(at 118.11 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6128,7 +6128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 87.63 0)
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6139,7 +6139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 87.63 0)
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6150,7 +6150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 87.63 0)
+			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,7 +7444,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 102.87 270)
+		(at 121.92 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7454,7 +7454,7 @@
 		(dnp no)
 		(uuid "c6613250-e1dc-4616-a764-638c179e901a")
 		(property "Reference" "#PWR042"
-			(at 115.57 102.87 0)
+			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7465,7 +7465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 102.87 90)
+			(at 119.38 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7476,7 +7476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 102.87 0)
+			(at 121.92 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7487,7 +7487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 102.87 0)
+			(at 121.92 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,7 +7498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 102.87 0)
+			(at 121.92 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8434,7 +8434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:STM-BLUE-NRG-antenna"
 			(at 226.06 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8445,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/resource/en/application_note/an5129-low-cost-pcb-antenna-for-24ghz-radio-meander-design-for-stm32wb-series-stmicroelectronics.pdf"
 			(at 226.06 76.2 0)
 			(hide yes)
 			(show_name no)

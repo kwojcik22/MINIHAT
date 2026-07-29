@@ -1169,7 +1169,7 @@
 		)
 		(uuid "a8f6717f-6cce-4cbb-bdc9-ee0b18c73fe6")
 	)
-	(hierarchical_label "QSPI{CS CLK D0 D1 D2 D3}"
+	(hierarchical_label "QSPI"
 		(shape input)
 		(at 96.52 78.74 180)
 		(effects
