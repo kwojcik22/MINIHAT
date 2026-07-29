@@ -826,16 +826,10 @@
 		(uuid "03921035-4969-4229-ab70-15efbd3071e1")
 	)
 	(junction
-		(at 124.46 55.88)
+		(at 127 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2e6939c0-1ea2-46d3-bcd1-6ccec5517f43")
-	)
-	(junction
-		(at 133.35 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33857f72-18d0-43fc-adbe-377331307388")
+		(uuid "386f52f8-1d74-49ae-9053-045dd3d93657")
 	)
 	(junction
 		(at 88.9 64.77)
@@ -848,6 +842,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "570db086-0e4c-4626-9591-0ca668b73627")
+	)
+	(junction
+		(at 137.16 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7be5fd-686e-4699-8f23-31898281bc27")
+	)
+	(junction
+		(at 127 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7067e6a6-f518-4f09-880f-dad0561dcd97")
+	)
+	(junction
+		(at 158.75 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7151e207-557e-4e18-b495-6804ebff786f")
 	)
 	(junction
 		(at 115.57 74.93)
@@ -868,22 +880,10 @@
 		(uuid "8c4bba2a-5495-4131-bfed-52331696175b")
 	)
 	(junction
-		(at 160.02 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aba2d03a-24e7-4950-9770-276d0356bfa4")
-	)
-	(junction
 		(at 154.94 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abae8248-1b0c-4f05-848e-5249997edd0b")
-	)
-	(junction
-		(at 133.35 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae9850da-58c3-4242-bf9b-6a55eb08dc16")
 	)
 	(junction
 		(at 115.57 55.88)
@@ -892,16 +892,22 @@
 		(uuid "b53ed84c-6738-46e7-ac8a-e8925f6acad6")
 	)
 	(junction
-		(at 124.46 80.01)
+		(at 137.16 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5e0f002-78da-4dcc-9f14-7ddf10f07b9f")
+		(uuid "ca482fd3-21a1-466c-a5cd-5b982bc22ae1")
 	)
 	(junction
 		(at 106.68 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de7df41d-12c0-47a1-ba7f-9485afdcb19b")
+	)
+	(junction
+		(at 160.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e57dee52-fa52-47f3-9119-f890285b6fba")
 	)
 	(bus_entry
 		(at 53.34 67.31)
@@ -1023,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 82.55) (xy 133.35 82.55)
+			(xy 55.88 82.55) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 124.46 55.88)
+			(xy 115.57 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1063,13 +1069,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 140.97 80.01)
+			(xy 127 80.01) (xy 140.97 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cc8248a-24aa-442e-a279-f3b4ceafd28e")
+		(uuid "2d7d408b-28b5-443b-890a-bd2631e386cb")
 	)
 	(wire
 		(pts
@@ -1083,6 +1089,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39400048-fc36-4141-8c04-58a482b32574")
+	)
+	(wire
+		(pts
 			(xy 106.68 69.85) (xy 140.97 69.85)
 		)
 		(stroke
@@ -1093,13 +1109,33 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 160.02 48.26)
+			(xy 158.75 52.07) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4254a38d-62c2-4eb5-b0cf-2c0032326b3e")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5001fdc1-4740-44bc-9b36-46a3259d5208")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 137.16 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d53667-a749-4286-b783-0d4fa9e8d684")
 	)
 	(wire
 		(pts
@@ -1143,23 +1179,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 63.5) (xy 133.35 82.55)
+			(xy 137.16 63.5) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "695a4722-6bcd-48dd-9d24-a37b5a934721")
-	)
-	(wire
-		(pts
-			(xy 133.35 82.55) (xy 140.97 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cd239cd-dd22-4fca-902f-05da917ffe69")
 	)
 	(wire
 		(pts
@@ -1203,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 80.01)
+			(xy 127 63.5) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1213,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 58.42) (xy 160.02 85.09)
+			(xy 158.75 59.69) (xy 158.75 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1283,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 82.55) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85c3419-0d77-4487-98e7-f55154408ba7")
+	)
+	(wire
+		(pts
 			(xy 88.9 63.5) (xy 88.9 64.77)
 		)
 		(stroke
@@ -1313,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 124.46 80.01)
+			(xy 55.88 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1343,17 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 161.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef6055a-f886-47b9-929b-988cc494d7df")
-	)
-	(wire
-		(pts
-			(xy 154.94 48.26) (xy 160.02 48.26)
+			(xy 154.94 48.26) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1393,23 +1419,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 160.02 87.63)
+			(xy 160.02 87.63) (xy 161.29 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "daaa8fca-a24a-4862-bdd0-484a2f411f71")
-	)
-	(wire
-		(pts
-			(xy 124.46 55.88) (xy 133.35 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc028621-0743-4904-85f6-64c1843e61b2")
 	)
 	(wire
 		(pts
@@ -1423,7 +1439,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 160.02 85.09)
+			(xy 160.02 95.25) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e620b3d6-338e-4d89-846d-488bb0fb2c66")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 158.75 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1450,16 +1476,6 @@
 			(type default)
 		)
 		(uuid "efc5ab00-81c5-4c8a-a5e2-88ef16c8b1e1")
-	)
-	(wire
-		(pts
-			(xy 133.35 55.88) (xy 154.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19e592c-04e9-4b20-aea6-45240cfa382c")
 	)
 	(wire
 		(pts
@@ -1601,30 +1617,6 @@
 			)
 			(justify right)
 		)
-		(uuid "275b8d20-596d-499a-9aa9-af8f64189951")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2716 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "DETECT"
-		(shape input)
-		(at 113.03 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
 		(uuid "9c6aa7db-f11b-4fd1-8129-f91b4e985493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.2716 85.09 0)
@@ -1651,88 +1643,6 @@
 		(uuid "70ac7b80-48c2-439d-b6fd-1d6f5c13985b")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a245da-b1bb-40ae-952f-020b3acc79eb")
-		(property "Reference" "R10"
-			(at 109.22 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 109.22 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.902 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c1aed8c6-4fcf-4fa5-a5b1-86f7b46a3a21")
-		)
-		(pin "1"
-			(uuid "5ababe80-858a-44bc-af95-9cc766355580")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det2")
 		(at 184.15 74.93 0)
 		(unit 1)
@@ -1744,7 +1654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11738f7b-a154-4d08-b8f5-509b8bd7f2bc")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 184.785 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1833,166 +1743,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 69.85 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15423d15-fd41-4748-9d8b-b6e0fe2d4719")
-		(property "Reference" "R38"
-			(at 141.732 68.834 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 151.384 68.834 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 71.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c772484e-8143-489a-bfab-174bd5f3d30a")
-		)
-		(pin "1"
-			(uuid "b9f8664b-b45d-4959-8a26-1f31d98993a4")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16f2a8e9-425d-4ca3-9f14-3f06203e19f4")
-		(property "Reference" "#PWR026"
-			(at 154.94 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f07c939-a421-48dd-adb1-5c6d91b7d03b")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR026")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2009,7 +1760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20e4c29f-2ec2-4034-bd72-23f5cc716487")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0105"
 			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2069,7 +1820,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR025")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2077,7 +1828,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 59.69 0)
+		(at 127 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2087,8 +1838,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3114efa2-53f2-40f3-b96b-a573247e5f84")
-		(property "Reference" "R34"
-			(at 127 58.4199 0)
+		(property "Reference" "R51"
+			(at 129.54 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2099,7 +1850,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 127 60.9599 0)
+			(at 129.54 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2110,7 +1861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 59.69 90)
+			(at 125.222 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,7 +1872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 59.69 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,7 +1883,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 59.69 0)
+			(at 127 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2151,7 +1902,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R34")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2168,7 +1919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "319e1c9e-4051-460a-a055-189623f4cfc7")
-		(property "Reference" "R28"
+		(property "Reference" "R60"
 			(at 141.732 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2232,7 +1983,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R28")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -2250,7 +2001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34f39c1a-7751-44f1-904d-b0cefceb47f9")
-		(property "Reference" "R32"
+		(property "Reference" "R48"
 			(at 109.22 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,88 +2065,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a0571b2-865a-4ef5-8d6e-edcdb1096879")
-		(property "Reference" "R30"
-			(at 141.732 78.994 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 151.638 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 81.788 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b724ba6-5a66-415d-a200-274c1ac7bee2")
-		)
-		(pin "1"
-			(uuid "b1869caf-7cef-4910-94d3-352474fb9f87")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R30")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2413,7 +2083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4100fde7-8d52-4bb6-931e-5983a2fba440")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0108"
 			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2473,7 +2143,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR026")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -2491,7 +2161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e21328-c412-4fbe-a19d-4bfcb266df3f")
-		(property "Reference" "R21"
+		(property "Reference" "R49"
 			(at 118.11 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,7 +2225,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R21")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48541640-865e-48aa-87f8-f314df83ddd1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0109"
 			(at 160.02 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2633,332 +2303,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 64.77 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49226470-5c1a-427a-a398-1c8bbfcac32b")
-		(property "Reference" "R36"
-			(at 141.732 63.754 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 151.384 63.754 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 66.548 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3e4833df-3b16-478a-adec-b946343fe439")
-		)
-		(pin "1"
-			(uuid "0f0dcb17-1d5f-441b-ad01-47b6af0560be")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4fad6666-97f1-4e84-b611-d5fbf0d301cf")
-		(property "Reference" "R23"
-			(at 135.89 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 135.89 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 131.572 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3451c985-4348-40b2-9d5c-38ec97cfb292")
-		)
-		(pin "1"
-			(uuid "4c077465-9d43-4675-87e4-ced1d28115c0")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51c57819-be1b-40bd-bd29-5c47398e7b83")
-		(property "Reference" "R33"
-			(at 118.11 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 118.11 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.792 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49c314ee-9e29-41cd-a73d-6f4aebd9ecf8")
-		)
-		(pin "1"
-			(uuid "c7bcde56-fdee-4d49-9d2a-4d856efce9d9")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5630a541-5462-4474-947e-015ab8bcd6be")
-		(property "Reference" "R39"
-			(at 161.036 51.562 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 161.036 61.214 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.242 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b27c46a4-a9f5-4f30-910c-ed1e2671f22e")
-		)
-		(pin "1"
-			(uuid "3ebd396b-4f5f-4ec1-8b05-8bcae2103200")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R39")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2976,7 +2321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66817dc7-bb67-4ac0-88f4-8c5a8b5e2720")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0111"
 			(at 208.28 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3036,7 +2381,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR030")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3044,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 54.61 0)
+		(at 158.75 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3053,8 +2398,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c99799b-b11f-496d-88c4-1c3d8eda6dc5")
-		(property "Reference" "R42"
-			(at 161.036 51.562 90)
+		(property "Reference" "R68"
+			(at 159.766 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3065,7 +2410,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.036 61.214 90)
+			(at 159.766 62.484 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3076,7 +2421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.242 54.61 90)
+			(at 156.972 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3087,7 +2432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 54.61 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3098,7 +2443,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 54.61 0)
+			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3117,7 +2462,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R42")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -3134,7 +2479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e6b8e1c-73b2-42c7-83f1-397d2fc49145")
-		(property "Reference" "R29"
+		(property "Reference" "R61"
 			(at 141.732 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +2543,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R29")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -3215,7 +2560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "913f7a2a-ce0c-4d0d-a3b6-1e41c48636c9")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0106"
 			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3275,89 +2620,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124.46 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92578500-a8e0-440d-8c08-fc5539cbe254")
-		(property "Reference" "R22"
-			(at 127 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 127 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.682 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d6ab1a94-b528-4e6c-abcc-47a91a86fb5b")
-		)
-		(pin "1"
-			(uuid "978cb77d-4bf1-4b9a-9348-a9343089c0dd")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R22")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3375,7 +2638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99cb9f1c-cdeb-4e20-baef-e45e220ef77e")
-		(property "Reference" "R24"
+		(property "Reference" "R43"
 			(at 91.44 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +2702,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R24")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -3456,7 +2719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ea47d4d-153f-4653-8ed0-63688060cd4e")
-		(property "Reference" "R37"
+		(property "Reference" "R57"
 			(at 141.732 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +2783,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R37")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -3528,88 +2791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9fba7555-c374-494e-b51c-994f828717d2")
-		(property "Reference" "R31"
-			(at 141.732 81.534 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 151.384 81.534 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 84.328 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ea3f8979-dd2f-4e0d-ae0e-fd726f15adea")
-		)
-		(pin "1"
-			(uuid "84d0f1ba-c085-4e97-bb82-536fa9555352")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 59.69 0)
+		(at 137.16 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3618,8 +2800,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1b6ee26-045d-4fd1-9464-24988832c642")
-		(property "Reference" "R35"
-			(at 135.89 58.42 0)
+		(property "Reference" "R54"
+			(at 143.51 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3630,7 +2812,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 135.89 60.9599 0)
+			(at 139.7 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3641,7 +2823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 131.572 59.69 90)
+			(at 135.382 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +2834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 59.69 0)
+			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,7 +2845,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 59.69 0)
+			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,270 +2864,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a67da2c9-31fd-469e-9fa8-40bebbb93690")
-		(property "Reference" "#PWR031"
-			(at 160.02 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1794946-6335-45f2-994c-e5a744ffb4d6")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card_Det2")
-		(at 184.15 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aba9ac10-8565-474c-89b6-73c823b3e41a")
-		(property "Reference" "J5"
-			(at 184.785 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Micro_SD_Card_Det2"
-			(at 184.785 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
-			(at 236.22 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
-			(at 186.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Micro SD Card Socket with two card detection pins"
-			(at 184.15 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "271cbec6-f775-48db-9458-d9301a079a79")
-		)
-		(pin "3"
-			(uuid "011ce5bc-af8f-4490-b767-a2ccd884d386")
-		)
-		(pin "6"
-			(uuid "f067fbba-06cb-4fb1-a43b-a21b4ef7b2c0")
-		)
-		(pin "SH"
-			(uuid "6d0c8302-cafd-4d04-a038-a82a2929c73c")
-		)
-		(pin "9"
-			(uuid "e5f73942-6b2d-4845-ad27-c602e91410b4")
-		)
-		(pin "1"
-			(uuid "89ea4420-b6e1-48ec-9fc1-c760aaf6e45f")
-		)
-		(pin "2"
-			(uuid "84ff3919-eae3-42f7-a9f8-863070fc6fe8")
-		)
-		(pin "4"
-			(uuid "5e9a82a0-6100-47be-9e86-381505ad255a")
-		)
-		(pin "7"
-			(uuid "b33ca16d-88a3-4612-a40a-ef5f223b2c2c")
-		)
-		(pin "10"
-			(uuid "ff3164b1-20a5-41a1-8b80-549c53d0d057")
-		)
-		(pin "5"
-			(uuid "0de10d5f-f4e4-486a-999e-613a32478a89")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 208.28 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0924567-1dfa-44a1-aa06-d02373c1eac6")
-		(property "Reference" "#PWR030"
-			(at 208.28 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "493d5195-6261-4ae4-88ab-9037e1c44fd0")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "#PWR030")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3962,7 +2881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b270cd1c-956d-4639-8187-401176759f71")
-		(property "Reference" "R41"
+		(property "Reference" "R66"
 			(at 141.732 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,170 +2945,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5770613-bbcf-43a3-8656-66ad279d8947")
-		(property "Reference" "R10"
-			(at 91.44 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 91.44 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.122 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 88.9 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d7bb3878-b201-4f1c-94e8-f5cb2c3c993a")
-		)
-		(pin "1"
-			(uuid "0e36573f-82ef-4140-b068-4d99f7c421d0")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c94ab501-88ab-4cb8-9a72-c8896e5e775b")
-		(property "Reference" "R39"
-			(at 141.732 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 151.384 73.914 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 76.708 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c6c76799-299d-4e4b-8396-674f328a0044")
-		)
-		(pin "1"
-			(uuid "6aac1c9b-8568-4a27-9fb2-5d314568df87")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R39")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4207,7 +2963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f041ac-52b3-4684-9f2b-6ccbcf79b7aa")
-		(property "Reference" "R31"
+		(property "Reference" "R45"
 			(at 100.33 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,7 +3027,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R31")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4288,7 +3044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d77b78c8-aff9-40af-bb17-10db8a40775d")
-		(property "Reference" "R26"
+		(property "Reference" "R56"
 			(at 141.732 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4352,170 +3108,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db0dcdac-b572-4ac4-90b8-87e4fc8571ea")
-		(property "Reference" "R25"
-			(at 100.33 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 100.33 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.012 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "994548a8-4173-4a50-90bd-b353c0566da9")
-		)
-		(pin "1"
-			(uuid "47785d5f-c3ee-45a5-9078-067450e9f73e")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1e88b2e-bd60-43b0-bdc2-1207caf495f7")
-		(property "Reference" "R27"
-			(at 141.732 66.294 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 151.384 66.294 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 69.088 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bc2854a1-17f6-460a-a66e-ff939a618fee")
-		)
-		(pin "1"
-			(uuid "57ff7214-3833-499f-80fb-838fabc38c4b")
-		)
-		(instances
-			(project "MINIHATv.0"
-				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R27")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -4532,7 +3125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcaabd90-af7d-4169-a634-03ea3142294e")
-		(property "Reference" "R40"
+		(property "Reference" "R64"
 			(at 141.732 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +3189,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/bada061a-c444-466c-a4cf-67ce10115ed2"
-					(reference "R40")
+					(reference "R64")
 					(unit 1)
 				)
 			)

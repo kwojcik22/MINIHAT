@@ -5568,7 +5568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19d3ae8b-0dfb-44f3-abfb-242efa4ef9ce")
-		(property "Reference" "R4"
+		(property "Reference" "R13"
 			(at 61.722 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,7 +5630,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R4")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5648,7 +5648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19eb777a-7098-42f1-891c-45587fc8c438")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR045"
 			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5708,7 +5708,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR012")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a2ecd0e-2674-446a-91eb-1a0625dd186a")
-		(property "Reference" "R14"
+		(property "Reference" "R22"
 			(at 157.48 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,7 +5790,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R14")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5808,7 +5808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a34cd21-3801-4500-a94c-8426546de234")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR028"
 			(at 21.59 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5868,7 +5868,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR021")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5886,7 +5886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad7b74c-56e1-4334-80fe-c24c721af5c8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR032"
 			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +5946,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR05")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5964,7 +5964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "203a938d-63c6-4740-a896-bb470509da6c")
-		(property "Reference" "C3"
+		(property "Reference" "C20"
 			(at 220.98 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +6028,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C3")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6045,7 +6045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "223ecd01-8750-4d76-9459-83777ac4f514")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR034"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6105,7 +6105,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR06")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6122,7 +6122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2376291c-85f2-4ba9-be2f-5d28f23c2cc4")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 61.722 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6184,7 +6184,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6202,7 +6202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e0e359-d3e8-48f8-9b6e-482e56cdd60e")
-		(property "Reference" "C7"
+		(property "Reference" "C19"
 			(at 215.9 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6266,7 +6266,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C7")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6391,7 +6391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32fc5ee7-fbe0-454e-87f6-990a091f7912")
-		(property "Reference" "R20"
+		(property "Reference" "R26"
 			(at 230.886 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,7 +6455,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R20")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6473,7 +6473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3313e498-8e8c-4ef1-9d9b-0933f253f308")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 78.74 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6537,7 +6537,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6555,7 +6555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a2c01a-15dd-4141-983c-3057ff7f2cbd")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 34.29 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,7 +6619,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6637,7 +6637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3921f01d-a205-48c1-8b21-2a70d5039ebe")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 91.44 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6701,7 +6701,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6719,7 +6719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c28f6f6-30dc-4ff0-a7b6-912f269bf3b6")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR046"
 			(at 276.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6780,7 +6780,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR011")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6797,7 +6797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f9498f1-ae15-48d9-abbc-20a88209df08")
-		(property "Reference" "R19"
+		(property "Reference" "R25"
 			(at 217.932 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +6861,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R19")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6958,7 +6958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4222c025-f70e-4533-841a-69149b3b4a78")
-		(property "Reference" "R7"
+		(property "Reference" "R16"
 			(at 61.722 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7020,7 +7020,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R7")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7037,7 +7037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46b52cb4-e127-499f-97b0-c8b954166347")
-		(property "Reference" "R3"
+		(property "Reference" "R12"
 			(at 61.722 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,7 +7099,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R3")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7116,7 +7116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49670d60-5b96-4e75-b8d7-35f74a8a66d5")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR035"
 			(at 104.14 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7176,7 +7176,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR07")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7193,7 +7193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b4d5213-08e3-4f68-9100-a9e4476004e9")
-		(property "Reference" "R8"
+		(property "Reference" "R17"
 			(at 61.722 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7255,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R8")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7273,7 +7273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcfa793-35c2-4635-88c5-b5ade58b6b06")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR039"
 			(at 171.45 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7333,7 +7333,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR014")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7351,7 +7351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "584c1a6f-6ddc-42bb-a948-8f440d6cb165")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR031"
 			(at 63.5 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7411,7 +7411,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR01")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ee1343a-95fa-4337-bef5-8f1543f14015")
-		(property "Reference" "R15"
+		(property "Reference" "R27"
 			(at 263.652 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7490,7 +7490,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R15")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7508,7 +7508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc69c89-3964-4b6d-9e3d-a7beef45cc80")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR041"
 			(at 201.93 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7568,7 +7568,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR016")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7586,7 +7586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70cc959a-aac6-4ba0-b7cb-821069fef3dc")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 106.2833 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7720,7 +7720,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7737,7 +7737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71535d5c-a462-48a9-be42-1d9ea50f26ca")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 58.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7797,7 +7797,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR023")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7814,7 +7814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8751ee54-3710-4eb9-835c-7b45a00ba491")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR038"
 			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7874,7 +7874,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR09")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7892,7 +7892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89183b4d-67ac-4c50-9233-71f8da34ead8")
-		(property "Reference" "R13"
+		(property "Reference" "R21"
 			(at 149.86 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +7956,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R13")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7973,7 +7973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dac927f-3a7e-4f7a-ab90-d8d971c49f22")
-		(property "Reference" "R1"
+		(property "Reference" "R18"
 			(at 128.524 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8035,7 +8035,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8052,7 +8052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f51cc78-e083-43f7-a1b3-8b87eb50262a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR043"
 			(at 213.36 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8112,7 +8112,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR018")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8130,7 +8130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95c4d2e1-b241-4792-9341-d931ec6e7b04")
-		(property "Reference" "C6"
+		(property "Reference" "C18"
 			(at 205.74 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,7 +8194,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C6")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8212,7 +8212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d2906cb-d516-498f-ab8e-b065f979e60c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR029"
 			(at 52.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8272,7 +8272,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR04")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8290,7 +8290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a28e6f94-1c25-478e-a857-f34df43aee8b")
-		(property "Reference" "C5"
+		(property "Reference" "C17"
 			(at 187.96 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8354,7 +8354,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C5")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8371,7 +8371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4ad2106-5356-4916-8413-10ecbc7ef03c")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 61.722 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8433,7 +8433,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8451,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e92dcb-e5f2-40c2-84de-8023aacdd72f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR037"
 			(at 142.24 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8512,7 +8512,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR03")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8529,7 +8529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab58836a-11a4-4705-9da9-831ae8237293")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR040"
 			(at 173.99 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8589,7 +8589,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR019")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8607,7 +8607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b176a24a-286c-4c74-af48-b97bc9f41f06")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR036"
 			(at 104.14 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8667,7 +8667,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR02")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8684,7 +8684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c10a6008-9252-4992-8b5f-e79829f43364")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR027"
 			(at 21.59 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8744,7 +8744,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR020")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8d55646-259d-47e8-8f90-184fb2e10f2c")
-		(property "Reference" "R12"
+		(property "Reference" "R20"
 			(at 142.24 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +8826,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R12")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9e4fdfe-e467-49d0-9bb0-19e46b02704d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR042"
 			(at 212.09 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8904,7 +8904,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR017")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8922,7 +8922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc486cb4-d1aa-4301-bf3d-3c250848c264")
-		(property "Reference" "R11"
+		(property "Reference" "R19"
 			(at 134.62 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8986,7 +8986,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R11")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce15ef5a-3311-458c-b07c-c861be279108")
-		(property "Reference" "R17"
+		(property "Reference" "R23"
 			(at 200.152 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9067,7 +9067,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R17")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9085,7 +9085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32a32e6-7121-4f5e-a748-670d32fef0f9")
-		(property "Reference" "C4"
+		(property "Reference" "C16"
 			(at 175.26 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9149,7 +9149,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C4")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9167,7 +9167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55a84eb-a3af-4f73-b812-6b9b4f854e8d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR047"
 			(at 276.86 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9228,7 +9228,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR010")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9246,7 +9246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd908532-4c42-486d-829f-327a5d59c368")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 55.88 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9310,7 +9310,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9328,7 +9328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3baaa06-68a9-489d-89b5-5c5a73d0a61e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR044"
 			(at 217.17 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9388,7 +9388,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR013")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eca89cba-804f-4f98-b203-ffaef9e7ae42")
-		(property "Reference" "R18"
+		(property "Reference" "R24"
 			(at 213.106 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9469,7 +9469,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R18")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9486,7 +9486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee4e6e8d-55d7-4c6e-8c03-5db759eb27cc")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 248.92 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9581,7 +9581,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9598,7 +9598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f28086cc-d0a7-43e0-8e5d-bb7551cd7798")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR033"
 			(at 99.06 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9658,7 +9658,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "#PWR08")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9675,7 +9675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2bbe7cb-b386-466c-bdc9-76547f0d7906")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 61.722 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +9737,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9754,7 +9754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbfa5f7a-841e-43a2-bc5f-82bf11ccf831")
-		(property "Reference" "R16"
+		(property "Reference" "R28"
 			(at 265.176 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +9816,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R16")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffe4dffb-e0d1-4080-be54-44057946acb4")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 60.96 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,7 +9898,7 @@
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
