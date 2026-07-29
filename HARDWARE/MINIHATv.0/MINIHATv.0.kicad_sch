@@ -7,7 +7,17 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 127 59.69) (xy 138.43 59.69)
+			(xy 109.22 58.42) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad87ea1-fc62-42e1-a7df-84a39bfa5787")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +27,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 138.43 63.5)
+			(xy 109.22 55.88) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a37d90-f9dc-48ac-ab3e-91d8402062d0")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 171.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +47,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 60.96) (xy 95.25 60.96)
+			(xy 109.22 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -36,7 +56,7 @@
 		(uuid "f48ff374-15cb-444f-94ed-5578ea6d1caf")
 	)
 	(sheet
-		(at 96.52 17.78)
+		(at 77.47 42.418)
 		(size 31.75 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52,7 +72,7 @@
 		)
 		(uuid "250c1d3f-ded1-4402-b59d-ee4bc0957cb2")
 		(property "Sheetname" "Bluetooth"
-			(at 96.52 17.0684 0)
+			(at 77.47 41.7064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63,7 +83,7 @@
 			)
 		)
 		(property "Sheetfile" "Bluetooth.kicad_sch"
-			(at 96.52 41.2246 0)
+			(at 77.47 65.8626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -71,6 +91,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BT_RX" input
+			(at 109.22 58.42 0)
+			(uuid "3c3d645f-71c7-440e-8565-28ee7c79219a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_TX" input
+			(at 109.22 55.88 0)
+			(uuid "09daf1ab-b438-4a89-a4d2-a4c66f8b55a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_~RST" input
+			(at 109.22 60.96 0)
+			(uuid "175c760d-bf65-4e0f-838f-c0aa37514388")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -82,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 138.43 50.8)
+		(at 171.45 76.2)
 		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -98,7 +148,7 @@
 		)
 		(uuid "63870cd4-5fe2-4ed9-8315-f888138f41c1")
 		(property "Sheetname" "CAN"
-			(at 138.43 50.0884 0)
+			(at 171.45 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -109,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 138.43 71.7046 0)
+			(at 171.45 97.1046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -120,7 +170,7 @@
 			)
 		)
 		(pin "FDCAN_Rx" input
-			(at 138.43 63.5 180)
+			(at 171.45 88.9 180)
 			(uuid "47d734b6-8117-4f16-894a-7d20fef0dd9e")
 			(effects
 				(font
@@ -130,7 +180,7 @@
 			)
 		)
 		(pin "FDCAN_Tx" input
-			(at 138.43 59.69 180)
+			(at 171.45 86.36 180)
 			(uuid "5eedd585-26be-4aae-998a-64b004f0608c")
 			(effects
 				(font
@@ -148,7 +198,7 @@
 		)
 	)
 	(sheet
-		(at 44.45 50.8)
+		(at 77.47 90.17)
 		(size 31.75 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -164,7 +214,7 @@
 		)
 		(uuid "92951603-bc2e-4dd1-8377-ba7c43df3b1e")
 		(property "Sheetname" "HDMI"
-			(at 44.45 50.0884 0)
+			(at 77.47 89.4584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -175,7 +225,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI.kicad_sch"
-			(at 44.45 74.2446 0)
+			(at 77.47 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -186,7 +236,7 @@
 			)
 		)
 		(pin "{MCU_LTDC_BUS}" input
-			(at 76.2 60.96 0)
+			(at 109.22 100.33 0)
 			(uuid "1936b756-b4f5-441a-ae4f-200dea335e45")
 			(effects
 				(font
@@ -196,7 +246,7 @@
 			)
 		)
 		(pin "HDMI_SCL" output
-			(at 76.2 71.12 0)
+			(at 109.22 110.49 0)
 			(uuid "6bdaf29b-fd52-45f6-9d6a-9b24edb18e72")
 			(effects
 				(font
@@ -206,7 +256,7 @@
 			)
 		)
 		(pin "HDMI_SDA" output
-			(at 76.2 68.58 0)
+			(at 109.22 107.95 0)
 			(uuid "2c96d9c8-99d6-442e-b7e4-f4baff7e0a4b")
 			(effects
 				(font
@@ -216,7 +266,7 @@
 			)
 		)
 		(pin "LTDC_CEC" output
-			(at 76.2 63.5 0)
+			(at 109.22 102.87 0)
 			(uuid "6fb72d5b-c924-47f2-bc4c-39526efab16c")
 			(effects
 				(font
@@ -226,7 +276,7 @@
 			)
 		)
 		(pin "LTDC_I2C_SCL" input
-			(at 76.2 58.42 0)
+			(at 109.22 97.79 0)
 			(uuid "57118664-2e94-4310-b652-52054982aab3")
 			(effects
 				(font
@@ -236,7 +286,7 @@
 			)
 		)
 		(pin "LTDC_I2C_SDA" input
-			(at 76.2 55.88 0)
+			(at 109.22 95.25 0)
 			(uuid "8d940eff-255e-46c7-a599-878e696f3af6")
 			(effects
 				(font
@@ -246,7 +296,7 @@
 			)
 		)
 		(pin "LTDC_MSEN" output
-			(at 76.2 53.34 0)
+			(at 109.22 92.71 0)
 			(uuid "799eee7b-8e00-412f-9699-38d8e6583590")
 			(effects
 				(font
@@ -264,7 +314,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 92.71)
+		(at 171.704 106.934)
 		(size 64.77 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -280,7 +330,7 @@
 		)
 		(uuid "ae2e1667-2e57-4e65-a565-7a546dcbd7bf")
 		(property "Sheetname" "Ethernet"
-			(at 96.52 91.9984 0)
+			(at 171.704 106.2224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -291,7 +341,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 96.52 102.1846 0)
+			(at 171.704 116.4086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -302,7 +352,7 @@
 			)
 		)
 		(pin "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC}" input
-			(at 96.52 96.52 180)
+			(at 171.704 110.744 180)
 			(uuid "2b1d889b-3dfe-4d66-b428-e1925d79bbe2")
 			(effects
 				(font
@@ -320,8 +370,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 50.8)
-		(size 31.75 20.32)
+		(at 128.27 51.816)
+		(size 31.75 63.754)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -336,7 +386,7 @@
 		)
 		(uuid "cd5db47d-2b35-4622-a88b-05ef4e37f3d0")
 		(property "Sheetname" "MCU"
-			(at 95.25 50.0884 0)
+			(at 128.27 51.1044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -347,7 +397,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 95.25 71.7046 0)
+			(at 128.27 116.1546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -358,7 +408,7 @@
 			)
 		)
 		(pin "FDCAN_Rx" input
-			(at 127 63.5 0)
+			(at 160.02 88.9 0)
 			(uuid "a1efe401-ef5c-43ce-960e-1e1b6bbcc630")
 			(effects
 				(font
@@ -368,7 +418,7 @@
 			)
 		)
 		(pin "FDCAN_Tx" input
-			(at 127 59.69 0)
+			(at 160.02 86.36 0)
 			(uuid "b77d69d5-4692-445a-9d2c-3ea4f66ff641")
 			(effects
 				(font
@@ -378,8 +428,28 @@
 			)
 		)
 		(pin "{MCU_LTDC_BUS}" output
-			(at 95.25 60.96 180)
+			(at 128.27 100.33 180)
 			(uuid "5780242d-761f-492a-ae25-a80d0076a2ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_RX" input
+			(at 128.27 58.42 180)
+			(uuid "c9781312-b6a6-4f4d-a63c-60c3488d0f79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_TX" input
+			(at 128.27 55.88 180)
+			(uuid "685b2f87-429c-454d-a4a6-7b0d103f60e8")
 			(effects
 				(font
 					(size 1.27 1.27)
