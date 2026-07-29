@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -681,7 +681,7 @@
         "uuid": "19041ef4-1d16-4363-8780-721ad9f20b33"
       }
     ],
-    "used_designators": "U1-5,Y1,#PWR1-41,#PWR50,#PWR56,#PWR59,#PWR62-68,AE1,L1,L3-4,C1-23,C33-34,C37-40,R1-25,R29-30,J1-4,SW1-3,D1-5,FB1-3,JP1,P1,IC1",
+    "used_designators": "J1-5,R1-25,R29-49,#PWR1-41,#PWR50,#PWR56,#PWR59,#PWR62-68,AE1,L1,L3-4,U1-5,U7,Y1,C1-23,C33-34,C37-41,SW1-3,D1-5,FB1-3,JP1,P1,IC1",
     "variants": []
   },
   "sheets": [
@@ -708,6 +708,14 @@
     [
       "250c1d3f-ded1-4402-b59d-ee4bc0957cb2",
       "Bluetooth"
+    ],
+    [
+      "bada061a-c444-466c-a4cf-67ce10115ed2",
+      "SDcard"
+    ],
+    [
+      "d9e9bbbe-4127-4d38-93b1-ae9f05da8ec2",
+      "QSPI"
     ]
   ],
   "text_variables": {},

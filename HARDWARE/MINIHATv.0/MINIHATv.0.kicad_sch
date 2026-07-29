@@ -314,7 +314,7 @@
 		)
 	)
 	(sheet
-		(at 171.704 106.934)
+		(at 172.466 106.934)
 		(size 64.77 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -330,7 +330,7 @@
 		)
 		(uuid "ae2e1667-2e57-4e65-a565-7a546dcbd7bf")
 		(property "Sheetname" "Ethernet"
-			(at 171.704 106.2224 0)
+			(at 172.466 106.2224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -341,7 +341,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 171.704 116.4086 0)
+			(at 172.466 116.4086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -352,7 +352,7 @@
 			)
 		)
 		(pin "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC}" input
-			(at 171.704 110.744 180)
+			(at 172.466 111.76 180)
 			(uuid "2b1d889b-3dfe-4d66-b428-e1925d79bbe2")
 			(effects
 				(font
@@ -370,8 +370,64 @@
 		)
 	)
 	(sheet
+		(at 64.008 129.794)
+		(size 44.958 14.732)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bada061a-c444-466c-a4cf-67ce10115ed2")
+		(property "Sheetname" "SDcard"
+			(at 64.008 129.0824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdcarad.kicad_sch"
+			(at 64.008 145.1106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDIO{DAT0 DAT1 DAT2 DAT3 CMD CLK}" input
+			(at 108.966 135.89 0)
+			(uuid "3bce3ea3-5c14-439e-a2a4-37c5b7922ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 128.27 51.816)
-		(size 31.75 63.754)
+		(size 31.75 93.218)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -397,7 +453,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 128.27 116.1546 0)
+			(at 128.27 145.6186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -461,6 +517,62 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 131.064)
+		(size 29.718 13.716)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d9e9bbbe-4127-4d38-93b1-ae9f05da8ec2")
+		(property "Sheetname" "QSPI"
+			(at 172.72 130.3524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "QSPI.kicad_sch"
+			(at 172.72 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "QSPI{CS CLK D0 D1 D2 D3}" input
+			(at 172.72 139.7 180)
+			(uuid "18b1c8e0-34e8-4a8e-befc-ba5838b628ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "8")
 				)
 			)
 		)
