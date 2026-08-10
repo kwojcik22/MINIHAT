@@ -3629,12 +3629,6 @@
 		(uuid "0c6a4b18-7e34-4c62-aa1e-4ee71849ad17")
 	)
 	(junction
-		(at 154.94 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b4b552-ab16-47fd-b678-8812a5735e32")
-	)
-	(junction
 		(at 69.85 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3653,6 +3647,12 @@
 		(uuid "3ede2187-35ab-4db7-80cd-82c236ca590e")
 	)
 	(junction
+		(at 154.94 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "477445bb-cf98-472b-9114-6fa667d663b5")
+	)
+	(junction
 		(at 147.32 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3663,6 +3663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61424984-8df5-4b9e-b9c9-bdbcb47c3c7f")
+	)
+	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6394ba4c-8357-4232-9310-6163d92e6783")
 	)
 	(junction
 		(at 179.07 93.98)
@@ -3707,12 +3713,6 @@
 		(uuid "9480ed69-dedc-41b4-8cf4-908fc5a92600")
 	)
 	(junction
-		(at 179.07 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96142c09-a819-4456-b47b-e85ec6e3548e")
-	)
-	(junction
 		(at 30.48 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3752,7 +3752,7 @@
 		(at 179.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3f98840-e33b-4d4a-8b2f-42d60ee63a81")
+		(uuid "d37430a3-8f8c-4b2e-96c6-586390d53bb7")
 	)
 	(junction
 		(at 224.79 104.14)
@@ -5593,6 +5593,7 @@
 	(symbol
 		(lib_id "Transformer:Wuerth_749013011A")
 		(at 195.58 80.01 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5600,10 +5601,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a53928d-db4a-4894-9769-42f4597062f4")
 		(property "Reference" "TR1"
-			(at 195.58 64.77 0)
+			(at 196.088 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5613,7 +5613,7 @@
 			)
 		)
 		(property "Value" "Wuerth_749013011A"
-			(at 195.58 67.31 0)
+			(at 196.088 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5623,7 +5623,7 @@
 			)
 		)
 		(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Wuerth_749013011A"
-			(at 195.58 92.71 0)
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5634,7 +5634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/749013011A.pdf"
-			(at 195.58 67.31 0)
+			(at 195.58 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
