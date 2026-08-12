@@ -648,7 +648,7 @@
         "uuid": "19041ef4-1d16-4363-8780-721ad9f20b33"
       }
     ],
-    "used_designators": "R39,J3,#PWR30-31",
+    "used_designators": "C19,#PWR48",
     "variants": []
   },
   "sheets": [
@@ -671,6 +671,10 @@
     [
       "917746ca-ce94-46fb-877a-42b520023239",
       "SD card"
+    ],
+    [
+      "d3a2965b-be57-4039-bff6-a76ba7e31272",
+      "audio"
     ]
   ],
   "text_variables": {},
