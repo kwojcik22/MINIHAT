@@ -5,6 +5,146 @@
 	(uuid "bd2943b9-f3db-4220-a1b5-54582d2f469d")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32H7:STM32H747IGTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4428,6 +4568,24 @@
 		(uuid "f9107dd2-74c8-4053-aa11-96ebb149daec")
 	)
 	(bus_entry
+		(at 368.3 120.65)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ed4fa9-f77d-476e-bb84-df42e36b7031")
+	)
+	(bus_entry
+		(at 373.38 106.68)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0431bb-1ff1-4980-a6a8-a8e8e0a63bd1")
+	)
+	(bus_entry
 		(at 356.87 49.53)
 		(size 2.54 2.54)
 		(stroke
@@ -4435,6 +4593,78 @@
 			(type default)
 		)
 		(uuid "0c6763ed-c634-4e96-950f-4e0a4d54b58b")
+	)
+	(bus_entry
+		(at 368.3 156.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1719d776-558b-4c23-97be-a1b15715bf91")
+	)
+	(bus_entry
+		(at 368.3 153.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18790bae-cf2a-499a-93b6-e9dd32d70b53")
+	)
+	(bus_entry
+		(at 373.38 109.22)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a91343-9503-4c4d-8c85-93ea384b3f8e")
+	)
+	(bus_entry
+		(at 368.3 146.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccd4382-6856-4222-b286-602ae3480d77")
+	)
+	(bus_entry
+		(at 368.3 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d58e964-5971-4576-b3e7-0503f900c201")
+	)
+	(bus_entry
+		(at 368.3 151.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4388aea6-a175-4ad1-8d57-82f42c5f4e40")
+	)
+	(bus_entry
+		(at 368.3 128.27)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "479618f7-8eb6-42fa-8793-59bbd0fc3015")
+	)
+	(bus_entry
+		(at 368.3 130.81)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53349f11-9239-4d3c-9e77-986781b0628b")
 	)
 	(bus_entry
 		(at 356.87 44.45)
@@ -4446,6 +4676,15 @@
 		(uuid "5a20288e-0807-487f-bd12-ded032f6929d")
 	)
 	(bus_entry
+		(at 368.3 125.73)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68288ae7-a3f8-4feb-b1af-ba9daf0b5524")
+	)
+	(bus_entry
 		(at 356.87 46.99)
 		(size 2.54 2.54)
 		(stroke
@@ -4453,6 +4692,42 @@
 			(type default)
 		)
 		(uuid "69d75106-8306-484a-bffd-b923075f1e0a")
+	)
+	(bus_entry
+		(at 373.38 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4e6946-2eaf-48e6-bf17-f61bf1c4abd1")
+	)
+	(bus_entry
+		(at 373.38 104.14)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702d0507-d51b-49ed-9da6-7bb88cffb176")
+	)
+	(bus_entry
+		(at 373.38 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776efc57-27a1-43b0-b60d-41689d8a8d56")
+	)
+	(bus_entry
+		(at 368.3 135.89)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a243b06-99ca-4f6f-891a-5748ca94368f")
 	)
 	(bus_entry
 		(at 356.87 54.61)
@@ -4480,6 +4755,114 @@
 			(type default)
 		)
 		(uuid "8310b8c0-0e5b-404f-bf53-b1f1a4c091f8")
+	)
+	(bus_entry
+		(at 373.38 99.06)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852b859f-2c99-418c-a2be-133985fa1000")
+	)
+	(bus_entry
+		(at 368.3 158.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95daa0ec-db36-4a8b-871c-c8d6665473cb")
+	)
+	(bus_entry
+		(at 373.38 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1eef191-6c4a-44cd-a63d-f3bc4e1d9e9e")
+	)
+	(bus_entry
+		(at 373.38 101.6)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f64ec9-75ca-44cb-9be7-9199f3c3ea74")
+	)
+	(bus_entry
+		(at 368.3 133.35)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b196d7cb-ae03-4716-972d-1c07edb49eed")
+	)
+	(bus_entry
+		(at 373.38 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bede4ac7-e74d-4433-ac98-83a2f1252d9a")
+	)
+	(bus_entry
+		(at 373.38 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2dce80-8ca7-462b-a00a-56899d8c1414")
+	)
+	(bus_entry
+		(at 368.3 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9ee9f3-ab3b-4ed8-92f4-ba689373f993")
+	)
+	(bus_entry
+		(at 373.38 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2361b47-b1a2-4e89-ba4d-27289111f226")
+	)
+	(bus_entry
+		(at 368.3 148.59)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3025eee-11dc-4cd4-bd8e-f9dbb9036b54")
+	)
+	(bus_entry
+		(at 368.3 123.19)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cbcdf7-49d7-4595-ab8b-05866fece550")
+	)
+	(bus_entry
+		(at 373.38 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8f2fc8-6de6-4994-8840-f2300edcf32b")
 	)
 	(bus_entry
 		(at 356.87 62.23)
@@ -4517,6 +4900,25 @@
 		)
 		(uuid "f820dac1-a824-4f2f-a5e7-b12683588ef1")
 	)
+	(bus_entry
+		(at 368.3 140.97)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9748fca-5b4c-448d-b458-2e3f4297bb33")
+	)
+	(wire
+		(pts
+			(xy 152.4 146.05) (xy 156.21 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003b2856-c32b-47a2-b9b8-3e3b9f84e9d8")
+	)
 	(bus
 		(pts
 			(xy 356.87 44.45) (xy 334.01 44.45)
@@ -4529,6 +4931,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 204.47) (xy 144.78 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c1c3af-e461-411b-a683-280e91064cbc")
+	)
+	(wire
+		(pts
+			(xy 346.71 143.51) (xy 365.76 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cd94e3-d1e7-415a-8480-f791238d07fc")
+	)
+	(wire
+		(pts
+			(xy 135.89 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fb3040-63f2-43bc-b3d0-667c5cae0ac1")
+	)
+	(wire
+		(pts
 			(xy 204.47 240.03) (xy 204.47 242.57)
 		)
 		(stroke
@@ -4536,6 +4968,46 @@
 			(type default)
 		)
 		(uuid "0981d0f8-e178-4e9a-8eea-e4fa248d349d")
+	)
+	(wire
+		(pts
+			(xy 125.73 199.39) (xy 144.78 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aa0bfd-29d0-472f-8d40-1d7d72b0128b")
+	)
+	(wire
+		(pts
+			(xy 135.89 140.97) (xy 144.78 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b3663a-1a36-40f4-8ff6-9bd73ea33a6f")
+	)
+	(wire
+		(pts
+			(xy 267.97 138.43) (xy 276.86 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bbc8a6-3ccc-491a-9213-0b249edf48f4")
+	)
+	(bus
+		(pts
+			(xy 373.38 93.98) (xy 373.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac030f0-53c7-4211-abe3-07c2cb51724b")
 	)
 	(bus
 		(pts
@@ -4546,6 +5018,26 @@
 			(type default)
 		)
 		(uuid "0c6852e1-21ff-4a7d-895a-114f3e56efdd")
+	)
+	(bus
+		(pts
+			(xy 368.3 130.81) (xy 368.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd62c3d-84b4-4479-9a16-09b9e85663e9")
+	)
+	(bus
+		(pts
+			(xy 373.38 106.68) (xy 373.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9979c2-e27e-4bf7-ab72-33b6b635c0c8")
 	)
 	(wire
 		(pts
@@ -4559,6 +5051,36 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 168.91) (xy 144.78 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142aebbf-06e0-47f1-9be6-767c7cbf5768")
+	)
+	(wire
+		(pts
+			(xy 269.24 176.53) (xy 278.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14996ff6-e490-4572-be74-41243fe12594")
+	)
+	(wire
+		(pts
+			(xy 135.89 148.59) (xy 144.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149fdd25-11c0-48c3-9f2b-6890f6b98c8a")
+	)
+	(wire
+		(pts
 			(xy 359.41 62.23) (xy 388.62 62.23)
 		)
 		(stroke
@@ -4566,6 +5088,46 @@
 			(type default)
 		)
 		(uuid "18a3e254-f5cf-4181-b01e-81b224fa83c7")
+	)
+	(wire
+		(pts
+			(xy 138.43 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d8e7ff-d3a9-4fa0-887a-d924b3fb1432")
+	)
+	(wire
+		(pts
+			(xy 125.73 196.85) (xy 144.78 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e240c7-1d1a-4e0d-a7a3-bcdeb387411d")
+	)
+	(wire
+		(pts
+			(xy 346.71 146.05) (xy 365.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad58986-964f-4430-83e7-757672d80ed4")
+	)
+	(wire
+		(pts
+			(xy 152.4 138.43) (xy 156.21 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9bb7c6-b827-46f7-9d3b-faa781da55a0")
 	)
 	(wire
 		(pts
@@ -4589,6 +5151,76 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 140.97) (xy 276.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2121bc2f-8515-4396-a275-97367d0e2442")
+	)
+	(wire
+		(pts
+			(xy 269.24 214.63) (xy 278.13 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216d3262-ee25-4bc3-ba61-150690f6bcb4")
+	)
+	(wire
+		(pts
+			(xy 252.73 133.35) (xy 260.35 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2442996d-fa0c-4a54-8a63-c63b05f03c48")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bdbf89-b45e-4f67-bcca-aebf9be6d4cf")
+	)
+	(wire
+		(pts
+			(xy 125.73 207.01) (xy 144.78 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28272f94-bcfd-41bc-8200-b5a08f22fea3")
+	)
+	(wire
+		(pts
+			(xy 370.84 99.06) (xy 361.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2868f81d-df0c-4e09-a234-93cc69ee77df")
+	)
+	(wire
+		(pts
+			(xy 125.73 214.63) (xy 144.78 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29402b53-a89b-4c05-b736-b55646a84d04")
+	)
+	(wire
+		(pts
 			(xy 207.01 240.03) (xy 207.01 242.57)
 		)
 		(stroke
@@ -4609,6 +5241,56 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 201.93) (xy 278.13 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cad5a8b-ce24-425c-803c-588c57aa10c5")
+	)
+	(bus
+		(pts
+			(xy 368.3 135.89) (xy 368.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303e688e-f1f5-434a-a6ef-30d693d8ca02")
+	)
+	(wire
+		(pts
+			(xy 252.73 196.85) (xy 261.62 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3197170b-c397-4dcb-8d45-be3fdae91b89")
+	)
+	(wire
+		(pts
+			(xy 135.89 181.61) (xy 144.78 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f9956e-d5d8-4fa9-8337-c6e35e0eb058")
+	)
+	(wire
+		(pts
+			(xy 125.73 201.93) (xy 144.78 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bdd760-2aca-43bb-a024-94967db2cf52")
+	)
+	(wire
+		(pts
 			(xy 252.73 77.47) (xy 261.62 77.47)
 		)
 		(stroke
@@ -4616,6 +5298,106 @@
 			(type default)
 		)
 		(uuid "3588a612-a671-4035-9db4-6bd4cfc44892")
+	)
+	(wire
+		(pts
+			(xy 370.84 101.6) (xy 361.95 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368f83e8-068b-4503-9c00-87cb4cfeb319")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 156.21 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e2f580-50a5-4a4d-8724-575a75af459a")
+	)
+	(wire
+		(pts
+			(xy 346.71 135.89) (xy 365.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399c2217-8209-4662-9306-64e1c8ab528c")
+	)
+	(wire
+		(pts
+			(xy 152.4 148.59) (xy 156.21 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4d0f80-bb43-4863-9441-175c945cd565")
+	)
+	(wire
+		(pts
+			(xy 152.4 199.39) (xy 156.21 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc77bcc-134b-43a3-a1bb-befa8dbcf5f8")
+	)
+	(wire
+		(pts
+			(xy 346.71 133.35) (xy 365.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2e701a-2cec-4771-9510-ca82c8b1cb69")
+	)
+	(wire
+		(pts
+			(xy 370.84 96.52) (xy 361.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41048aba-61c2-4f55-aa7a-8a193b972837")
+	)
+	(wire
+		(pts
+			(xy 346.71 123.19) (xy 365.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c1344f-60f2-487f-b2bc-75b0f3cc1b43")
+	)
+	(wire
+		(pts
+			(xy 152.4 173.99) (xy 156.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45913eab-6c1a-4842-8d06-e934e44ce919")
+	)
+	(wire
+		(pts
+			(xy 152.4 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48bb879e-cd61-4668-90ba-1135d23e9684")
 	)
 	(wire
 		(pts
@@ -4629,6 +5411,116 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 168.91) (xy 156.21 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edb92d9-ccca-41af-b376-7fc42e4dff1b")
+	)
+	(wire
+		(pts
+			(xy 370.84 109.22) (xy 361.95 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "521881b2-e302-4469-8718-b9e88062d6e3")
+	)
+	(wire
+		(pts
+			(xy 346.71 130.81) (xy 365.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cc3070-890c-4b85-84be-8ae0ed88b8f1")
+	)
+	(wire
+		(pts
+			(xy 125.73 209.55) (xy 144.78 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e3e799-6506-48a7-8efe-8af51a2cbcbc")
+	)
+	(wire
+		(pts
+			(xy 135.89 179.07) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5539b90c-272f-4115-8302-aab25b8782b4")
+	)
+	(wire
+		(pts
+			(xy 152.4 166.37) (xy 156.21 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5548edfb-fc5a-42e0-bb82-de76c5633eff")
+	)
+	(wire
+		(pts
+			(xy 252.73 140.97) (xy 260.35 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bf854a-ed1f-4974-a1fa-db8422625e48")
+	)
+	(wire
+		(pts
+			(xy 370.84 104.14) (xy 361.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58da5e57-d13d-4100-ad7e-ded357932f13")
+	)
+	(wire
+		(pts
+			(xy 346.71 158.75) (xy 365.76 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5917ea21-5021-43a6-b0e7-27354365953b")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb26ab1-2dea-43ed-b37d-731ca9c59cf5")
+	)
+	(bus
+		(pts
+			(xy 368.3 138.43) (xy 368.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f059b76-0a56-48bd-8158-1efe4b5895ed")
+	)
+	(wire
+		(pts
 			(xy 359.41 46.99) (xy 388.62 46.99)
 		)
 		(stroke
@@ -4636,6 +5528,16 @@
 			(type default)
 		)
 		(uuid "5f29555f-a40f-48ed-bd2a-cb133c0c71dc")
+	)
+	(wire
+		(pts
+			(xy 135.89 171.45) (xy 144.78 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d87649-35a1-464a-b3f9-61df8159fae9")
 	)
 	(wire
 		(pts
@@ -4649,6 +5551,106 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 179.07) (xy 261.62 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677ce050-1181-445c-9b98-ea438af23c5c")
+	)
+	(wire
+		(pts
+			(xy 252.73 199.39) (xy 261.62 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a05c503-7200-446e-8f7c-1aec3163e65d")
+	)
+	(wire
+		(pts
+			(xy 346.71 125.73) (xy 365.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a931199-77b9-42c8-93c2-88bf1da19408")
+	)
+	(bus
+		(pts
+			(xy 368.3 125.73) (xy 368.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcf5f5c-b6a8-4429-ab26-8549e65c8fda")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 144.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7182738f-a9c3-4324-84d1-9e122f8f9a45")
+	)
+	(wire
+		(pts
+			(xy 125.73 212.09) (xy 144.78 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e269f4-f2bf-4eb3-9fbc-41190c235b74")
+	)
+	(wire
+		(pts
+			(xy 346.71 128.27) (xy 365.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ce3bec-507a-4e35-bcf2-96b392b05fb8")
+	)
+	(bus
+		(pts
+			(xy 392.43 81.28) (xy 373.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7591ff6e-1a70-4649-9ebf-f4add3360284")
+	)
+	(wire
+		(pts
+			(xy 120.65 163.83) (xy 144.78 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c64630-e63e-4f45-9442-2a6563536dbc")
+	)
+	(bus
+		(pts
+			(xy 368.3 120.65) (xy 368.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7995aa2e-fae5-4357-bf2f-e299c3c1945a")
+	)
+	(wire
+		(pts
 			(xy 359.41 57.15) (xy 388.62 57.15)
 		)
 		(stroke
@@ -4656,6 +5658,26 @@
 			(type default)
 		)
 		(uuid "7ba8b2b1-3ab6-4ec4-a76b-7c1f4be80057")
+	)
+	(wire
+		(pts
+			(xy 269.24 212.09) (xy 278.13 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3d9a30-b927-4de1-916e-e80a7e333349")
+	)
+	(wire
+		(pts
+			(xy 252.73 212.09) (xy 261.62 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2bef7c-dd34-4e5a-9e74-b2865a88b3d3")
 	)
 	(wire
 		(pts
@@ -4669,6 +5691,86 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 92.71) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f375c9-14d4-427a-9fe2-d78e5f25cf75")
+	)
+	(wire
+		(pts
+			(xy 370.84 88.9) (xy 361.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857f0c9c-9367-4bb5-ac55-49a9b952858d")
+	)
+	(wire
+		(pts
+			(xy 152.4 212.09) (xy 156.21 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870e6332-f7d2-43a2-b544-70fc40058b8c")
+	)
+	(wire
+		(pts
+			(xy 370.84 93.98) (xy 361.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8775033e-72a2-4dfb-acf5-ef5b3d4dd441")
+	)
+	(bus
+		(pts
+			(xy 381 120.65) (xy 368.3 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877c30c9-223a-465e-9eb6-96737dce82bb")
+	)
+	(bus
+		(pts
+			(xy 373.38 101.6) (xy 373.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878f6a70-a2dc-4316-9c9c-4e9d03804f06")
+	)
+	(bus
+		(pts
+			(xy 368.3 123.19) (xy 368.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8857f878-87a7-457b-bd90-1bf4f42ef875")
+	)
+	(wire
+		(pts
+			(xy 269.24 196.85) (xy 278.13 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91732b34-dae3-44d2-92ed-82005c7dec0f")
+	)
+	(wire
+		(pts
 			(xy 209.55 240.03) (xy 209.55 242.57)
 		)
 		(stroke
@@ -4676,6 +5778,36 @@
 			(type default)
 		)
 		(uuid "9282caa9-92dd-4eed-93f6-bede6e2c7152")
+	)
+	(wire
+		(pts
+			(xy 252.73 176.53) (xy 261.62 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b77156-18ab-4c72-b761-1988489ba8ee")
+	)
+	(wire
+		(pts
+			(xy 152.4 196.85) (xy 156.21 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993a575d-377f-4ee6-bc5c-4972ddf0ba8a")
+	)
+	(wire
+		(pts
+			(xy 152.4 201.93) (xy 156.21 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3b6ff7-3ceb-4f7c-ab9e-9edc15fbbbc3")
 	)
 	(wire
 		(pts
@@ -4689,6 +5821,56 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 217.17) (xy 156.21 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5ccb18-bf03-4a03-998e-5d79154b4d4a")
+	)
+	(wire
+		(pts
+			(xy 135.89 138.43) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1debd0-5752-4aa4-9c26-7aabf3507035")
+	)
+	(wire
+		(pts
+			(xy 269.24 179.07) (xy 278.13 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b852af0-de24-4502-84fc-b97398f8276d")
+	)
+	(bus
+		(pts
+			(xy 373.38 96.52) (xy 373.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d932c42-0922-48d9-9798-2dc2204c39bc")
+	)
+	(wire
+		(pts
+			(xy 269.24 199.39) (xy 278.13 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e226402-3907-48d5-bdd6-fe810754cf33")
+	)
+	(wire
+		(pts
 			(xy 201.93 240.03) (xy 201.93 242.57)
 		)
 		(stroke
@@ -4699,6 +5881,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 135.89) (xy 156.21 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b55725-befe-4807-a61a-07b8cbd97a92")
+	)
+	(wire
+		(pts
+			(xy 252.73 138.43) (xy 260.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e0e74b-35bb-4ce9-8e10-b039ea99c0e1")
+	)
+	(wire
+		(pts
 			(xy 201.93 242.57) (xy 204.47 242.57)
 		)
 		(stroke
@@ -4706,6 +5908,146 @@
 			(type default)
 		)
 		(uuid "a551c359-62cc-4599-87ef-ec338b0693f1")
+	)
+	(wire
+		(pts
+			(xy 135.89 173.99) (xy 144.78 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64b6b86-9f8c-4e68-a4a8-074ca650188f")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a8f972-7395-4ba0-84f4-f5ed2a566d41")
+	)
+	(wire
+		(pts
+			(xy 152.4 209.55) (xy 156.21 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b01235-0947-44f9-b870-a6b7ba3e4fc3")
+	)
+	(wire
+		(pts
+			(xy 346.71 140.97) (xy 365.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ddf7be-356a-4fc9-8957-69cf876dee81")
+	)
+	(wire
+		(pts
+			(xy 152.4 214.63) (xy 156.21 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa28c2f-e270-476b-9e34-26556ba01804")
+	)
+	(wire
+		(pts
+			(xy 152.4 140.97) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab499b97-e735-409d-be3a-44bc4fe8cc79")
+	)
+	(wire
+		(pts
+			(xy 135.89 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acceeca2-924c-494e-9c9b-59c796890d0f")
+	)
+	(wire
+		(pts
+			(xy 346.71 138.43) (xy 365.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2e7baf-4891-4394-bd7d-06aa7139f27b")
+	)
+	(wire
+		(pts
+			(xy 346.71 153.67) (xy 365.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0154ee7-addd-4f94-99dc-2a8c73c6e258")
+	)
+	(bus
+		(pts
+			(xy 373.38 99.06) (xy 373.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2547cbc-0cc0-4642-9900-7c5c17d71b28")
+	)
+	(wire
+		(pts
+			(xy 152.4 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dad8af-9c82-47ae-99d7-6cbe8829e77d")
+	)
+	(wire
+		(pts
+			(xy 346.71 161.29) (xy 365.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5de47e6-c88a-4348-9e7d-c2b91bcc51e6")
+	)
+	(wire
+		(pts
+			(xy 152.4 171.45) (xy 156.21 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8b0fcc-a17f-49cb-b691-e3b21d12e603")
+	)
+	(bus
+		(pts
+			(xy 368.3 128.27) (xy 368.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9b7a82-404c-45a4-8484-92d9819261da")
 	)
 	(wire
 		(pts
@@ -4729,6 +6071,96 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 133.35) (xy 276.86 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdfe6177-1629-4661-9678-44f62c9c1fa4")
+	)
+	(wire
+		(pts
+			(xy 152.4 181.61) (xy 156.21 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eef065-9a38-4018-a38a-b18fe97f8d27")
+	)
+	(wire
+		(pts
+			(xy 152.4 143.51) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c289a7b5-ba7b-4ead-8c60-87f6c915b5dd")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a31752-802e-411b-835e-10a1fa3be6b0")
+	)
+	(wire
+		(pts
+			(xy 152.4 105.41) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3400382-b080-484f-a4b2-29f506e6eb0b")
+	)
+	(wire
+		(pts
+			(xy 152.4 207.01) (xy 156.21 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fd0fc9-e3a9-4f25-b92c-c97fc3df574a")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd53d31-32f5-4ccb-a795-1f4cdf3e921c")
+	)
+	(wire
+		(pts
+			(xy 346.71 156.21) (xy 365.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc72cac8-f263-4e0e-815b-2ec95eba5c0b")
+	)
+	(bus
+		(pts
+			(xy 368.3 133.35) (xy 368.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd3230a0-64b5-4875-8841-d3a3fc3975f8")
+	)
+	(wire
+		(pts
 			(xy 359.41 59.69) (xy 388.62 59.69)
 		)
 		(stroke
@@ -4736,6 +6168,26 @@
 			(type default)
 		)
 		(uuid "cd513e97-a7bc-46fa-a9a6-7c3d68cf9946")
+	)
+	(bus
+		(pts
+			(xy 373.38 104.14) (xy 373.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd688339-0672-499b-b5da-a78d8b61e55a")
+	)
+	(wire
+		(pts
+			(xy 346.71 148.59) (xy 365.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e79101-e2a4-4627-98c6-2a85d347fa5b")
 	)
 	(wire
 		(pts
@@ -4747,6 +6199,276 @@
 		)
 		(uuid "d841c004-f14d-4c02-893b-5a2ab2716e4c")
 	)
+	(wire
+		(pts
+			(xy 252.73 214.63) (xy 261.62 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d915d252-d23a-4635-addb-11c8908b825d")
+	)
+	(wire
+		(pts
+			(xy 138.43 130.81) (xy 144.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99a8647-54aa-4f2e-bc6c-dca6c6033b48")
+	)
+	(wire
+		(pts
+			(xy 370.84 106.68) (xy 361.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7f5c09-71f0-453a-9f18-0ec7438a5230")
+	)
+	(bus
+		(pts
+			(xy 373.38 91.44) (xy 373.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfdd97d-9504-4c9e-b903-c030b8b6af36")
+	)
+	(wire
+		(pts
+			(xy 135.89 166.37) (xy 144.78 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea47805-6056-4a58-802e-d1a16359e977")
+	)
+	(wire
+		(pts
+			(xy 346.71 151.13) (xy 365.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23343b9-1b11-4e8f-ad25-b5f270796dc4")
+	)
+	(wire
+		(pts
+			(xy 152.4 179.07) (xy 156.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49a94ae-e901-49d8-a47e-a6c70d1cfbb6")
+	)
+	(wire
+		(pts
+			(xy 135.89 135.89) (xy 144.78 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e857b8a1-b78c-4b3c-953e-ac91018e3aef")
+	)
+	(wire
+		(pts
+			(xy 370.84 86.36) (xy 361.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99604e3-6082-4588-b7f3-10ec09b5bfa0")
+	)
+	(wire
+		(pts
+			(xy 370.84 83.82) (xy 361.95 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd5e36c-6400-4bac-a018-3614b542afe6")
+	)
+	(bus
+		(pts
+			(xy 373.38 81.28) (xy 373.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f056c602-87cd-4007-9de3-35e265c45ae2")
+	)
+	(wire
+		(pts
+			(xy 252.73 201.93) (xy 261.62 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3772de9-412e-4b8a-9dba-b4d2a5ba1bae")
+	)
+	(wire
+		(pts
+			(xy 152.4 204.47) (xy 156.21 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b048a6-8efd-4b54-81be-08acc1f1fdf0")
+	)
+	(wire
+		(pts
+			(xy 370.84 111.76) (xy 361.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8686f23-2dde-4cbe-9b67-674ff31ce876")
+	)
+	(wire
+		(pts
+			(xy 125.73 217.17) (xy 144.78 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4086cc-845b-49a4-84eb-de200103193d")
+	)
+	(wire
+		(pts
+			(xy 370.84 91.44) (xy 361.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb3de93-c8ca-4f87-9c09-8a049c649389")
+	)
+	(label "SDRAM_DATA4"
+		(at 346.71 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "032e0be3-4bc1-471d-9afe-90e87ed2b535")
+	)
+	(label "SDRAM_DATA10"
+		(at 125.73 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a50ef7d-067d-40b1-bc06-8159668cf169")
+	)
+	(label "SDRAM_ADDR10"
+		(at 138.43 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0be372a4-fbbc-43d6-b91c-eea59eedfe9a")
+	)
+	(label "SDRAM_DATA3"
+		(at 346.71 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d21c5fe-ba09-466f-8e07-ba4b9b25205c")
+	)
+	(label "SDRAM_DATA5"
+		(at 125.73 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "133cc218-1b9e-4c30-8255-01ef2e52fac5")
+	)
+	(label "SDRAM_DATA7"
+		(at 346.71 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "158fb4bb-3e51-4af2-bbe8-b1acc459e9d8")
+	)
+	(label "SDRAM_DATA12"
+		(at 125.73 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "165d21e4-94f7-4f7e-aa23-c652a8cf3a27")
+	)
+	(label "SDRAM_DATA9"
+		(at 346.71 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1862b248-581b-4a08-acce-c4a48098f689")
+	)
+	(label "SDRAM_DATA6"
+		(at 125.73 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18babd86-2699-464b-8af2-238a26bbbfcb")
+	)
+	(label "SDRAM_DATA0"
+		(at 346.71 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2227311e-52d8-4c05-874f-5762be9a6afb")
+	)
+	(label "SDRAM_ADDR[0..11]"
+		(at 392.43 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22d98a99-caea-48cc-ba2d-c35d2b93310e")
+	)
 	(label "RMII.RXER"
 		(at 359.41 59.69 0)
 		(effects
@@ -4756,6 +6478,106 @@
 			(justify left bottom)
 		)
 		(uuid "27086435-535b-48a4-8d1f-8819a90ab039")
+	)
+	(label "SDRAM_DATA5"
+		(at 346.71 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "275e7359-df60-40d0-bb79-70a45c17abf1")
+	)
+	(label "SDRAM_ADDR8"
+		(at 361.95 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a9768f5-6b13-445a-a1b9-c94477cc464d")
+	)
+	(label "SDRAM_DATA7"
+		(at 125.73 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "358193a4-3845-45f4-a3de-b2fcbb566616")
+	)
+	(label "SDRAM_DATA8"
+		(at 346.71 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37390161-2be7-40d6-92f7-80eeaddc1c60")
+	)
+	(label "SDRAM_ADDR0"
+		(at 361.95 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "399dfba9-da8b-4e80-bc84-d80b256e301b")
+	)
+	(label "SDRAM_DATA15"
+		(at 278.13 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a5cf306-ed39-4046-a967-2d413ce1489f")
+	)
+	(label "SDRAM_DATA[0..15]"
+		(at 381 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d23e1d2-9edd-4570-9c19-2ea6f97371c7")
+	)
+	(label "SDRAM_DATA1"
+		(at 278.13 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dd8a4ba-01c4-44de-9472-faa0df24b9a1")
+	)
+	(label "SDRAM_DATA12"
+		(at 346.71 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4266125e-302c-4743-a296-d737c9575685")
+	)
+	(label "SDRAM_ADDR10"
+		(at 361.95 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "461d4bbc-ca0b-4c9e-bdb1-5a093f8adea1")
 	)
 	(label "RMII.MDIO"
 		(at 359.41 64.77 0)
@@ -4767,6 +6589,26 @@
 		)
 		(uuid "483d092b-55fb-4359-99c0-bb8a816e29da")
 	)
+	(label "SDRAM_DATA4"
+		(at 125.73 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49a1dc70-76fb-4901-8cbc-8517940b20eb")
+	)
+	(label "SDRAM_DATA3"
+		(at 278.13 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49c92c79-fa96-4626-9a96-cd372ceeb088")
+	)
 	(label "RMII.CRS_DV"
 		(at 359.41 62.23 0)
 		(effects
@@ -4776,6 +6618,26 @@
 			(justify left bottom)
 		)
 		(uuid "4f0ec628-7c9d-4427-b165-47d362b8f37e")
+	)
+	(label "SDRAM_DATA0"
+		(at 278.13 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54a35d56-3f2a-484d-b461-33e734e405dd")
+	)
+	(label "SDRAM_DATA1"
+		(at 346.71 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a0cb555-a2ea-42dd-818a-79ad36bb2c46")
 	)
 	(label "RMII.TXD1"
 		(at 359.41 49.53 0)
@@ -4787,6 +6649,56 @@
 		)
 		(uuid "5c798ecf-e08d-4bc4-a240-14950ec658f6")
 	)
+	(label "SDRAM_ADDR0"
+		(at 135.89 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f474177-15c1-443f-aeb7-fbec435454a6")
+	)
+	(label "SDRAM_ADDR6"
+		(at 361.95 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69fd1635-814f-4ff9-95ab-61a412151002")
+	)
+	(label "SDRAM_ADDR6"
+		(at 135.89 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a48a1b4-b948-4ffb-9108-744dc3e0dfc7")
+	)
+	(label "SDRAM_ADDR11"
+		(at 361.95 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bff712e-1105-4cd1-980d-0361fd67adff")
+	)
+	(label "SDRAM_DATA11"
+		(at 125.73 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ec516ef-c768-4e3d-b2b5-47444f485d29")
+	)
 	(label "RMII.RXD0"
 		(at 359.41 54.61 0)
 		(effects
@@ -4796,6 +6708,66 @@
 			(justify left bottom)
 		)
 		(uuid "70c255f4-3535-410d-b296-6dc578c39926")
+	)
+	(label "SDRAM_DATA11"
+		(at 346.71 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "716f63ea-2970-43f0-a73a-9ceab204cf6e")
+	)
+	(label "SDRAM_DATA6"
+		(at 346.71 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "756f5345-1896-4bcb-a9b1-83e1d68b2d22")
+	)
+	(label "SDRAM_DATA15"
+		(at 346.71 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76093c56-507f-4d88-b40f-1e74b96b0554")
+	)
+	(label "SDRAM_DATA8"
+		(at 125.73 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c94683c-274a-43a9-825b-ddcf96b3e21b")
+	)
+	(label "SDRAM_ADDR9"
+		(at 135.89 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d38b41b-7997-4c0d-adfd-e027716e1f52")
+	)
+	(label "SDRAM_DATA14"
+		(at 346.71 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81b9d621-2b58-41f1-a556-bb465922d772")
 	)
 	(label "RMII.RXD1"
 		(at 359.41 57.15 0)
@@ -4807,6 +6779,26 @@
 		)
 		(uuid "852a9764-0fd8-4b95-97cd-581c14d86053")
 	)
+	(label "SDRAM_ADDR9"
+		(at 361.95 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "859c2020-06fa-42c8-828b-bbf033b5fa83")
+	)
+	(label "SDRAM_ADDR3"
+		(at 135.89 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87c5b60b-17f8-48b0-a73b-c7b44ba2bf00")
+	)
 	(label "RMII.TXDEN"
 		(at 359.41 52.07 0)
 		(effects
@@ -4816,6 +6808,56 @@
 			(justify left bottom)
 		)
 		(uuid "8c1ab0e9-33d7-4fe5-b5ad-ed41d434ba2f")
+	)
+	(label "SDRAM_ADDR1"
+		(at 135.89 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9073acdf-fbbd-4926-a71f-516293ce2e1d")
+	)
+	(label "SDRAM_ADDR4"
+		(at 361.95 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96e75b39-73d9-48d6-affe-bb049f3c6624")
+	)
+	(label "SDRAM_ADDR7"
+		(at 361.95 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a7f7cf3-3644-437c-b9dc-c420fbc0eb47")
+	)
+	(label "SDRAM_ADDR7"
+		(at 135.89 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0cd00af-1c17-4caf-8bcc-b91b5016ab43")
+	)
+	(label "SDRAM_ADDR5"
+		(at 361.95 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a50a9c72-14cf-4106-9a95-9c5810e7c493")
 	)
 	(label "RMII.TXD0"
 		(at 359.41 46.99 0)
@@ -4827,6 +6869,46 @@
 		)
 		(uuid "a88cb9a8-8c46-416a-be70-f453d3007647")
 	)
+	(label "SDRAM_DATA9"
+		(at 125.73 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa7a7836-5eb7-4392-9004-ac04dee198ae")
+	)
+	(label "SDRAM_ADDR1"
+		(at 361.95 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aabb8cc7-6846-4e96-aba3-7e589a4ad9e6")
+	)
+	(label "SDRAM_DATA2"
+		(at 278.13 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4fc52b3-4ef7-46b2-8904-76875872c69e")
+	)
+	(label "SDRAM_DATA14"
+		(at 278.13 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6fb70a9-6630-4319-b344-8f841b5ff039")
+	)
 	(label "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC REFCLK}"
 		(at 334.01 44.45 0)
 		(effects
@@ -4836,6 +6918,26 @@
 			(justify left bottom)
 		)
 		(uuid "bd2a5e2b-5512-4656-bdc8-aa1e6d86d8aa")
+	)
+	(label "SDRAM_ADDR8"
+		(at 135.89 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0b864ea-bcdb-4446-a9f9-1a09e6993ba4")
+	)
+	(label "SDRAM_ADDR5"
+		(at 135.89 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c29467c5-9a5f-49af-b0f9-6838ae40871f")
 	)
 	(label "RMII.MDC"
 		(at 359.41 67.31 0)
@@ -4847,6 +6949,26 @@
 		)
 		(uuid "c5772b90-2653-4541-9d62-04e083feac2d")
 	)
+	(label "SDRAM_ADDR4"
+		(at 135.89 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9f1fc35-2e25-4912-9ad0-b6f4b9c4db89")
+	)
+	(label "SDRAM_DATA13"
+		(at 346.71 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caada7db-2874-4326-9886-cede18107963")
+	)
 	(label "RMII.REFCLK"
 		(at 359.41 69.85 0)
 		(effects
@@ -4856,6 +6978,124 @@
 			(justify left bottom)
 		)
 		(uuid "cb262567-ee58-4044-a1ec-7a68a8e1e5ee")
+	)
+	(label "SDRAM_DATA13"
+		(at 278.13 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbc3f6bb-7be7-4549-9de1-2fc47c4677c6")
+	)
+	(label "SDRAM_ADDR2"
+		(at 361.95 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e368cee2-121c-4955-8070-2daae7bc9b4e")
+	)
+	(label "SDRAM_ADDR2"
+		(at 135.89 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e89a562b-a743-4978-bb58-5d3c99217ecb")
+	)
+	(label "SDRAM_ADDR3"
+		(at 361.95 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec680566-0e0f-47a9-bc89-103523866e4d")
+	)
+	(label "SDRAM_ADDR11"
+		(at 138.43 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ede34b9d-90ae-4931-a9a1-44591b74a9f1")
+	)
+	(label "SDRAM_DATA2"
+		(at 346.71 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ede62d0e-1944-4623-bc30-5fa9455e1418")
+	)
+	(label "SDRAM_DATA10"
+		(at 346.71 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f44159e2-e850-4f58-8380-a5da3f047751")
+	)
+	(global_label "SDNRAS"
+		(shape input)
+		(at 120.65 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f1a52a0-ca06-4275-be5a-f62bc5b8f2b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.2867 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDNWE"
+		(shape input)
+		(at 276.86 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3faa3b7b-1615-4766-8919-1d74606cc7eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 286.2556 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "USB_SENSE"
 		(shape input)
@@ -4870,6 +7110,54 @@
 		(uuid "4cf54c0f-21d8-46e6-a233-1b0c5b63009d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.4303 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BA1"
+		(shape input)
+		(at 138.43 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b3d2875-b600-4937-bf49-af4fd1f04159")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.8767 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDCKE0"
+		(shape input)
+		(at 276.86 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b525c85-ce30-4c4a-a48a-fcb06b1d5e13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 287.2232 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4905,6 +7193,150 @@
 			)
 		)
 	)
+	(global_label "SDNE0"
+		(shape input)
+		(at 276.86 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7469d58-4e77-47da-aad5-a6ede365def3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 286.0137 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDNCAS"
+		(shape input)
+		(at 138.43 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca0afe8f-7532-4e27-a578-0ed11f9e0da3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0667 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NBL0"
+		(shape input)
+		(at 135.89 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cddf96c3-61c0-4fa6-8c6a-7d31cc2491d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0667 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NBL1"
+		(shape input)
+		(at 135.89 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db71a3d9-b910-4bda-ae43-bbd970b32b4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.0667 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDCLK"
+		(shape input)
+		(at 138.43 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec5ca9fb-07d7-4fae-aea4-8d2928df013c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.3972 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BA0"
+		(shape input)
+		(at 138.43 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fea3c031-419c-4181-b569-6674362d370b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.8767 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "USB_P"
 		(shape input)
 		(at 261.62 77.47 0)
@@ -4926,6 +7358,954 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12a95eae-f361-4a17-9fb5-df19dd36ab0f")
+		(property "Reference" "R55"
+			(at 142.748 147.066 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 150.368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08acd5a9-117f-4daf-8ec7-2ee49c879dd2")
+		)
+		(pin "2"
+			(uuid "0e2c10db-c7a9-4ae0-bb0b-2632ecb6cd57")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 199.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e7a259c-cdee-495c-8f11-2fd5401bb806")
+		(property "Reference" "R78"
+			(at 259.588 197.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 198.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 201.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5704a23b-b47e-4686-bde6-efdaff83ac9f")
+		)
+		(pin "2"
+			(uuid "2662cf44-53d1-4dcb-b784-cc97417d75a5")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 214.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25f66710-c943-4705-ac67-fc6d42b4d4cd")
+		(property "Reference" "R81"
+			(at 259.588 213.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 216.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "900b0fb1-b433-44f7-8f64-c472cad568cf")
+		)
+		(pin "2"
+			(uuid "280c27f8-9253-4ed8-a505-e923428f88c4")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26a583af-4440-4e90-ad90-0a0a6f4c3d04")
+		(property "Reference" "R73"
+			(at 258.318 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 268.478 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "024c5e17-3ff7-4996-bcd4-34613fe5e14a")
+		)
+		(pin "2"
+			(uuid "099123b0-fc65-4f72-9627-c8fcec8bdd71")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3275a908-cda3-45e1-84fb-18ce3c29e89b")
+		(property "Reference" "R74"
+			(at 258.318 139.446 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 268.478 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de36d5a8-ea56-47bf-80a4-b7af6a669493")
+		)
+		(pin "2"
+			(uuid "788106c9-e22f-4674-bd8d-ae067494350a")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "384d72d4-eb32-4095-9287-43ae4eb97320")
+		(property "Reference" "R80"
+			(at 259.588 210.566 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 213.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8cbce05-a2ce-4d05-a886-cfcf30bf3369")
+		)
+		(pin "2"
+			(uuid "5eac2352-5c9e-4925-9b87-f52f1ccbd4d9")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4524544a-b207-4495-bf6d-11150e6a19e2")
+		(property "Reference" "R59"
+			(at 142.748 169.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 173.228 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "954f127d-3885-443e-a1a9-6060a54e5bfa")
+		)
+		(pin "2"
+			(uuid "d2a48f5d-795d-4b75-8bff-e4ecb417785a")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49ff3149-c7c1-49d3-8d40-94857e8fba56")
+		(property "Reference" "R77"
+			(at 259.588 195.326 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 198.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d4ac575-4d9d-4132-8417-fc0c4b17dede")
+		)
+		(pin "2"
+			(uuid "9b947186-2e80-4213-99b7-a54c75d8e4d2")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e6fda61-76b5-4462-a60e-3240d4d0e489")
+		(property "Reference" "R75"
+			(at 259.588 175.006 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 178.308 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77f2c9ce-118f-4e09-9d6d-0ba878ed28f9")
+		)
+		(pin "2"
+			(uuid "5424983a-fb14-4520-ae5f-de5fd1c9d1a5")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4fe65810-7fbc-4bf1-b42f-573d0878eff3")
+		(property "Reference" "R49"
+			(at 142.748 129.286 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 132.588 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e71029b-0ed8-4cb4-8b77-5c0c081174b6")
+		)
+		(pin "2"
+			(uuid "9ab3e450-12bf-459c-8f62-84b4a2f4915b")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 209.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51bc761a-b6a0-47d4-89d1-a06f76066170")
+		(property "Reference" "R68"
+			(at 142.748 208.026 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 208.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 211.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1df3b06-7afd-4fa9-95d4-c98fb6c2663d")
+		)
+		(pin "2"
+			(uuid "5e0b2a51-23ff-44ac-9be1-c6300813c84a")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52bc268e-41bc-4534-83ca-983f9c5bc4c6")
+		(property "Reference" "R69"
+			(at 142.748 210.566 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 213.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d7158c-17f6-4684-a969-e40c8f0af119")
+		)
+		(pin "2"
+			(uuid "86b03a75-6e5e-44f9-830a-6eccd957af49")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R69")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5535,6 +8915,1428 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 148.59 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "566e4a65-c76e-41ef-af9e-2c23a1b30e27")
+		(property "Reference" "R60"
+			(at 142.748 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 175.768 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f37d2c47-83a2-45c5-854b-51840e22e61e")
+		)
+		(pin "2"
+			(uuid "43f15965-9050-422d-86fc-581c666294ed")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 214.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58ca1135-d8ca-4ccc-997d-ef360c122845")
+		(property "Reference" "R70"
+			(at 142.748 213.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 213.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 216.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b5dc387-b971-4b59-ab9f-7ed275b9572a")
+		)
+		(pin "2"
+			(uuid "05a9fc77-ca74-430b-acc6-664c972ca154")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5db9b7ea-bd42-4fe6-bafb-6eae552cc8c3")
+		(property "Reference" "R63"
+			(at 142.748 195.326 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 195.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 198.628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6a73ee4-8dcf-460b-95e2-bfc8831190a7")
+		)
+		(pin "2"
+			(uuid "df7013be-13b9-43c1-9432-6fe5b8de9f84")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 217.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6015399c-da46-43c4-89ca-2e2c2b9b9d23")
+		(property "Reference" "R71"
+			(at 142.748 215.646 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 215.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 218.948 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c08d19d-bdef-4d0c-9e3d-abe87b077380")
+		)
+		(pin "2"
+			(uuid "39b162ce-bb41-4651-8ea1-0f9925ada1b5")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 163.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6242c9ca-684f-4063-bc5a-a67be29ec298")
+		(property "Reference" "R56"
+			(at 142.748 162.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 165.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4f11600-a43d-49b1-a9f5-1ab1aed6d4e5")
+		)
+		(pin "2"
+			(uuid "0ce9c717-aa9b-4535-b781-90f61ea25776")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 166.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b158e7d-a6c6-4419-b788-36aba4e4701c")
+		(property "Reference" "R57"
+			(at 142.748 164.846 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 168.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "309a56c1-5077-4296-9082-e50c22a72cdf")
+		)
+		(pin "2"
+			(uuid "12a0f4b6-f104-4530-81de-d9fe7834822e")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 207.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6eb8f3d9-a16e-4933-9c88-e2e0881b23a7")
+		(property "Reference" "R67"
+			(at 142.748 205.486 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 208.788 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5ee337b-eb2e-43c5-a672-0995e50f0c10")
+		)
+		(pin "2"
+			(uuid "e27d013e-7b22-4c4c-bfee-22cc5421b120")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b563344-c679-4f43-a88a-0c0fd3504f1c")
+		(property "Reference" "R61"
+			(at 142.748 177.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 180.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44735cb7-edb8-48e0-b439-b96231746902")
+		)
+		(pin "2"
+			(uuid "dc63abe0-7b32-4e30-b95b-466796150841")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 181.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "998572a3-7ed2-4b63-9650-22abe7b228a1")
+		(property "Reference" "R62"
+			(at 142.748 180.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 183.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d583dc64-be8a-401a-996a-98c94b8b2bd5")
+		)
+		(pin "2"
+			(uuid "eaaa2c5d-b99d-4e8a-b108-9c945175626a")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afb6c3c8-a64d-460d-b304-46d09dc2f2dc")
+		(property "Reference" "R44"
+			(at 142.748 91.186 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56b7cd05-90e3-48cd-8d37-bb6aea6fbce6")
+		)
+		(pin "2"
+			(uuid "8780eaed-b43a-4b2f-b0a0-55756d4a8f31")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5b7522f-9384-40c2-b635-3b85bced1177")
+		(property "Reference" "R47"
+			(at 142.748 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 107.188 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84df34e4-b9a0-4bb7-804c-abe1c36b04a4")
+		)
+		(pin "2"
+			(uuid "295de263-dd41-4a69-a7c4-d371f745891d")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b75dda6f-4905-4408-8569-89527898cfc1")
+		(property "Reference" "R51"
+			(at 142.748 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 140.208 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7609e9f-c8df-4e36-b15f-a8c6c4ef8e7c")
+		)
+		(pin "2"
+			(uuid "d3bb4c1b-bf6e-4cdb-8a1b-38dc4e7610b7")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 199.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b95fe636-fd78-4082-b0c6-d6e20a8c831a")
+		(property "Reference" "R64"
+			(at 142.748 197.866 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 198.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 201.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e21633c8-eff9-4c8c-8e82-d78837c99165")
+		)
+		(pin "2"
+			(uuid "6cc15eb9-9078-4ae7-bef9-73ba00db501e")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf6ff44a-4fa5-44d7-94d2-9215eac4caaa")
+		(property "Reference" "R76"
+			(at 259.588 177.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 180.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8f6eac4-2e7d-4cdb-953f-ccbdf416cdbc")
+		)
+		(pin "2"
+			(uuid "91e640b2-10ea-4217-8437-9950cdeeeebf")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 201.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5db03ca-987c-4594-a386-82450a40726b")
+		(property "Reference" "R79"
+			(at 259.588 200.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 269.748 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 203.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2436221f-3c59-4eb4-9361-d19361ce80d6")
+		)
+		(pin "2"
+			(uuid "b5b3aba5-b727-4374-9ba4-f677c2dd7f46")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c84078ec-e099-43e4-96e9-69822b550dc8")
+		(property "Reference" "R45"
+			(at 142.748 93.726 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 97.028 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08554de4-db94-4348-8790-26bacf283317")
+		)
+		(pin "2"
+			(uuid "98c1dec1-10b5-445d-9d53-65668ea22de3")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8e2ce3e-a9fa-44b3-a1f6-e88a937e1da8")
+		(property "Reference" "R52"
+			(at 142.748 139.446 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 142.748 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9ee83fd-bf4c-46d7-9de9-913c166ab562")
+		)
+		(pin "2"
+			(uuid "161964d5-dacb-4360-a73d-1e7a60dee23d")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceffc5b5-69c6-43b4-b9c1-0c19d14d2553")
+		(property "Reference" "R54"
+			(at 142.748 144.526 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 147.828 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5839ef80-8892-45e3-89ee-c80472cd0099")
+		)
+		(pin "2"
+			(uuid "cf838375-fe85-4adb-a956-21819682fd51")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 201.93 245.11 0)
 		(unit 1)
@@ -5607,6 +10409,638 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e06d99f3-3005-4960-9f51-f3d926e5c3ff")
+		(property "Reference" "R58"
+			(at 142.748 167.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 170.688 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0cd7da2-2a04-49cc-a263-27b54175d39f")
+		)
+		(pin "2"
+			(uuid "7bcde516-35ed-48e6-8338-64ed79bdd2b9")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 264.16 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebf0dd61-d5e6-480d-b1e3-678374b56564")
+		(property "Reference" "R72"
+			(at 258.318 131.826 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 268.478 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 135.128 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 264.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9936926d-b5f2-4982-9423-3581a596a649")
+		)
+		(pin "2"
+			(uuid "96bef667-c278-482d-ad49-2ab10a651e6b")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed31acc6-86bb-4e67-9dc2-b76993f2ce46")
+		(property "Reference" "R48"
+			(at 142.748 111.506 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 114.808 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab4973fc-348b-4c2f-98fa-985efccbcd03")
+		)
+		(pin "2"
+			(uuid "4ca03897-9c2b-469e-97cc-0621438407b8")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0707dcb-26bd-4519-8bf3-59b3b894bd6a")
+		(property "Reference" "R50"
+			(at 142.748 134.366 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 137.668 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e9e8902-cb98-49ce-875f-721b996e2e0c")
+		)
+		(pin "2"
+			(uuid "bfc583d2-38f0-4763-8994-d2ea5cd691af")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 201.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f1767de7-3fb5-452c-abb0-461d6c9cadae")
+		(property "Reference" "R65"
+			(at 142.748 200.406 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 200.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 203.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fe9a05b-6a05-468b-b90a-151285ea3eb5")
+		)
+		(pin "2"
+			(uuid "c0ebfe57-054a-4670-8562-b3c088772a22")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 204.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f50262cd-62c4-4b6a-bb51-1a8668adc70a")
+		(property "Reference" "R66"
+			(at 142.748 202.946 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 206.248 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f676051-0ee2-44cf-82e8-7f7bf29ca143")
+		)
+		(pin "2"
+			(uuid "aa6d065d-e3be-49b8-9ed6-ed97096711eb")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd005258-903f-4d02-97c3-57f27e1d338b")
+		(property "Reference" "R46"
+			(at 142.748 101.346 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8431f979-1537-42f4-9f49-2ba462eebea2")
+		)
+		(pin "2"
+			(uuid "0baf6c6f-2c07-47fb-bf2e-092ada81f019")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff9e7358-c739-43b2-8996-7bc7ad4b2f40")
+		(property "Reference" "R53"
+			(at 142.748 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 152.908 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 145.288 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c279e3ce-954d-4ef5-927a-5e979b9be655")
+		)
+		(pin "2"
+			(uuid "40fbbf17-9500-4a64-9696-39b727682efe")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R53")
 					(unit 1)
 				)
 			)

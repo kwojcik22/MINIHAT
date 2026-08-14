@@ -2715,7 +2715,7 @@
 		)
 		(uuid "221d26a0-5002-4d49-9a88-fdc8434216e8")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA5"
 		(at 156.21 67.31 0)
 		(effects
 			(font
@@ -2735,7 +2735,7 @@
 		)
 		(uuid "2921b978-87e1-435a-875f-a806f4a17771")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA9"
 		(at 156.21 77.47 0)
 		(effects
 			(font
@@ -2765,7 +2765,7 @@
 		)
 		(uuid "2e2321b4-9355-412b-a24b-e8d300222315")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA6"
 		(at 156.21 69.85 0)
 		(effects
 			(font
@@ -2815,7 +2815,7 @@
 		)
 		(uuid "3e901e46-6dd7-425f-999e-fb98f0f1da52")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA12"
 		(at 156.21 85.09 0)
 		(effects
 			(font
@@ -2825,7 +2825,7 @@
 		)
 		(uuid "41e42264-a01c-4d30-8ec5-46e841a05bd1")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA14"
 		(at 156.21 90.17 0)
 		(effects
 			(font
@@ -2855,7 +2855,7 @@
 		)
 		(uuid "5c22a60f-1868-4fb0-b208-5fc2d833d816")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA3"
 		(at 156.21 62.23 0)
 		(effects
 			(font
@@ -2865,7 +2865,7 @@
 		)
 		(uuid "68d321e5-0c50-4c4d-a11b-7290aede20e8")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA8"
 		(at 156.21 74.93 0)
 		(effects
 			(font
@@ -2875,7 +2875,7 @@
 		)
 		(uuid "6dc2b61e-0557-47e1-9cc0-7ac0e8a46463")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA10"
 		(at 156.21 80.01 0)
 		(effects
 			(font
@@ -2885,7 +2885,7 @@
 		)
 		(uuid "78893dd8-5934-4d53-a8e7-218b1f7ed589")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA15"
 		(at 156.21 92.71 0)
 		(effects
 			(font
@@ -2905,7 +2905,7 @@
 		)
 		(uuid "9f55fdcb-9c87-42c7-b9c4-3a8c1bf31944")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA11"
 		(at 156.21 82.55 0)
 		(effects
 			(font
@@ -2915,7 +2915,7 @@
 		)
 		(uuid "c20ab6ce-0f38-4714-9960-6a77a35c952e")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA2"
 		(at 156.21 59.69 0)
 		(effects
 			(font
@@ -2935,7 +2935,7 @@
 		)
 		(uuid "c4f82c36-a623-4cdb-952e-990ede54d66c")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA13"
 		(at 156.21 87.63 0)
 		(effects
 			(font
@@ -2965,7 +2965,7 @@
 		)
 		(uuid "cb104aeb-f601-41d7-83a4-284c893a5b3b")
 	)
-	(label "SDRAM_DATA0"
+	(label "SDRAM_DATA4"
 		(at 156.21 64.77 0)
 		(effects
 			(font
@@ -3015,7 +3015,7 @@
 		)
 		(uuid "e338d5ba-2774-43b3-b826-70089e20b9d6")
 	)
-	(label "SDRAM_DATA1"
+	(label "SDRAM_DATA7"
 		(at 156.21 72.39 0)
 		(effects
 			(font
