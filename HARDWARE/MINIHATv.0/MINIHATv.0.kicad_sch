@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 167.64 92.71)
-		(size 25.4 20.32)
+		(at 186.69 109.22)
+		(size 40.64 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "917746ca-ce94-46fb-877a-42b520023239")
 		(property "Sheetname" "SD card"
-			(at 167.64 91.9984 0)
+			(at 186.69 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "sdcarad.kicad_sch"
-			(at 167.64 113.6146 0)
+			(at 186.69 123.7746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +87,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DETECT" input
+			(at 186.69 118.11 180)
+			(uuid "a6be12bc-e63e-4806-8a5f-204391ad524e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDIO{DAT0 DAT1 DAT2 DAT3 CMD CLK}" input
+			(at 186.69 115.57 180)
+			(uuid "00372cbd-d041-4871-a6bb-3967640ee207")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -98,8 +118,8 @@
 		)
 	)
 	(sheet
-		(at 132.08 130.81)
-		(size 33.02 27.94)
+		(at 186.69 128.27)
+		(size 40.64 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +134,7 @@
 		)
 		(uuid "93ff1453-7ee4-4ec9-9098-ce3a6e40c065")
 		(property "Sheetname" "sdram"
-			(at 132.08 130.0984 0)
+			(at 186.69 127.5584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +145,7 @@
 			)
 		)
 		(property "Sheetfile" "sdram.kicad_sch"
-			(at 132.08 159.3346 0)
+			(at 186.69 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,6 +153,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BA0" input
+			(at 186.69 132.08 180)
+			(uuid "d3a89058-9bf6-4ddd-a636-01ff2c2a44d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BA1" input
+			(at 186.69 134.62 180)
+			(uuid "6ea523bd-fa15-4492-b9bf-7085b3a80a1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NBL0" input
+			(at 186.69 137.16 180)
+			(uuid "c0c5dded-6bdf-4c07-a181-29754c11e68c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NBL1" input
+			(at 186.69 139.7 180)
+			(uuid "57eed8cb-fa78-4390-a80f-be1effef9c25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDCKEO" input
+			(at 186.69 142.24 180)
+			(uuid "17541530-42d8-4cbe-868a-d4ed3ca7e055")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDCLK" input
+			(at 186.69 144.78 180)
+			(uuid "4dba60f5-7d99-4e2a-b76b-45a6db60f3b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDNCAS" input
+			(at 186.69 147.32 180)
+			(uuid "a956a58f-799f-40f1-bf8b-64b45193df03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDNEO" input
+			(at 186.69 149.86 180)
+			(uuid "bd5be3d1-d351-4a13-be47-28855837d0f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDNRAS" input
+			(at 186.69 152.4 180)
+			(uuid "0d64169d-4da8-4549-a757-3619f1ae6fc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDNWE" input
+			(at 186.69 154.94 180)
+			(uuid "58a0ad28-8309-460b-ae02-39f6aafe684f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM_ADDR[0..11]" input
+			(at 186.69 157.48 180)
+			(uuid "734c0e7a-0160-4ee3-8e47-e89dd3ede895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDRAM_DATA[0..15]" input
+			(at 186.69 160.02 180)
+			(uuid "e4d02e7f-de52-4913-884f-88e6fb45b9e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -144,7 +284,7 @@
 		)
 	)
 	(sheet
-		(at 96.52 92.71)
+		(at 186.69 58.42)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +300,7 @@
 		)
 		(uuid "ae2e1667-2e57-4e65-a565-7a546dcbd7bf")
 		(property "Sheetname" "Ethernet"
-			(at 96.52 91.9984 0)
+			(at 186.69 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +311,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 96.52 113.6146 0)
+			(at 186.69 79.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -190,8 +330,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 92.71)
-		(size 36.83 20.32)
+		(at 186.69 83.82)
+		(size 40.64 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +346,7 @@
 		)
 		(uuid "c649702e-8c0b-493f-873f-4b69b8c09ebe")
 		(property "Sheetname" "QSPI"
-			(at 129.54 91.9984 0)
+			(at 186.69 83.1084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +357,7 @@
 			)
 		)
 		(property "Sheetfile" "QSPI.kicad_sch"
-			(at 129.54 113.6146 0)
+			(at 186.69 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,6 +365,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "QSPI{CS CLK D0 D1 D2 D3}" input
+			(at 186.69 88.9 180)
+			(uuid "c9b108fb-d51e-457c-9dfc-2a0bb99b1366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -236,8 +386,8 @@
 		)
 	)
 	(sheet
-		(at 95.25 50.8)
-		(size 31.75 20.32)
+		(at 146.05 67.31)
+		(size 31.75 95.25)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -252,7 +402,7 @@
 		)
 		(uuid "cd5db47d-2b35-4622-a88b-05ef4e37f3d0")
 		(property "Sheetname" "MCU"
-			(at 95.25 50.0884 0)
+			(at 146.05 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -263,7 +413,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 95.25 71.7046 0)
+			(at 146.05 163.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
