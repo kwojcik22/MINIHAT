@@ -285,7 +285,7 @@
 	)
 	(sheet
 		(at 186.69 58.42)
-		(size 30.48 20.32)
+		(size 69.85 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -319,6 +319,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RMII{TXD0 TXD1 TXDEN RXD0 RXD1 RXER CRS_DV MDIO MDC REFCLK}" input
+			(at 186.69 64.77 180)
+			(uuid "4cee7faf-bf4f-4f22-914a-7fffccace924")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_RESET" input
+			(at 186.69 67.31 180)
+			(uuid "20ec4acf-c990-491e-b820-f595f7c122e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
