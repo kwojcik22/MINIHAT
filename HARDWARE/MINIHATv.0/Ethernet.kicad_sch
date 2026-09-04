@@ -3629,12 +3629,6 @@
 		(uuid "0c6a4b18-7e34-4c62-aa1e-4ee71849ad17")
 	)
 	(junction
-		(at 154.94 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b4b552-ab16-47fd-b678-8812a5735e32")
-	)
-	(junction
 		(at 69.85 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3653,6 +3647,12 @@
 		(uuid "3ede2187-35ab-4db7-80cd-82c236ca590e")
 	)
 	(junction
+		(at 154.94 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "477445bb-cf98-472b-9114-6fa667d663b5")
+	)
+	(junction
 		(at 147.32 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3663,6 +3663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61424984-8df5-4b9e-b9c9-bdbcb47c3c7f")
+	)
+	(junction
+		(at 179.07 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6394ba4c-8357-4232-9310-6163d92e6783")
 	)
 	(junction
 		(at 179.07 93.98)
@@ -3707,12 +3713,6 @@
 		(uuid "9480ed69-dedc-41b4-8cf4-908fc5a92600")
 	)
 	(junction
-		(at 179.07 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96142c09-a819-4456-b47b-e85ec6e3548e")
-	)
-	(junction
 		(at 30.48 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3752,7 +3752,7 @@
 		(at 179.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d3f98840-e33b-4d4a-8b2f-42d60ee63a81")
+		(uuid "d37430a3-8f8c-4b2e-96c6-586390d53bb7")
 	)
 	(junction
 		(at 224.79 104.14)
@@ -5555,7 +5555,367 @@
 			)
 			(justify right)
 		)
-		(uuid "f8b36a8f-8757-4fc3-b48c-69c1a5cb0a04")
+		(uuid "f9f25097-4e01-4dcd-8015-d7125fd93715")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1497 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transformer:Wuerth_749013011A")
+		(at 195.58 80.01 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a53928d-db4a-4894-9769-42f4597062f4")
+		(property "Reference" "TR1"
+			(at 196.088 67.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Wuerth_749013011A"
+			(at 196.088 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Wuerth_749013011A"
+			(at 195.58 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/749013011A.pdf"
+			(at 195.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ethernet LAN 10/100 Base-Tx Transformer CT, SMD"
+			(at 195.58 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "73680f1d-5c07-4c89-975e-81409affb5c1")
+		)
+		(pin "10"
+			(uuid "c22f1d61-46bb-4086-ba35-7a8591c884ea")
+		)
+		(pin "7"
+			(uuid "a64e19dd-4390-47c9-9d7d-548d848f0e41")
+		)
+		(pin "14"
+			(uuid "bcb7e516-5b3f-4ef2-a7e7-21c0eb73ea11")
+		)
+		(pin "11"
+			(uuid "01760985-81fe-4bfc-9fb5-9e0196050fd6")
+		)
+		(pin "6"
+			(uuid "ef82a99b-007b-46b3-bc29-94e92a2fe4df")
+		)
+		(pin "8"
+			(uuid "d8d09434-34c1-4123-8454-a324f0a1011b")
+		)
+		(pin "15"
+			(uuid "65533837-5d40-4a26-ac37-73b72ad2bed3")
+		)
+		(pin "9"
+			(uuid "76aafd14-5130-4b97-beb4-293873e6a997")
+		)
+		(pin "2"
+			(uuid "ff28b052-fd80-4a97-8801-672e1abda245")
+		)
+		(pin "3"
+			(uuid "36ab31f7-11d9-4ed1-b6a9-2a111cf25d4d")
+		)
+		(pin "1"
+			(uuid "76372c45-b918-45ed-a3e5-06054a30be16")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
+					(reference "TR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 41.91 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ddfd7b8-05fb-4610-98a4-0f3586568a41")
+		(property "Reference" "C9"
+			(at 45.72 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 45.72 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 42.8752 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00859bd6-4bc9-49af-a6d3-6c57f391893c")
+		)
+		(pin "2"
+			(uuid "3e570088-eff9-4153-8b9a-e6898ffd3c14")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1780bf23-b5f0-4e4f-802b-1f8fba4df520")
+		(property "Reference" "#PWR015"
+			(at 184.15 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "547982c4-0472-4f40-95be-390481e43bf1")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18636a7f-9a9e-455a-9e31-b9e8ab12ac20")
+		(property "Reference" "#PWR022"
+			(at 87.63 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9608923d-ec01-46be-981b-6a5b95765ad3")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/ae2e1667-2e57-4e65-a565-7a546dcbd7bf"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

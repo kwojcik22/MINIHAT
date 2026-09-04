@@ -7206,6 +7206,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 69.85) (xy 261.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d766fc-30cc-4e4d-845f-761b4baa621a")
+	)
+	(wire
+		(pts
 			(xy 207.01 240.03) (xy 209.55 240.03)
 		)
 		(stroke
@@ -7246,6 +7256,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 77.47) (xy 261.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3588a612-a671-4035-9db4-6bd4cfc44892")
+	)
+	(wire
+		(pts
 			(xy 309.88 24.13) (xy 309.88 29.21)
 		)
 		(stroke
@@ -7283,6 +7303,16 @@
 			(type default)
 		)
 		(uuid "3edde5a5-3d19-4505-86d9-d8df897127f1")
+	)
+	(wire
+		(pts
+			(xy 252.73 74.93) (xy 261.62 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d9c6fb-09a7-4b48-a8d6-89f690ec727f")
 	)
 	(wire
 		(pts
@@ -9176,6 +9206,78 @@
 					(reference "#PWR015")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(global_label "USB_SENSE"
+		(shape input)
+		(at 261.62 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cf54c0f-21d8-46e6-a233-1b0c5b63009d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.4303 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_N"
+		(shape input)
+		(at 261.62 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d1ef67f-1b5f-4c90-ab23-109150b2f112")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.7133 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_P"
+		(shape input)
+		(at 261.62 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff0bcc09-dd14-40ea-bc30-0f7917c17962")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6528 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
