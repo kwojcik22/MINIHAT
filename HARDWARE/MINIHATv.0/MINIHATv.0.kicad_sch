@@ -3691,7 +3691,7 @@
 	)
 	(sheet
 		(at 189.484 117.602)
-		(size 18.542 8.89)
+		(size 18.542 10.922)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3717,7 +3717,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 189.484 127.0766 0)
+			(at 189.484 129.1086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3727,9 +3727,19 @@
 				(justify left top)
 			)
 		)
-		(pin "RMII" input
+		(pin "ETH_RESET" input
+			(at 189.484 124.46 180)
+			(uuid "97214647-351c-4350-a99e-6c3f080e636b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{RMII}" input
 			(at 189.484 121.92 180)
-			(uuid "2b1d889b-3dfe-4d66-b428-e1925d79bbe2")
+			(uuid "1bbcd40a-6d80-4297-a916-c95c6db239d9")
 			(effects
 				(font
 					(size 1.27 1.27)
