@@ -1743,7 +1743,7 @@
 		)
 		(uuid "f93d5f72-deb4-49ee-b863-608f2666f929")
 	)
-	(hierarchical_label "SDIO{DAT0 DAT1 DAT2 DAT3 CMD CLK}"
+	(hierarchical_label "SDIO{DAT0..3 CMD CLK}"
 		(shape input)
 		(at 57.15 22.86 180)
 		(effects
@@ -1754,7 +1754,7 @@
 		)
 		(uuid "67bbafc2-69b2-498f-ba3d-2739c1a8e4ce")
 	)
-	(hierarchical_label "SDIO"
+	(hierarchical_label "SDIO{DAT0..3 CMD CLK}"
 		(shape input)
 		(at 53.34 60.96 180)
 		(effects
