@@ -423,7 +423,7 @@
         "uuid": "19041ef4-1d16-4363-8780-721ad9f20b33"
       }
     ],
-    "used_designators": "P1-2,#PWR32-41,R40-43,C12-13,U4",
+    "used_designators": "R44-82",
     "variants": []
   },
   "sheets": [
@@ -450,6 +450,10 @@
     [
       "7587cd4c-2835-4070-8105-8c12f1b1d372",
       "usb"
+    ],
+    [
+      "93ff1453-7ee4-4ec9-9098-ce3a6e40c065",
+      "sdram"
     ]
   ],
   "text_variables": {},
