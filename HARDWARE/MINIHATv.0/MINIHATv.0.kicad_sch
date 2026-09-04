@@ -2591,10 +2591,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8920c61c-52ba-4b95-b89e-012e6b630b08")
+			(uuid "8920c61c-52ba-4b95-b89e-012e6b630b09")
 		)
 		(pin "2"
-			(uuid "d00fab20-437e-418a-bcc7-79065e84eec6")
+			(uuid "d00fab20-437e-418a-bcc7-79065e84eec7")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e277163f-f722-493a-967f-88ec2f2b1f9a")
+			(uuid "e277163f-f722-493a-967f-88ec2f2b1f9b")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -2828,7 +2828,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2afc09c-31aa-44d3-b595-7f6dea8a2ce2")
+			(uuid "b2afc09c-31aa-44d3-b595-7f6dea8a2ce3")
 		)
 		(instances
 			(project "MINIHATv.0"

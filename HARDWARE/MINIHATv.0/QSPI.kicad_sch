@@ -1279,7 +1279,7 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6965c140-2725-43c1-9639-a53e637d1dcd")
 	)
@@ -1355,7 +1355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0870e68b-cc1a-4d1e-9081-14c53d34ba10")
-		(property "Reference" "R34"
+		(property "Reference" "R71"
 			(at 79.502 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1435,7 +1435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e03811f-c626-4b70-8734-e9c56f093e96")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0114"
 			(at 105.41 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1513,7 +1513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f08747-d480-4063-bbf0-4ce69dd4a3ed")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0113"
 			(at 124.46 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1590,7 +1590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e4f6842-f600-47df-b0cf-8e133afde507")
-		(property "Reference" "R37"
+		(property "Reference" "R74"
 			(at 79.502 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1670,7 +1670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4df4a8f2-9df0-49fa-89ff-0ee3198c0f2b")
-		(property "Reference" "C11"
+		(property "Reference" "C51"
 			(at 128.27 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b6a1d82-72ba-4ce9-863d-bdbc51718fc5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0115"
 			(at 105.41 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1829,7 +1829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fd077bd-c25c-4eb1-b47b-a5ae573237c6")
-		(property "Reference" "R35"
+		(property "Reference" "R72"
 			(at 79.502 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1908,7 +1908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b205a7d3-e4bd-44ec-b13f-4ce6635148e8")
-		(property "Reference" "R32"
+		(property "Reference" "R69"
 			(at 79.502 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,7 +1987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d073c74e-e40b-4bea-8a13-5ae17931b904")
-		(property "Reference" "R38"
+		(property "Reference" "R75"
 			(at 96.012 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1928583-9cab-4d59-b93f-442cd9e12cbe")
-		(property "Reference" "R36"
+		(property "Reference" "R73"
 			(at 79.502 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5272e91-6c9b-47c0-b486-76569e35eacb")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 116.84 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2245,7 +2245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fae5082d-88e8-430c-925b-1b68f506466a")
-		(property "Reference" "R33"
+		(property "Reference" "R70"
 			(at 79.502 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
