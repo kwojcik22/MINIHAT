@@ -608,7 +608,66 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "HDMI/DVI_BUS": [
+        "TX0+",
+        "TX0-",
+        "TX1+",
+        "TX1-",
+        "TX2+",
+        "TX2-",
+        "TXC+",
+        "TXC-"
+      ],
+      "MCU_LTDC_BUS": [
+        "LTDC_B3",
+        "LTDC_B4",
+        "LTDC_B5",
+        "LTDC_B6",
+        "LTDC_B7",
+        "LTDC_CLK",
+        "LTDC_DE",
+        "LTDC_G2",
+        "LTDC_G3",
+        "LTDC_G4",
+        "LTDC_G5",
+        "LTDC_G6",
+        "LTDC_G7",
+        "LTDC_HSYNC",
+        "LTDC_R3",
+        "LTDC_R4",
+        "LTDC_R5",
+        "LTDC_R6",
+        "LTDC_R7",
+        "LTDC_VSYNC"
+      ],
+      "QSPI": [
+        "CS",
+        "CLK",
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "RMII": [
+        "TXD1",
+        "TXDEN",
+        "RXD0",
+        "RXD1",
+        "RXER",
+        "CRS_DV",
+        "MDIO",
+        "MDC"
+      ],
+      "SDIO": [
+        "DAT0",
+        "DAT1",
+        "DAT2",
+        "DAT3",
+        "CMD",
+        "CLK"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
