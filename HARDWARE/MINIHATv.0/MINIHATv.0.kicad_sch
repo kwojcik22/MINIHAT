@@ -1647,7 +1647,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 68.58) (xy 175.26 68.58)
+			(xy 173.736 76.2) (xy 189.484 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1657,7 +1657,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 138.43) (xy 172.72 138.43)
+			(xy 173.736 146.05) (xy 189.484 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 175.26 71.12)
+			(xy 173.736 78.74) (xy 189.484 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1777,7 +1777,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 114.3) (xy 172.72 114.3)
+			(xy 173.736 121.92) (xy 189.484 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3266,8 +3266,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 65.786)
-		(size 29.21 7.874)
+		(at 189.484 73.406)
+		(size 20.574 7.874)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3282,7 +3282,7 @@
 		)
 		(uuid "63870cd4-5fe2-4ed9-8315-f888138f41c1")
 		(property "Sheetname" "CAN"
-			(at 175.26 65.0744 0)
+			(at 189.484 72.6944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3293,7 +3293,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 175.26 74.2446 0)
+			(at 189.484 81.8646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3304,7 +3304,7 @@
 			)
 		)
 		(pin "FDCAN_Rx" input
-			(at 175.26 71.12 180)
+			(at 189.484 78.74 180)
 			(uuid "47d734b6-8117-4f16-894a-7d20fef0dd9e")
 			(effects
 				(font
@@ -3314,7 +3314,7 @@
 			)
 		)
 		(pin "FDCAN_Tx" input
-			(at 175.26 68.58 180)
+			(at 189.484 76.2 180)
 			(uuid "5eedd585-26be-4aae-998a-64b004f0608c")
 			(effects
 				(font
@@ -3327,6 +3327,248 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.486 119.126)
+		(size 30.48 33.274)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "651dfc6f-3708-4c33-8923-f03a9f00fb7f")
+		(property "Sheetname" "SDRAM"
+			(at 78.486 118.4144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdram.kicad_sch"
+			(at 78.486 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BA0" input
+			(at 108.966 121.92 0)
+			(uuid "3b58f96b-80eb-4c0c-86b5-555acd8c2e8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BA1" input
+			(at 108.966 124.46 0)
+			(uuid "3ac2fbc8-a3c7-47f6-b876-378f8b349d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NBL0" input
+			(at 108.966 127 0)
+			(uuid "e516a9d1-f591-45c7-b3b3-f3d74be560e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NBL1" input
+			(at 108.966 129.54 0)
+			(uuid "7de1703e-0bcf-4db0-83fd-f0f1bd1b3c86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDCKEO" input
+			(at 108.966 132.08 0)
+			(uuid "9041bfaa-7908-47e2-936d-693bd2634689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDCLK" input
+			(at 108.966 134.62 0)
+			(uuid "53d27189-d021-4e77-9964-944513089e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDNCAS" input
+			(at 108.966 137.16 0)
+			(uuid "f54974ce-0310-4e0b-b20a-4c172fc114f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDNEO" input
+			(at 108.966 139.7 0)
+			(uuid "135cc086-a327-409e-9a6d-6d86da5a5444")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDNRAS" input
+			(at 108.966 142.24 0)
+			(uuid "f44a260d-1e58-4c93-88b7-1ab84233dc4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDNWE" input
+			(at 108.966 144.78 0)
+			(uuid "70d6662c-f7c4-4452-89ed-3804f46d57dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDRAM_ADDR[0..11]" input
+			(at 108.966 147.32 0)
+			(uuid "f48bd348-c2d4-46f4-9c03-f9dc792fab6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDRAM_DATA[0..15]" input
+			(at 108.966 149.86 0)
+			(uuid "ccb1a0cf-88ac-4ab3-ae3e-184588ab94f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 92.202)
+		(size 20.574 11.684)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "777e9115-49d2-40e9-92df-ea6663fef183")
+		(property "Sheetname" "USB"
+			(at 189.23 91.4904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 189.23 104.4706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_N" input
+			(at 189.23 95.25 180)
+			(uuid "3e147706-d904-4c31-9dd8-951bf7ac3414")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_P" input
+			(at 189.23 97.79 180)
+			(uuid "81ebe6b1-3282-4fa2-85aa-43dab4342758")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_SENSE" input
+			(at 189.23 100.33 180)
+			(uuid "be6b6b42-d95b-44fc-9b4b-707e20cdd61f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "10")
 				)
 			)
 		)
@@ -3448,7 +3690,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 109.982)
+		(at 189.484 117.602)
 		(size 18.542 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3464,7 +3706,7 @@
 		)
 		(uuid "ae2e1667-2e57-4e65-a565-7a546dcbd7bf")
 		(property "Sheetname" "Ethernet"
-			(at 172.72 109.2704 0)
+			(at 189.484 116.8904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3475,7 +3717,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 172.72 119.4566 0)
+			(at 189.484 127.0766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3486,7 +3728,7 @@
 			)
 		)
 		(pin "RMII" input
-			(at 172.72 114.3 180)
+			(at 189.484 121.92 180)
 			(uuid "2b1d889b-3dfe-4d66-b428-e1925d79bbe2")
 			(effects
 				(font
@@ -3561,7 +3803,7 @@
 	)
 	(sheet
 		(at 128.27 51.816)
-		(size 31.75 93.218)
+		(size 45.466 100.838)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3587,7 +3829,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 128.27 145.6186 0)
+			(at 128.27 153.2386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3598,7 +3840,7 @@
 			)
 		)
 		(pin "FDCAN_Rx" input
-			(at 160.02 71.12 0)
+			(at 173.736 78.74 0)
 			(uuid "a1efe401-ef5c-43ce-960e-1e1b6bbcc630")
 			(effects
 				(font
@@ -3608,7 +3850,7 @@
 			)
 		)
 		(pin "FDCAN_Tx" input
-			(at 160.02 68.58 0)
+			(at 173.736 76.2 0)
 			(uuid "b77d69d5-4692-445a-9d2c-3ea4f66ff641")
 			(effects
 				(font
@@ -3648,7 +3890,7 @@
 			)
 		)
 		(pin "QSPI" input
-			(at 160.02 138.43 0)
+			(at 173.736 146.05 0)
 			(uuid "44ad57d3-ec44-47cc-9fee-1f501b4fb430")
 			(effects
 				(font
@@ -3658,7 +3900,7 @@
 			)
 		)
 		(pin "RMII" input
-			(at 160.02 114.3 0)
+			(at 173.736 121.92 0)
 			(uuid "e4aa4422-75b6-4942-a218-dcaaaac750f2")
 			(effects
 				(font
@@ -3706,7 +3948,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 131.064)
+		(at 189.484 138.684)
 		(size 18.796 13.716)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3722,7 +3964,7 @@
 		)
 		(uuid "d9e9bbbe-4127-4d38-93b1-ae9f05da8ec2")
 		(property "Sheetname" "QSPI"
-			(at 172.72 130.3524 0)
+			(at 189.484 137.9724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3733,7 +3975,7 @@
 			)
 		)
 		(property "Sheetfile" "QSPI.kicad_sch"
-			(at 172.72 145.3646 0)
+			(at 189.484 152.9846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3744,7 +3986,7 @@
 			)
 		)
 		(pin "QSPI" input
-			(at 172.72 138.43 180)
+			(at 189.484 146.05 180)
 			(uuid "18b1c8e0-34e8-4a8e-befc-ba5838b628ad")
 			(effects
 				(font

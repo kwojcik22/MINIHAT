@@ -649,7 +649,7 @@
         "uuid": "19041ef4-1d16-4363-8780-721ad9f20b33"
       }
     ],
-    "used_designators": "R44-82",
+    "used_designators": "R4-5,R44-83,C52-60,U9-10,P2",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,14 @@
     [
       "d9e9bbbe-4127-4d38-93b1-ae9f05da8ec2",
       "QSPI"
+    ],
+    [
+      "651dfc6f-3708-4c33-8923-f03a9f00fb7f",
+      "SDRAM"
+    ],
+    [
+      "777e9115-49d2-40e9-92df-ea6663fef183",
+      "USB"
     ]
   ],
   "text_variables": {},
