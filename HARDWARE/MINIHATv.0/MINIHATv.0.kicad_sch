@@ -1715,6 +1715,16 @@
 		)
 		(uuid "3d8dfd51-33b6-4bcf-a26b-b1108af618c7")
 	)
+	(bus
+		(pts
+			(xy 173.99 59.69) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55231d07-ca5b-4bee-92c7-57808643d54d")
+	)
 	(wire
 		(pts
 			(xy 173.99 100.33) (xy 189.23 100.33)
@@ -4373,10 +4383,76 @@
 				(justify left)
 			)
 		)
+		(pin "I2S{CLK DIN DOUT WS}" input
+			(at 173.99 59.69 0)
+			(uuid "2cd54bc8-d237-4dd2-86e8-16a7b25b39b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 53.34)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cfc8326a-d42a-4b01-8fc0-0e46d075417e")
+		(property "Sheetname" "Audio"
+			(at 187.96 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 187.96 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2S{CLK DIN DOUT WS}" input
+			(at 187.96 59.69 180)
+			(uuid "4fa14854-3965-431b-92fc-0477e6301d09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33"
+					(page "11")
 				)
 			)
 		)

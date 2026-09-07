@@ -14881,6 +14881,17 @@
 		)
 		(uuid "f176cbd9-504a-46e3-b7fb-10d652e26da5")
 	)
+	(hierarchical_label "I2S{CLK DIN DOUT WS}"
+		(shape input)
+		(at 314.96 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3227869-b73f-46e5-8169-4369421a3484")
+	)
 	(hierarchical_label "LTDC_SCL"
 		(shape input)
 		(at 361.95 193.04 0)
@@ -21926,10 +21937,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5b6511a1-3261-4b29-8b84-5910ab3ee3f4")
+			(uuid "5b6511a1-3261-4b29-8b84-5910ab3ee3f5")
 		)
 		(pin "1"
-			(uuid "88055347-9c3c-406c-9840-0b7c49db4c69")
+			(uuid "88055347-9c3c-406c-9840-0b7c49db4c6a")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -23451,7 +23462,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9197371-d7b2-4956-b716-3c0039ba9a3e")
+			(uuid "d9197371-d7b2-4956-b716-3c0039ba9a3f")
 		)
 		(instances
 			(project "MINIHATv.0"
@@ -24949,10 +24960,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5b6511a1-3261-4b29-8b84-5910ab3ee3f4")
+			(uuid "5b6511a1-3261-4b29-8b84-5910ab3ee3f6")
 		)
 		(pin "1"
-			(uuid "88055347-9c3c-406c-9840-0b7c49db4c69")
+			(uuid "88055347-9c3c-406c-9840-0b7c49db4c6b")
 		)
 		(instances
 			(project "MINIHATv.0"

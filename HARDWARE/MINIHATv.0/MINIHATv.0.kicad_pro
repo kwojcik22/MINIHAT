@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -710,7 +710,7 @@
         "uuid": "19041ef4-1d16-4363-8780-721ad9f20b33"
       }
     ],
-    "used_designators": "R4-5,R44-88,C52-90,U9-11,SW4,JP1,P2,#PWR9,#PWR107,#PWR110,#PWR112,#PWR116-138,FB5,J7",
+    "used_designators": "R4-5,R44-90,C52-96,U9-12,SW4,JP1,P2,#PWR9,#PWR107,#PWR110,#PWR112,#PWR116-138,FB5,J7-8",
     "variants": []
   },
   "sheets": [
@@ -753,6 +753,10 @@
     [
       "777e9115-49d2-40e9-92df-ea6663fef183",
       "USB"
+    ],
+    [
+      "cfc8326a-d42a-4b01-8fc0-0e46d075417e",
+      "Audio"
     ]
   ],
   "text_variables": {},
