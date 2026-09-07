@@ -1,42 +1,129 @@
 # MINIHAT
 
-|  # | Interfejs              | Opis                                   |   HW  |   FW  |   MCU periph  |
-| -: | ---------------------- | -------------------------------------- | :---: | :---: | :-----------: |
-|  1 | CAN                    | Odbiór / (nadawanie) ramek CAN         | **K** | **V** |   FW          |
-|  2 | Ethernet (LAN8720)     | Podłączenie do komputera               | **V** | **V** |   FW          |
-|  3 | USB                    | Podłączenie do komputera               | **V** | **K** |   FW          |
-|  4 | LTDC                   | Wyświetlanie informacji podstawowych   | **K** | **K** |   DSI HOST    |
-|  5 | Bluetooth (bez anteny) | Podłączenie do telefonu, odbiór muzyki | **K** | **K** |   USART2      |
-|  6 | Wyjście audio          | Wyjście na głośniki                    | **V** | **K** |   SAI         |
-|  7 | DEBUG                  |                                        | **K** | **K** |   USART1      |
-|  8 | Zasilanie płytki       | _proponowany_ akumulator ładowany z usb| -     | -     |               |
-|  9 | QSPI                   | W25* qspi flash pamiec do grafiki      | **V** | **V** |   QSPI        |
-| 10 | SD card                | konektor do podlaczenia karty sd       | **V** | **V** |   SDMMC       |
+MINIHAT is an STM32H747-based development board that combines wired
+communication, display, audio, removable storage, and wireless connectivity
+interfaces on one compact platform.
 
-## MCU
+The project contains both the KiCad hardware design and the STM32CubeMX/CMake
+firmware project. It is currently under development; the status of individual
+interfaces is listed below.
 
-SMT32: H747IGTX
+## Features and status
 
-can 120ohm
-usb 90ohm  
-ethernet ma 50ohm
+| Interface or subsystem | Description | Hardware | Firmware | MCU peripheral |
+| --- | --- | :---: | :---: | --- |
+| CAN | CAN frame reception and transmission | **K** | **V** | FDCAN |
+| Ethernet | 10/100 Ethernet through the LAN8720 PHY | **V** | **V** | Ethernet MAC |
+| USB | USB connection to a host computer | **V** | **K** | USB |
+| Display | Basic information display through LTDC/HDMI | **K** | **K** | LTDC, DSI host |
+| Bluetooth | Wireless connection and audio reception; antenna not included yet | **K** | **K** | USART2 |
+| Audio output | Digital audio output for an external amplifier or speaker | **V** | **K** | SAI |
+| Debug | Debug and diagnostic serial interface | **K** | **K** | USART1 |
+| QSPI flash | W25-series flash for graphics and other assets | **V** | **V** | QUADSPI |
+| SD card | Removable storage connector | **V** | **V** | SDMMC |
+| Power | USB-C supply | Proposed | - | - |
 
-![alt text](schemat_ideowy.drawio.svg)
+## Functional description
 
-## SRC
+MINIHAT is intended to serve as a central controller and communication hub for
+embedded systems. The main functional blocks are:
 
-- [RM0399 Reference manual STM32H745/755 and STM32H747/757](https://www.st.com/resource/en/reference_manual/rm0399-stm32h745755-and-stm32h747757-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
-- [Introduction to LCD-TFT display controller (LTDC) for STM32 MCUs](https://www.st.com/resource/en/application_note/an4861-introduction-to-lcdtft-display-controller-ltdc-on-stm32-mcus-stmicroelectronics.pdf)
-- [DS STM32H747x](https://www.st.com/resource/en/datasheet/stm32h747ig.pdf)
-- [SAI](https://www.st.com/resource/en/product_training/STM32F7_Peripheral_SAI.pdf)
+- **STM32H747 MCU:** The dual-core microcontroller runs the application and
+  handles communication with all peripherals. The Cortex-M7 core is intended
+  for the main application, networking, graphics, and other high-performance
+  tasks, while the Cortex-M4 core can handle supporting or time-sensitive
+  functions independently.
+- **CAN:** The interface supports receiving and transmitting CAN frames from BMW MINI car.
+- **Ethernet with LAN8720:** Connects the board to a wired local network. It
+  is used for board configuration, diagnostics, acquisition od data from car on host device.
+- **USB:** Provides a direct connection to a computer for host device/host app.
+- **Display output:** The LTDC display path is intended to show basic status
+  information, bios menu. The planned HDMI  bridge allows connection to a compatible external display.
+- **Bluetooth:** Provides a short-range wireless link to a phone or another
+  host, which uses host app providing reads of basic system parameters, and sending audio data to play. The planned use includes receiving control data and audio streams.
+- **Audio output:** The SAI interface transfers digital audio samples so that received  
+  or generated audio can be played through speakers.
+- **Debug interface:** The serial debug connection is used for boot messages,
+  diagnostics, development logging, and low-level troubleshooting, for debug stage of project.
+- **QSPI flash:** Stores graphics, configuration data, firmware assets, and
+  other files that require non-volatile memory with faster access than an SD
+  card.
+- **SD card:** Provides removable mass storage for logs, media, configuration
+  files, and data exchange with a computer.
 
-## COMPONENTS SEARCH
+<span style="color: gray">- **Dual-core firmware:** The firmware project is generated from STM32CubeMX  and built as separate CM7 and CM4 targets. Shared startup code coordinates  the two cores and the generated HAL/driver layers provide access to the MCU peripherals.</span>
 
-- [ST antena design for STM32WB 2.4GHz](https://www.st.com/resource/en/application_note/an5129-low-cost-pcb-antenna-for-24ghz-radio-meander-design-for-stm32wb-series-stmicroelectronics.pdf)
-- [BT chip](https://www.mouser.pl/ProductDetail/STMicroelectronics/BLUENRG-234N?qs=yqaQSyyJnNj1fpgr7V7RSw%3D%3D&mgh=1&vip=1)
-- [BMS](https://www.instructables.com/Open-source-345S-Lithium-BMS/)
-- [audio SAI](https://www.mouser.pl/pl/ProductDetail/Texas-Instruments/TAD5112IRGER?qs=sGAEpiMZZMutXGli8Ay4kL%252BYu9wReiUDFg5NaHxN6Qk%3D)
-- [tcan332 D dcn](https://www.ti.com/lit/ds/symlink/tcan330.pdf?ts=1783928535596&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D4%2526searchTerm%253Dtcan330dr)
-- [TFP410 LTDC to HDMI driver](https://www.ti.com/lit/ds/symlink/tfp410.pdf?ts=1784099299498&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTFP410)
-- [BT Schematic diagrams for STEVAL-IDB008V2](https://www.st.com/resource/en/schematic_pack/steval-idb008v2_schematic.pdf)
-- [BT STEVAL-IDB008V2 Bill of materials](https://www.st.com/resource/en/bill_of_materials/steval-idb008v2_bom.pdf)
+## Main hardware
+
+- **MCU:** STM32H747IGT6 (dual-core Cortex-M7/Cortex-M4)
+- **Ethernet PHY:** LAN8720
+- **External memory:** W25-series QSPI flash and SD card
+- **Audio:** SAI interface routed to an external audio device
+- **Display:** LTDC display interface with a planned HDMI bridge
+- **PCB design:** KiCad
+
+The current high-level design is shown below:
+
+![MINIHAT block diagram](schemat_ideowy.drawio.svg)
+
+## Repository layout
+
+```text
+.
+├── FIRMWARE/
+│   └── MNI_HAT_V0/
+│       ├── CM7/                 # Cortex-M7 target and linker scripts
+│       ├── CM4/                 # Cortex-M4 target and linker scripts
+│       ├── Common/              # Shared dual-core startup code
+│       └── Drivers/             # CMSIS and STM32 device drivers
+├── HARDWARE/
+│   └── MINIHATv.0/              # KiCad schematics, PCB, and libraries
+├── schemat_ideowy.drawio.svg    # High-level block diagram
+└── README.md
+```
+
+## Firmware build
+
+### Requirements
+
+- CMake 3.22 or newer
+- Ninja
+- `arm-none-eabi-gcc` toolchain
+- A programmer/debugger compatible with the STM32H747
+
+The firmware uses CMake presets and separate build directories for each core.
+From the repository root, configure and build the desired target:
+
+```powershell
+# Cortex-M7
+cmake --preset Debug -S FIRMWARE/MNI_HAT_V0/CM7
+cmake --build FIRMWARE/MNI_HAT_V0/CM7/build/Debug
+
+# Cortex-M4
+cmake --preset Debug -S FIRMWARE/MNI_HAT_V0/CM4
+cmake --build FIRMWARE/MNI_HAT_V0/CM4/build/Debug
+```
+
+Available presets are `Debug`, `Release`.
+Build the CM7 and CM4 images separately and use the linker scripts in the
+corresponding target directory when programming the device.
+
+The generated firmware is based on STM32CubeMX. When changing the `.ioc`
+configuration, regenerate the project and review generated changes before
+building.
+
+## Hardware
+
+Open `HARDWARE/MINIHATv.0/MINIHATv.0.kicad_pro` with KiCad to inspect the
+complete design. Functional blocks are also kept as separate schematics:
+
+- `MCU.kicad_sch`
+- `CAN.kicad_sch`
+- `Ethernet.kicad_sch`
+- `usb.kicad_sch`
+- `Bluetooth.kicad_sch`
+- `audio.kicad_sch`
+- `HDMI.kicad_sch`
+- `QSPI.kicad_sch`
+- `sdcarad.kicad_sch`
+- `sdram.kicad_sch`
