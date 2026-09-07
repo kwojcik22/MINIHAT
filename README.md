@@ -13,7 +13,6 @@
 |  9 | QSPI                   | W25* qspi flash pamiec do grafiki      | **V** | **V** |   QSPI        |
 | 10 | SD card                | konektor do podlaczenia karty sd       | **V** | **V** |   SDMMC       |
 
-
 ## MCU
 
 SMT32: H747IGTX

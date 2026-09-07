@@ -5811,7 +5811,7 @@
 		)
 		(uuid "45a263dd-ec0e-4dcc-afb8-6060b9beb684")
 	)
-	(hierarchical_label "{RMII}"
+	(hierarchical_label "RMII{TXD1, TXD0, TXDEN, RXD0, RXD1, RXER, CRS_DV, MDIO, MDC, REFCLK}"
 		(shape input)
 		(at 86.36 20.32 180)
 		(effects

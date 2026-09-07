@@ -3955,7 +3955,7 @@
 		(uuid "d96460a3-183b-4421-833e-3c714e24aad2")
 	)
 	(junction
-		(at 255.27 118.11)
+		(at 226.06 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e423cc4e-f66d-431e-90cb-4e7f344d6723")
@@ -4341,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 133.35) (xy 271.78 133.35)
+			(xy 238.76 125.73) (xy 254 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4611,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 130.81) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c3c9bd-35bd-4c74-9d15-09407ffb537b")
+	)
+	(wire
+		(pts
 			(xy 26.67 71.12) (xy 36.83 71.12)
 		)
 		(stroke
@@ -4631,6 +4641,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 73.66) (xy 246.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a120625-c15e-40a3-8e28-2e22b06d2b8f")
+	)
+	(wire
+		(pts
 			(xy 109.22 134.62) (xy 111.76 134.62)
 		)
 		(stroke
@@ -4638,6 +4658,16 @@
 			(type default)
 		)
 		(uuid "3a384033-6ced-4caa-a385-2010b7656149")
+	)
+	(wire
+		(pts
+			(xy 254 135.89) (xy 238.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d28095f-77bf-4e44-a680-bfeb8940df82")
 	)
 	(wire
 		(pts
@@ -4828,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "5af186d4-9aae-44bc-8673-db1ac63366a0")
+	)
+	(wire
+		(pts
+			(xy 204.47 135.89) (xy 218.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b3dbe37-bffb-452c-9af2-3fd06080b6c0")
 	)
 	(bus
 		(pts
@@ -5191,7 +5231,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 118.11) (xy 255.27 118.11)
+			(xy 214.63 110.49) (xy 226.06 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5331,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 128.27) (xy 271.78 128.27)
+			(xy 238.76 120.65) (xy 254 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5481,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 123.19) (xy 243.84 118.11)
+			(xy 214.63 115.57) (xy 214.63 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5491,7 +5531,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 246.38 88.9)
+			(xy 229.87 88.9) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5701,7 +5741,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 123.19) (xy 243.84 123.19)
+			(xy 218.44 115.57) (xy 214.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5949,6 +5989,16 @@
 		)
 		(uuid "5f56db13-5431-4896-a786-dc5784b46d7c")
 	)
+	(label "LTDC_CEC"
+		(at 229.87 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62ec9b72-90fa-44dc-b4d0-4b26419c0dd4")
+	)
 	(label "LTDC_R7"
 		(at 135.89 116.84 180)
 		(effects
@@ -5979,8 +6029,8 @@
 		)
 		(uuid "76f81d65-5acd-4cd7-b8fb-96681e746a12")
 	)
-	(label "LTDC_HTPLG"
-		(at 232.41 88.9 0)
+	(label "LTDC_HTPLG_5V"
+		(at 229.87 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6069,6 +6119,16 @@
 		)
 		(uuid "b20056af-81dd-489a-9959-e0558a80730b")
 	)
+	(label "LTDC_HTPLG"
+		(at 204.47 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c76ad97b-daea-4c7b-91d5-eb18bd3658b5")
+	)
 	(label "TX2-"
 		(at 177.8 86.36 0)
 		(effects
@@ -6079,13 +6139,33 @@
 		)
 		(uuid "c813587b-b4c6-4c01-a8a6-ac5f9ee2532f")
 	)
-	(label "HDMI_SDA"
-		(at 271.78 133.35 0)
+	(label "LTDC_CEC"
+		(at 254 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "d954eaac-bbde-46d8-9b71-66a5c87d776a")
+	)
+	(label "LTDC_HTPLG_5V"
+		(at 254 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db0dfa96-ae6d-43fa-89f0-67bd9fccdcee")
+	)
+	(label "HDMI_SDA"
+		(at 254 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "dd502fc6-ba20-4eed-825a-dd2969224b63")
 	)
@@ -6180,12 +6260,12 @@
 		(uuid "fbb92216-ecb3-41fb-980d-a640fc62252e")
 	)
 	(label "HDMI_SCL"
-		(at 271.78 128.27 0)
+		(at 254 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fe7ba2cf-527b-4b20-9c8a-3225ef2453b5")
 	)
@@ -6198,17 +6278,6 @@
 			(justify left bottom)
 		)
 		(uuid "ffad79ec-a1d4-4e55-8042-f3033d3eedfe")
-	)
-	(hierarchical_label "LTDC_CEC"
-		(shape output)
-		(at 246.38 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19c5232e-f9ab-4fb1-9046-2adcc7a3e197")
 	)
 	(hierarchical_label "LTDC_MSEN"
 		(shape output)
@@ -6243,6 +6312,17 @@
 		)
 		(uuid "4f2867cc-4ab9-4ada-830e-49d60ece0ebb")
 	)
+	(hierarchical_label "MCU_LTDC_CEC"
+		(shape output)
+		(at 218.44 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5505aa23-9ed6-4a12-8bda-a7edf8437b66")
+	)
 	(hierarchical_label "{MCU_LTDC_BUS}"
 		(shape input)
 		(at 116.84 50.8 180)
@@ -6256,7 +6336,7 @@
 	)
 	(hierarchical_label "HDMI_SCL"
 		(shape input)
-		(at 247.65 128.27 180)
+		(at 218.44 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6267,7 +6347,7 @@
 	)
 	(hierarchical_label "HDMI_SDA"
 		(shape input)
-		(at 247.65 133.35 180)
+		(at 218.44 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6889,7 +6969,7 @@
 	)
 	(symbol
 		(lib_id "Logic_LevelTranslator:TXB0104PW")
-		(at 257.81 135.89 0)
+		(at 228.6 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6900,7 +6980,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e3a79d6-4b9d-468e-af6f-5e111df8aa72")
 		(property "Reference" "U11"
-			(at 259.9533 153.67 0)
+			(at 230.7433 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6911,7 +6991,7 @@
 			)
 		)
 		(property "Value" "TXB0104PW"
-			(at 259.9533 156.21 0)
+			(at 230.7433 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6922,7 +7002,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 257.81 154.94 0)
+			(at 228.6 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6933,7 +7013,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf"
-			(at 260.604 133.477 0)
+			(at 231.394 125.857 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6944,7 +7024,7 @@
 			)
 		)
 		(property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"
-			(at 257.81 135.89 0)
+			(at 228.6 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +7358,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "510 1%"
 			(at 177.8 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7928,7 +8008,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 260.35 118.11 0)
+		(at 231.14 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7938,7 +8018,7 @@
 		(dnp no)
 		(uuid "69413b71-1fc1-4f62-9003-5aaae2dd95db")
 		(property "Reference" "#PWR0107"
-			(at 260.35 121.92 0)
+			(at 231.14 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +8029,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 258.826 112.776 0)
+			(at 229.616 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7960,7 +8040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 118.11 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,7 +8051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 118.11 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +8062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 260.35 118.11 0)
+			(at 231.14 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10302,7 +10382,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 255.27 118.11 0)
+		(at 226.06 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10313,7 +10393,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd2b4c20-bbb8-4de9-9032-1af56d600a42")
 		(property "Reference" "#PWR09"
-			(at 255.27 121.92 0)
+			(at 226.06 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10324,7 +10404,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 255.27 113.03 0)
+			(at 226.06 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10334,7 +10414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 118.11 0)
+			(at 226.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10345,7 +10425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 118.11 0)
+			(at 226.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,7 +10436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 255.27 118.11 0)
+			(at 226.06 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11401,7 +11481,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 153.67 0)
+		(at 228.6 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11412,7 +11492,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5eb4b23-377e-410a-9c3a-7f924a20f208")
 		(property "Reference" "#PWR0110"
-			(at 257.81 160.02 0)
+			(at 228.6 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11423,7 +11503,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 158.75 0)
+			(at 228.6 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11433,7 +11513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 153.67 0)
+			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11444,7 +11524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 153.67 0)
+			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11455,7 +11535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 153.67 0)
+			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
