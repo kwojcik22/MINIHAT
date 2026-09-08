@@ -1560,6 +1560,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -7497,7 +7698,7 @@
 	)
 	(text "USART1"
 		(exclude_from_sim no)
-		(at 276.352 157.226 0)
+		(at 301.244 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7895,7 +8096,7 @@
 		(at 342.9 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "954bb8c6-f78b-4ecc-8915-9c78dac5a2e2")
+		(uuid "943a117d-f884-40ad-8781-9a5b1497ef53")
 	)
 	(junction
 		(at 62.23 62.23)
@@ -9216,6 +9417,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 157.48) (xy 299.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19238946-e857-4f5f-b4d0-c49d9a28defd")
+	)
+	(wire
+		(pts
 			(xy 203.2 53.34) (xy 203.2 48.26)
 		)
 		(stroke
@@ -9524,6 +9735,16 @@
 		)
 		(uuid "303e688e-f1f5-434a-a6ef-30d693d8ca02")
 	)
+	(wire
+		(pts
+			(xy 234.95 153.67) (xy 271.78 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3090b38c-8fed-4b12-b088-ce843fffc48f")
+	)
 	(bus
 		(pts
 			(xy 361.95 125.73) (xy 363.22 125.73)
@@ -9756,6 +9977,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 151.13) (xy 271.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba84304-c926-4e34-9870-11df57305074")
+	)
+	(wire
+		(pts
 			(xy 134.62 229.87) (xy 138.43 229.87)
 		)
 		(stroke
@@ -9876,6 +10107,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 219.71) (xy 82.55 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42507609-a759-4331-9862-87b8bc29947e")
+	)
+	(wire
+		(pts
 			(xy 272.034 148.59) (xy 234.95 148.59)
 		)
 		(stroke
@@ -9903,6 +10144,16 @@
 			(type default)
 		)
 		(uuid "44c1344f-60f2-487f-b2bc-75b0f3cc1b43")
+	)
+	(wire
+		(pts
+			(xy 83.82 219.71) (xy 82.55 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455ad03b-f193-465d-8301-d0205b71e993")
 	)
 	(wire
 		(pts
@@ -9943,6 +10194,16 @@
 			(type default)
 		)
 		(uuid "48bb879e-cd61-4668-90ba-1135d23e9684")
+	)
+	(wire
+		(pts
+			(xy 109.22 222.25) (xy 106.68 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f9e89e-d94c-41e7-98e2-e98a4493d706")
 	)
 	(wire
 		(pts
@@ -10286,6 +10547,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 222.25) (xy 114.3 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6000eea0-9ec3-4e30-a60d-8ad720aa11a0")
+	)
+	(wire
+		(pts
 			(xy 374.65 59.69) (xy 368.3 59.69)
 		)
 		(stroke
@@ -10296,7 +10567,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 45.72) (xy 347.98 45.72)
+			(xy 342.9 45.72) (xy 351.79 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11006,6 +11277,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 160.02) (xy 299.72 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd942d9-f100-439e-80fe-db1f80627f8f")
+	)
+	(wire
+		(pts
 			(xy 173.99 53.34) (xy 186.69 53.34)
 		)
 		(stroke
@@ -11023,6 +11304,16 @@
 			(type default)
 		)
 		(uuid "8e773b2d-ac96-4f37-a231-8c2a57748aef")
+	)
+	(wire
+		(pts
+			(xy 67.31 217.17) (xy 68.58 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f9a3ccd-ae75-4b70-a421-5e192710ba35")
 	)
 	(wire
 		(pts
@@ -11113,6 +11404,16 @@
 			(type default)
 		)
 		(uuid "94ec9a6e-6fed-41c8-b68b-817d9d9f3254")
+	)
+	(wire
+		(pts
+			(xy 97.79 222.25) (xy 97.79 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ecdc5d-9d5d-4712-a76a-5d1ef19de1d2")
 	)
 	(wire
 		(pts
@@ -11246,6 +11547,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 222.25) (xy 99.06 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b6d899-6727-4edd-bc54-eb544f0893e7")
+	)
+	(wire
+		(pts
 			(xy 359.41 156.21) (xy 347.98 156.21)
 		)
 		(stroke
@@ -11306,7 +11617,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 45.72) (xy 358.14 46.99)
+			(xy 361.95 45.72) (xy 361.95 46.99)
 		)
 		(stroke
 			(width 0)
@@ -11826,6 +12137,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 27.94) (xy 375.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47d288c-f9d4-4ed3-955b-a9e4386e2640")
+	)
+	(wire
+		(pts
 			(xy 88.9 257.81) (xy 88.9 252.73)
 		)
 		(stroke
@@ -11863,6 +12184,16 @@
 			(type default)
 		)
 		(uuid "c64add8f-fa1f-4bd6-b161-60ae658982ea")
+	)
+	(wire
+		(pts
+			(xy 363.22 25.4) (xy 375.92 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7140d4a-79d5-4e10-8d06-9469751bbecd")
 	)
 	(wire
 		(pts
@@ -12086,6 +12417,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 217.17) (xy 138.43 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4675ca6-f4d7-475d-88ce-a0d8428bf957")
+	)
+	(wire
+		(pts
 			(xy 359.41 153.67) (xy 347.98 153.67)
 		)
 		(stroke
@@ -12143,6 +12484,16 @@
 			(type default)
 		)
 		(uuid "d915d252-d23a-4635-addb-11c8908b825d")
+	)
+	(wire
+		(pts
+			(xy 67.31 220.98) (xy 67.31 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d92cd37c-2107-4a7b-9e22-8342b4c8e114")
 	)
 	(wire
 		(pts
@@ -12233,6 +12584,16 @@
 			(type default)
 		)
 		(uuid "dfcd1592-d684-4080-a6c5-cc8c3eb04f56")
+	)
+	(wire
+		(pts
+			(xy 138.43 219.71) (xy 96.52 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01f91ac-fded-4660-96a4-b6a1ec44e8f4")
 	)
 	(wire
 		(pts
@@ -12814,6 +13175,16 @@
 		)
 		(uuid "0ffd6784-45c1-4b9f-9ad5-7ec627fd044e")
 	)
+	(label "DEBUG_TX"
+		(at 363.22 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1036adec-5feb-4798-8119-1a0c1c875ae4")
+	)
 	(label "RMII.REFCLK"
 		(at 304.8 243.84 0)
 		(effects
@@ -13274,6 +13645,16 @@
 		)
 		(uuid "4ce203c0-01e4-4eb0-820e-e1530455f1b0")
 	)
+	(label "FDCAN_Rx"
+		(at 299.72 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d769c03-ce74-4349-bf81-1949ea3f9193")
+	)
 	(label "LTDC_R3"
 		(at 272.034 120.65 180)
 		(effects
@@ -13283,6 +13664,16 @@
 			(justify right bottom)
 		)
 		(uuid "4e8fd152-827a-4805-af8f-b97f52ea34db")
+	)
+	(label "FDCAN_Rx"
+		(at 271.78 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5030a622-9d47-4ae1-ae8c-da8ff73cd030")
 	)
 	(label "RMII.TXDEN"
 		(at 304.8 226.06 0)
@@ -13393,6 +13784,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e7fe418-bbc0-4dc2-8863-bd5f460ea7f7")
+	)
+	(label "FDCAN_Tx"
+		(at 299.72 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ea3f8a8-2195-4c54-90ea-6596ed7873b5")
 	)
 	(label "SDRAM_ADDR0"
 		(at 105.41 166.37 0)
@@ -14014,6 +14415,16 @@
 		)
 		(uuid "acb2cc86-8e26-4747-a024-3df311f1ae96")
 	)
+	(label "DEBUG_RX"
+		(at 363.22 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae1b34a5-d1a6-4493-81fe-60d0c90ed8b3")
+	)
 	(label "HDMI_SDA"
 		(at 273.05 240.03 180)
 		(effects
@@ -14043,6 +14454,16 @@
 			(justify right bottom)
 		)
 		(uuid "aeab5b89-46a1-44f9-a329-a1bba1430724")
+	)
+	(label "FDCAN_Tx"
+		(at 271.78 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afb88981-a6c9-430a-8831-bb9850ad2cbe")
 	)
 	(label "SDCKE0"
 		(at 58.42 210.82 180)
@@ -14716,6 +15137,17 @@
 		)
 		(uuid "5ca8fbc2-9e1e-4baf-b599-57e5bd86522a")
 	)
+	(hierarchical_label "FDCAN_Rx"
+		(shape input)
+		(at 311.15 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62f53029-d4f7-4501-8fb7-ec5df3e16d96")
+	)
 	(hierarchical_label "SDIO{DAT0..3 CMD CLK}"
 		(shape input)
 		(at 39.37 261.62 180)
@@ -14737,6 +15169,17 @@
 			(justify left)
 		)
 		(uuid "6d5b869b-aa09-4ad8-9172-5849021305bf")
+	)
+	(hierarchical_label "FDCAN_Tx"
+		(shape input)
+		(at 311.15 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71f4ae0c-31b4-4d00-a785-19363856d99a")
 	)
 	(hierarchical_label "NBL1"
 		(shape input)
@@ -14883,7 +15326,7 @@
 	)
 	(hierarchical_label "I2S{CLK DIN DOUT WS}"
 		(shape input)
-		(at 314.96 127 0)
+		(at 299.72 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15346,6 +15789,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 111.76 222.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19cface3-0a3c-4dff-94a4-33b3bd13746d")
+		(property "Reference" "R93"
+			(at 116.332 218.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 116.332 220.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 111.76 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40e770cb-70ca-40ae-8995-9f0e6a9bce0b")
+		)
+		(pin "1"
+			(uuid "8acc63e6-3971-4c8d-a8fe-d3138df73170")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 207.01 24.13 0)
 		(unit 1)
@@ -15774,7 +16296,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 358.14 46.99 0)
+		(at 361.95 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15785,7 +16307,7 @@
 		(fields_autoplaced yes)
 		(uuid "26301679-1e61-4c6d-b486-b32b91d2c7f4")
 		(property "Reference" "#PWR015"
-			(at 358.14 53.34 0)
+			(at 361.95 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15796,7 +16318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 52.07 0)
+			(at 361.95 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15806,7 +16328,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 46.99 0)
+			(at 361.95 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15817,7 +16339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 46.99 0)
+			(at 361.95 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15828,7 +16350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 46.99 0)
+			(at 361.95 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16605,6 +17127,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397f1ee1-30cd-4b8f-b76c-8c194dcd0b55")
+		(property "Reference" "#PWR0143"
+			(at 67.31 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d27b79d-9fc4-427c-96bc-eb23762184c1")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 124.46 24.13 0)
 		(unit 1)
@@ -16681,6 +17281,88 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
 					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 381 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dbf6c6e-87a4-4413-a89e-572a0a3f57d7")
+		(property "Reference" "J9"
+			(at 383.54 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 383.54 27.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 381 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d5f66a5-6003-4856-bd17-64b5784ca6ca")
+		)
+		(pin "2"
+			(uuid "8639e07d-7f27-4200-8358-1fd1233effb7")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -18965,6 +19647,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 102.87 222.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e90ad5a-9828-4169-a6d6-310e729df5b8")
+		(property "Reference" "D10"
+			(at 106.68 218.694 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 106.68 221.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 102.87 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 102.87 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82235883-d08c-4ca0-b824-a12528e1e575")
+		)
+		(pin "1"
+			(uuid "9dccba70-26a3-49ff-a7b5-dd5fffed132f")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 130.81 247.65 90)
 		(unit 1)
@@ -19492,6 +20264,96 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
 					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 72.39 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "698ce5a5-463f-435d-901f-4d5cc56ad433")
+		(property "Reference" "D8"
+			(at 71.8185 220.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 71.8185 222.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 72.39 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82235883-d08c-4ca0-b824-a12528e1e575")
+		)
+		(pin "1"
+			(uuid "9dccba70-26a3-49ff-a7b5-dd5fffed132f")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -20431,6 +21293,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 93.98 219.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "862061d6-c3fa-4623-8bd0-b02d9f821e91")
+		(property "Reference" "R92"
+			(at 93.98 221.996 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 94.234 224.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 93.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40e770cb-70ca-40ae-8995-9f0e6a9bce0b")
+		)
+		(pin "1"
+			(uuid "8acc63e6-3971-4c8d-a8fe-d3138df73170")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 82.55 24.13 0)
 		(unit 1)
@@ -20834,6 +21775,96 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "976550c2-4134-4734-b585-7a83df95219a")
+		(property "Reference" "D9"
+			(at 87.63 222.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 87.63 225.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 87.63 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82235883-d08c-4ca0-b824-a12528e1e575")
+		)
+		(pin "1"
+			(uuid "9dccba70-26a3-49ff-a7b5-dd5fffed132f")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -22218,6 +23249,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 97.79 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b58a1e30-06ef-4e26-a9f0-7898285ae32f")
+		(property "Reference" "#PWR0145"
+			(at 97.79 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d27b79d-9fc4-427c-96bc-eb23762184c1")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 130.81 135.89 90)
 		(unit 1)
@@ -22721,7 +23830,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 353.06 45.72 0)
+		(at 356.87 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22732,7 +23841,7 @@
 		(fields_autoplaced yes)
 		(uuid "c037bb3d-e68c-44ad-a794-0bfbb59fd55b")
 		(property "Reference" "SW1"
-			(at 353.06 38.1 0)
+			(at 356.87 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22742,7 +23851,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 353.06 40.64 0)
+			(at 356.87 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22752,7 +23861,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 353.06 40.64 0)
+			(at 356.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22763,7 +23872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 40.64 0)
+			(at 356.87 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22774,7 +23883,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 353.06 45.72 0)
+			(at 356.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23971,6 +25080,163 @@
 			(project "MINIHATv.0"
 				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
 					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 78.74 217.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dde53444-6407-4d58-a515-764ebb5c0c34")
+		(property "Reference" "R91"
+			(at 78.74 220.472 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 78.74 223.012 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 78.74 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40e770cb-70ca-40ae-8995-9f0e6a9bce0b")
+		)
+		(pin "1"
+			(uuid "8acc63e6-3971-4c8d-a8fe-d3138df73170")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb8d597-54fe-4f02-a3b7-00941063e0d5")
+		(property "Reference" "#PWR0144"
+			(at 82.55 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d27b79d-9fc4-427c-96bc-eb23762184c1")
+		)
+		(instances
+			(project "MINIHATv.0"
+				(path "/19041ef4-1d16-4363-8780-721ad9f20b33/cd5db47d-2b35-4622-a88b-05ef4e37f3d0"
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
